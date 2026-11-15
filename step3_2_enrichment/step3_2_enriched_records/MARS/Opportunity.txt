@@ -1,0 +1,109 @@
+# Equipment Data: Mars Exploration Rover Opportunity (MER-B)
+
+## 1. Meet the Explorer
+- **Equipment Name:** Opportunity (Mars Exploration Rover B / MER-B)
+- **Alternate Designations:** Mars Exploration Rover 1 (MER 1), Spacecraft: MER-B, COSPAR ID: 2003-032A, "Oppy"
+- **Landing Site Station Name:** Challenger Memorial Station (named in honor of the seven crew members lost in the Space Shuttle Challenger STS-51L disaster)
+- **Image References:**
+  - Opportunity self-portrait in Endurance Crater (Pancam): PIA18079 / PIA17759
+  - "Homestake" gypsum mineral vein (Pancam): PIA15033
+  - "Pillinger Point" on Endeavour Crater rim: PIA18393
+  - Hematite "blueberries" spherules near Fram Crater (Microscopic Imager): PIA19113
+  - Complete Marathon-length traverse map: PIA19154
+- **Introduction:**
+  Opportunity (MER-B) was the second of NASA's twin Mars Exploration Rovers, touching down in the smooth equatorial plains of Meridiani Planum on January 25, 2004 UTC (January 24 PST). Designed for a 90-sol (three-month) mission and 1,000 meters of driving, Opportunity achieved one of the most astonishing operational feats in space exploration history: it functioned on Mars for nearly 15 years (5,111 sols), drove a record-setting 28.06 miles (45.16 km)—exceeding an Olympic marathon distance on another world—and discovered conclusive sedimentary evidence that ancient Mars was once soaked in liquid water.
+
+## 2. Mission & Purpose
+- **Mission Name:** Mars Exploration Rover (MER) Mission
+- **Program & Management:** NASA Mars Exploration Program / Jet Propulsion Laboratory (JPL)
+- **Type:** Robotic Six-Wheeled Geologic Rover
+- **Destination:** Meridiani Planum, Mars
+- **Landing Site Coordinates:**
+  - 1.9483° S latitude, 354.47417° E longitude (Challenger Memorial Station; landed inside Eagle Crater)
+- **Purpose & Objectives:**
+  - Investigate Meridiani Planum, targeted because orbital spectrometers had detected widespread crystalline gray hematite, a mineral typically formed in water.
+  - Search for and analyze stratified rock outcrops, sedimentary structures, and mineral veins left by ancient bodies of standing or groundwater.
+  - Determine whether the local environmental conditions were acidic, saline, or neutral, and evaluate their past habitability for microbial life.
+  - Perform ground truth calibration for Mars orbiters (MGS, Odyssey, MRO).
+  - Study impact crater morphology across dozens of craters ranging in size from small pits to the 14-mile-wide Endeavour Crater.
+
+## 3. Meet the Technology
+- **Physical Specifications:**
+  - **Rover Mass:** 185.0 kg metric (recorded as 408 pounds in Opportunity mission overview; converted precisely as 407.9 lb); total spacecraft launch mass with cruise stage and entry aeroshell: 1,062 kg (2,341 lb).
+  - **Dimensions:** 4.9 ft (1.5 m) high, 7.5 ft (2.3 m) wide, 5.2 ft (1.6 m) long.
+- **Mobility System (Rocker-Bogie):**
+  - Six individually driven aluminum wheels with aggressive spiral cleats.
+  - Rocker-bogie suspension with front and rear steering actuators allowing 360-degree point turns.
+  - Drove across slopes up to 32 degrees (steepest slope driven by any rover on Mars, achieved near Knudsen Crater).
+- **Power & Thermal:**
+  - Gallium arsenide multi-junction solar array providing ~700 to 900 Wh/day under clear conditions.
+  - Two 8-Ah lithium-ion rechargeable batteries.
+  - Eight radioisotope heater units (RHUs) containing small pellets of plutonium-238 to safeguard the central electronics bay against -100°C temperatures.
+- **Avionics & Memory:**
+  - 20 MHz BAE RAD6000 microprocessor, 128 MB DRAM, 256 MB flash memory.
+  - *Memory Modification:* After flash memory Bank 7 developed wear anomalies in late 2014, engineers successfully reconfigured Opportunity in May 2015 to run purely in volatile RAM mode without writing to damaged flash sectors.
+- **Communications:**
+  - Steerable High-Gain parabolic dish (X-band) and Low-Gain antenna for direct DSN communication.
+  - UHF dipole antenna relaying through Mars Global Surveyor, 2001 Mars Odyssey, and Mars Reconnaissance Orbiter (MRO).
+- **Science Payload (Athena Package):**
+  - **Pancam & Navcam:** Mast-mounted stereo multi-spectral imaging suite (1.5 m elevation).
+  - **Mini-TES:** Infrared spectrometer measuring mineral thermal emission spectra.
+  - **Robotic Arm (IDD):** Three-jointed arm holding:
+    - **Microscopic Imager (MI):** Extreme close-up optical camera.
+    - **Mössbauer Spectrometer (MB):** Identified iron mineral oxidation states (hematite, jarosite).
+    - **Alpha Particle X-ray Spectrometer (APXS):** Chemical element quantification.
+    - **Rock Abrasion Tool (RAT):** Diamond grinding wheel; cable shield aluminum cuff was manufactured from metal salvaged from the World Trade Center towers.
+    - **Magnets:** Array to capture magnetic airborne dust.
+
+## 4. The Journey
+- **Launch:** July 7, 2003, at 20:18:15 PDT (July 8, 03:18:15 UTC) from Cape Canaveral SLC-17B aboard a Delta II 7925H (Heavy) rocket.
+- **Landing ("Hole in One"):**
+  - Touched down on January 25, 2004 UTC (January 24, 21:05 PST) after bouncing 26 times inside the protective airbags.
+  - Rolled to a halt directly inside **Eagle Crater** (a 22-meter crater), dubbed an interplanetary "hole in one" because its cameras immediately gazed upon exposed bedrock layers.
+- **Epic Traverse & Craters Explored:**
+  - **Eagle Crater (Sols 1–59):** Analyzed sulfate-rich bedrock and discovered the famous hematite "blueberries."
+  - **Endurance Crater (2004):** Drove into this 130-meter crater, studying deep rock layers and cross-bedding.
+  - **Purgatory Dune Sand Trap (2005):** Became bogged down in soft sand ripples for six weeks; carefully extricated in June 2005 through painstaking motor testing.
+  - **Victoria Crater (2006–2008):** Traversed kilometers south across the plains; entered Victoria Crater (800 m wide) and spent nearly a year examining cliff walls.
+  - **The Drive to Endeavour Crater (2008–2011):** Embarked on a daring multi-year 13-mile (21 km) trek across open plains to the ancient 14-mile (22 km) wide Endeavour Crater, discovering exotic meteorites (e.g. "Heat Shield Rock") and deep-crustal erratics ("Marquette Island").
+  - **Endeavour Crater Rim & Valleys (2011–2018):** Explored Cape York, Solander Point, Matijevic Hill, and Marathon Valley.
+  - **Marathon Distance Record:** On March 24–25, 2015 (Sol 3,968), passed the official Olympic marathon distance (26.219 miles / 42.195 km).
+- **The Fatal Global Dust Storm (June 2018):**
+  - In June 2018, an unprecedented planet-encircling dust storm blotted out the Sun over Perseverance Valley, dropping solar power from 650 Wh/day to fatal levels below 22 Wh/day.
+  - Opportunity transmitted its final telemetry on **June 10, 2018**.
+  - NASA engineers beamed over 1,000 recovery signals over eight months. On February 13, 2019, NASA officially declared the mission complete.
+  - **Final Odometer:** 28.06 miles (45.16 km) over 5,111 sols (nearly 15 Earth years).
+
+## 5. Scientific Discoveries
+- **Hematite "Blueberries" & Acidic Aqueous Sediments:**
+  - Discovered millions of millimeter-sized spherical concretions rich in hematite ("blueberries") embedded in sulfate-rich sandstone at Eagle and Fram craters. Proved that standing, acidic, saline liquid water soaked Meridiani Planum billions of years ago.
+- **Jarosite & Evaporite Salts:**
+  - Mössbauer and APXS spectrometry detected jarosite (a potassium-iron hydrous sulfate mineral), providing unequivocal proof of water-deposited evaporite beds.
+- **"Homestake" Gypsum Vein:**
+  - Discovered a bright mineral vein named "Homestake" on Endeavour's rim, determined to be pure calcium sulfate (gypsum). Gypsum precipitates only when water flows through underground rock fractures, demonstrating clear evidence of groundwater flow without extreme acidity.
+- **Clay Minerals (Smectite / Montmorillonite) at Pillinger Point:**
+  - Discovered ancient clay deposits that formed under neutral-pH, mild chemical conditions, showing that early Mars had an epoch of fresh, neutral water that was significantly more hospitable to potential microbial life than the younger acidic epoch.
+- **Meteorite Discoveries:**
+  - Discovered multiple iron-nickel and stony meteorites resting on the surface (including "Heat Shield Rock" and "Block Island"), revealing meteorite survival and atmospheric density conditions over geologic time.
+- **Decade-Long Climate & Dust Monitoring:**
+  - Recorded 14.5 years of atmospheric opacity (tau), seasonal dust storm evolution, and documented that natural Martian wind gusts periodically clean solar arrays.
+
+## 6. Where Is It Now?
+- **Status:** Inactive robotic rover on the Martian surface; last contact June 10, 2018; mission concluded February 13, 2019.
+- **Location:** Resting on the upper slopes of **Perseverance Valley** on the western rim of Endeavour Crater, Meridiani Planum, Mars (1.9483° S, 354.47417° E).
+- **Why Left Behind:** Designed as an in-situ planetary surface rover with no return capability; succumbed to power exhaustion during the catastrophic planet-wide dust storm of June 2018.
+
+## 7. Its Legacy
+- Held the off-world distance driving record for any vehicle in human history (28.06 miles / 45.16 km) for over eight years, proving that wheeled planetary vehicles can survive for more than a decade in harsh environments.
+- Revolutionized planetary science by proving that Mars once possessed long-lived, standing bodies of liquid water, transitioning the study of Mars from speculative astronomy to active sedimentary geology and paleoclimatology.
+- Developed the operational methodologies, autonomous navigation protocols, flash-memory workarounds, and planetary rover management standards utilized today by the Curiosity and Perseverance teams.
+
+---
+### Source References & Enrichment Provenance
+- NASA Science Mission: Opportunity: https://science.nasa.gov/mission/mer-opportunity/
+- NASA NSSDCA Master Catalog (Opportunity): `2003-032A` (https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A)
+- Siddiqi, Asif A. *Beyond Earth: A Chronicle of Deep Space Exploration, 1958-2016.* NASA History Program Office, 2018.
+- Mars Exploration Rovers Science Highlights: https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
+- Opportunity Marathon Distance Record Announcement (NASA Release 15-049, March 2015)
+- JPL Photojournal Data: PIA19113, PIA15033, PIA18393, PIA19154, PIA18079
+- **Enrichment Verification:** Preserved time zone landing notation (Jan 24 PST / Jan 25 UTC) and unified metric mass representation (185.0 kg).

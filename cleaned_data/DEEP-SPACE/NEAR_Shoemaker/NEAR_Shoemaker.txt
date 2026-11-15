@@ -1,0 +1,88 @@
+# Equipment Data: NEAR Shoemaker
+
+## 1. Meet the Explorer
+- **Equipment Name:** NEAR Shoemaker (Near Earth Asteroid Rendezvous)
+- **Alternate Designations:** Discovery 1, NEAR, COSPAR ID: 1996-008A, NORAD ID: 23794
+- **Image References:**
+  - Artist concept of NEAR at asteroid Eros: Credit: NASA
+  - Image mosaic of southern hemisphere of Eros (21-mile-long asteroid) taken from orbit: Credit: NASA
+- **Introduction:**
+  NEAR Shoemaker was the inaugural mission of NASA's Discovery Program of low-cost, focused planetary exploration. Built and operated by the Johns Hopkins University Applied Physics Laboratory (JHU/APL), NEAR was the first robotic spacecraft ever to orbit an asteroid, and remarkably, the first spacecraft ever to soft-land on an asteroid—despite having never been designed as a lander. In March 2000, NASA renamed the spacecraft NEAR Shoemaker in honor of Dr. Eugene M. Shoemaker (1928–1997), the legendary planetary geologist who pioneered the science of impact cratering and co-discovered Comet Shoemaker-Levy 9.
+
+## 2. Mission & Purpose
+- **Mission Name:** Near Earth Asteroid Rendezvous (NEAR / Discovery 1)
+- **Program & Management:** NASA Discovery Program / Johns Hopkins University Applied Physics Laboratory (JHU/APL)
+- **Type:** Asteroid Orbiter & Improvised Surface Lander
+- **Destination:** Asteroid 433 Eros (Main Belt Flyby target: Asteroid 253 Mathilde)
+- **Purpose & Objectives:**
+  - Conduct the first comprehensive orbital study of a Near-Earth Object (NEO) over a full year.
+  - Determine the physical properties, size, volume, shape, mass, density, and magnetic field of an S-type asteroid.
+  - Map surface mineralogy, elemental composition, crater morphology, and regolith distribution on 433 Eros.
+  - Provide empirical data on asteroid internal structure (determining whether Eros is a solid fragment or a loose "rubble pile").
+  - Gather foundational scientific data to evaluate potential collision threats and planetary defense strategies for Earth.
+
+## 3. Meet the Technology
+- **Spacecraft Bus & Structure:**
+  - Octagonal frame with four fixed gallium arsenide solar panel wings generating ~1,800 W at 1 AU (~1,000 W at Eros).
+  - Launch Mass: ~1,775 pounds (805 kg), including 318 kg of bipropellant fuel; dry mass: ~1,074 pounds (487 kg).
+- **Propulsion & Attitude Control:**
+  - 450 N hydrazine/nitrogen tetroxide bipropellant main rocket engine for orbital maneuvers and deep-space trajectory corrections.
+  - Four 21 N and seven 3.5 N monopropellant hydrazine thrusters for fine attitude adjustments.
+  - Four reaction wheels for precise pointing without expending thruster propellant.
+- **Communications:**
+  - Fixed 1.5-meter high-gain parabolic dish antenna (X-band) communicating with the Deep Space Network.
+- **Science Payload:**
+  1. **Multispectral Imager (MSI):** High-resolution framing camera with an 8-position filter wheel for geologic mapping and topography.
+  2. **Near-Infrared Spectrometer (NIS):** Measured reflected solar infrared spectra (0.8 to 2.5 micrometers) to identify pyroxene, olivine, and surface minerals (experienced a brief power surge shutdown in May 2000; subsequently recovered).
+  3. **X-Ray / Gamma-Ray Spectrometer (XGRS):** Detected characteristic solar-induced X-ray fluorescence and cosmic-ray gamma-ray emissions to measure elemental ratios (Mg, Al, Si, Fe, O, K).
+  4. **NEAR Laser Rangefinder (NLR):** Pulsed Nd:YAG laser measuring ranges between the spacecraft and the asteroid surface to construct high-density 3D topographic models.
+  5. **Three-Axis Magnetometer (MAG):** High-sensitivity fluxgate magnetometer mounted on the high-gain antenna feed to measure any intrinsic magnetic field.
+  6. **Radio Science:** Utilized X-band Doppler tracking to determine Eros' gravitational field, mass, and center-of-mass perturbations.
+
+## 4. The Journey
+- **Launch:** February 17, 1996, from Cape Canaveral Air Station aboard a Delta II 7925-8 rocket.
+- **En-Route Flyby of Asteroid Mathilde (June 27, 1997):**
+  - Flew within 1,212 km of main-belt asteroid 253 Mathilde at 9.9 km/s. Returned high-resolution images showing a heavily battered, carbon-rich C-type asteroid with colossal impact craters.
+- **The Engine Abort & Recovery (December 1998):**
+  - On December 20, 1998, an abort during a critical rendezvous engine burn caused the spacecraft to tumble and enter emergency safe mode, missing its planned orbital insertion.
+  - APL engineers recovered the spacecraft and devised a brilliant alternative trajectory, flying past Eros and placing NEAR into a holding orbit to rendezvous 13 months later.
+- **Orbital Insertion & Stepped Altitudes (February 14, 2000):**
+  - On Valentine's Day (Feb 14, 2000), NEAR was captured into orbit around Eros—the first spacecraft to orbit an asteroid.
+  - Throughout 2000, controllers stepped its orbit down in phases: 120-mile (200 km) orbit, 31-mile (50 km) orbit (April 30), and a low orbit of 22 miles (35 km) from the center (~12 miles / 19 km from the surface) in July 2000.
+- **The Improvised Controlled Landing (February 12, 2001):**
+  - Having completed its full science mission, the science and operations team decided to attempt a daring descent to the surface.
+  - On February 12, 2001, executing five small engine braking burns, NEAR Shoemaker descended toward the south polar region of Eros.
+  - Traveling at a gentle touchdown velocity of roughly 3 to 4 mph (1.5 to 1.8 m/s), the unreinforced spacecraft touched down safely on the surface—surviving impact completely intact.
+  - From the surface of Eros, NEAR's gamma-ray spectrometer continued operating and transmitting valuable composition data back to Earth for over two weeks.
+- **Final Contact:** February 28, 2001, when operations were formally terminated as the spacecraft succumbed to the extreme cold of the asteroid environment.
+
+## 5. Scientific Discoveries
+- **Physical Characterization of 433 Eros:**
+  - Confirmed Eros is a peanut-shaped, heavily cratered body measuring 21 x 7 x 7 miles (34 x 11 x 11 km).
+  - Calculated an average bulk density of ~2.67 g/cm³, closely matching the density of Earth's crustal rocks.
+- **Internal Structure (Solid Fragment, Not Rubble Pile):**
+  - Gravity tracking proved that Eros has a relatively uniform density throughout its interior. It is an intact consolidated fragment from a larger shattered parent asteroid rather than a loosely bound "rubble pile" conglomeration.
+- **Primitive Chondritic Composition:**
+  - XGRS and NIS spectrometry proved that Eros' elemental composition is extremely primitive, closely matching L-chondrite and LL-chondrite meteorites. It has undergone minimal thermal melting since the dawn of the solar system.
+- **Surface Regolith & "Ponding":**
+  - High-resolution landing imagery revealed that Eros is blanketed in a layer of fine dust and gravel (regolith) up to tens of meters thick.
+  - Discovered striking flat deposits of fine dust settled inside small depressions ("dust ponds"), likely electrostatically sorted and mobilized across the asteroid.
+- **Absence of Intrinsic Magnetic Field:**
+  - Magnetometer readings confirmed that Eros possesses no measurable global magnetic field, placing limits on its iron core formation.
+
+## 6. Where Is It Now?
+- **Status:** Inactive robotic spacecraft resting on the surface of an asteroid; final transmission February 28, 2001.
+- **Location:** On the southern hemisphere of Asteroid 433 Eros, in the saddle-shaped depression named Himeros.
+- **Why Left Behind:** The spacecraft was not equipped with an ascent engine or Earth-return systems; its historic touchdown was a daring end-of-mission terminal experiment.
+
+## 7. Its Legacy
+- Pioneered orbital and landing operations around small, irregularly shaped celestial bodies with non-spherical gravity fields.
+- Verified that small asteroids can be safely approached, orbited, surveyed, and landed upon by robotic probes, establishing the operational foundation for Japan's Hayabusa and Hayabusa2 missions, and NASA's OSIRIS-REx, Lucy, and Psyche missions.
+- Provided ground truth for near-Earth asteroid physical characteristics, providing essential data for asteroid deflection modeling and planetary defense.
+
+---
+### Source References
+- NASA Science Mission: NEAR Shoemaker: https://science.nasa.gov/mission/near-shoemaker/
+- Johns Hopkins University Applied Physics Laboratory (JHU/APL) NEAR Mission Archive
+- NASA NSSDCA Master Catalog (NEAR Shoemaker): `1996-008A`
+- Siddiqi, Asif A. *Beyond Earth: A Chronicle of Deep Space Exploration, 1958-2016.* NASA History Program Office, 2018.

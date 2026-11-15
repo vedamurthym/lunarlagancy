@@ -1,0 +1,484 @@
+{
+  "id": "eq_deep_space_near_shoemaker",
+  "slug": "near-shoemaker",
+  "name": "NEAR Shoemaker Spacecraft",
+  "alternate_designations": [
+    "Near Earth Asteroid Rendezvous",
+    "Discovery 1",
+    "NEAR",
+    "COSPAR: 1996-008A",
+    "NORAD: 23794"
+  ],
+  "category": "Deep Space",
+  "equipment_type": "Asteroid Orbiter & Surface Lander",
+  "target_body": "Asteroid 433 Eros",
+  "short_description": "NEAR Shoemaker was the inaugural mission of NASA's Discovery Program and the first robotic spacecraft to orbit and land on an asteroid. Built by JHU/APL, it surveyed 433 Eros from orbit for a full year before performing a gentle 1.5 m/s touchdown on the asteroid surface on February 12, 2001.",
+  "topics": {
+    "meet_the_explorer": {
+      "topic_number": 1,
+      "title": "Meet the Explorer",
+      "introduction": "NEAR Shoemaker was the inaugural mission of NASA's Discovery Program of low-cost, focused planetary exploration. Built and operated by the Johns Hopkins University Applied Physics Laboratory (JHU/APL), NEAR was the first robotic spacecraft ever to orbit an asteroid, and remarkably, the first spacecraft ever to soft-land on an asteroid—despite having never been designed as a lander. In March 2000, NASA renamed the spacecraft NEAR Shoemaker in honor of Dr. Eugene M. Shoemaker (1928–1997), the legendary planetary geologist who pioneered the science of impact cratering and co-discovered Comet Shoemaker-Levy 9.",
+      "equipment_identity": {
+        "formal_name": "Near Earth Asteroid Rendezvous (NEAR Shoemaker)",
+        "call_sign_or_nickname": "NEAR",
+        "cospar_id": "1996-008A",
+        "norad_id": "23794",
+        "pds_id": null,
+        "memorial_station_name": null
+      },
+      "sub_components_represented": [
+        {
+          "name": "NEAR Shoemaker Spacecraft Bus",
+          "role": "Octagonal aluminum and honeycomb structure carrying scientific instruments, reaction wheels, and bipropellant propulsion tanks",
+          "status_at_site": "Resting intact on the southern surface of Asteroid 433 Eros (inactive since February 28, 2001)"
+        },
+        {
+          "name": "Fixed Solar Array Wings",
+          "role": "Four fixed gallium arsenide solar panel wings generating 1,800 W at 1 AU and 1,000 W at Eros",
+          "status_at_site": "Partially resting against the asteroid regolith on Eros"
+        },
+        {
+          "name": "Science Instrumentation Suite",
+          "role": "Six integrated sensors including framing imager, infrared/gamma-ray/X-ray spectrometers, laser rangefinder, and magnetometer",
+          "status_at_site": "Mounted on forward and side instrument decks; XGRS operated from surface for 16 days"
+        }
+      ],
+      "source_refs": [
+        "src_near_science_nasa",
+        "src_near_jhuapl_archive",
+        "src_near_nssdca"
+      ]
+    },
+    "mission_and_purpose": {
+      "topic_number": 2,
+      "title": "Mission & Purpose",
+      "mission_name": "Near Earth Asteroid Rendezvous (NEAR / Discovery 1)",
+      "program": "Discovery Program",
+      "sponsoring_agencies": [
+        "NASA Science Mission Directorate",
+        "Johns Hopkins University Applied Physics Laboratory (JHU/APL)"
+      ],
+      "disciplines": [
+        "Planetary Science",
+        "Asteroid Geology & Geophysics",
+        "Cosmochemistry & Meteoritics",
+        "Planetary Defense & Impact Physics"
+      ],
+      "destination": {
+        "body": "Asteroid 433 Eros",
+        "region_name": "Himeros Saddle Depression (Southern Hemisphere)",
+        "targeted_feature": "S-type near-Earth asteroid 433 Eros (with intermediate flyby of C-type asteroid 253 Mathilde)"
+      },
+      "landing_or_orbital_coordinates": {
+        "latitude_deg": -35.0,
+        "longitude_deg": 81.0,
+        "coordinate_standard": "Asteroid Fixed Planetographic Frame (IAU/PDS Standard)",
+        "coordinate_discrepancies": [
+          {
+            "source": "JHU/APL Mission Log",
+            "value": "35° S, 81° W (Himeros region)",
+            "notes": "Landed inside the saddle-shaped depression between the two major lobes of 433 Eros following five descent braking maneuvers."
+          }
+        ]
+      },
+      "objectives": [
+        "Conduct the first comprehensive orbital study of a Near-Earth Object (NEO) over a full year",
+        "Determine the physical dimensions, shape, volume, mass, density, and magnetic field of an S-type asteroid",
+        "Map surface mineralogy, elemental composition, crater morphology, and regolith distribution on 433 Eros",
+        "Provide empirical data on asteroid internal structure (determining whether Eros is a solid fragment or a loose rubble pile)",
+        "Gather foundational scientific data to evaluate potential collision threats and planetary defense strategies for Earth"
+      ],
+      "source_refs": [
+        "src_near_science_nasa",
+        "src_near_jhuapl_archive",
+        "src_near_siddiqi_beyond_earth"
+      ]
+    },
+    "meet_the_technology": {
+      "topic_number": 3,
+      "title": "Meet the Technology",
+      "architecture_description": "NEAR Shoemaker utilized an octagonal bus designed for low-cost, rapid integration by JHU/APL. The spacecraft was three-axis stabilized using four reaction wheels and eleven monopropellant hydrazine thrusters, with a 450 N bipropellant liquid engine for major orbital maneuvers. Power was provided by four fixed gallium arsenide solar panel wings spanning outward from the bus. Although never equipped with landing legs or surface shock absorbers, the spacecraft's sturdy structural frame successfully survived a low-velocity terminal descent onto the surface.",
+      "physical_specifications": {
+        "launch_mass_kg": 805.0,
+        "dry_mass_kg": 487.0,
+        "landed_mass_kg": 487.0,
+        "dimensions": {
+          "height_m": 2.8,
+          "width_or_diameter_m": 1.7,
+          "length_m": 1.7,
+          "span_m": 5.6
+        },
+        "mass_discrepancies": [
+          {
+            "reported_value": "805 kg launch mass; 318 kg propellant; 487 kg dry mass",
+            "source": "JHU/APL & NASA NSSDCA Master Record",
+            "resolution_or_erratum": "Verified exact mass breakdown: 805 kg (1,775 lb) at launch, carrying 209 kg hydrazine and 109 kg nitrogen tetroxide."
+          }
+        ]
+      },
+      "propulsion": {
+        "type": "Liquid Bipropellant & Monopropellant Hydrazine",
+        "engines_or_thrusters": "1x 450 N bipropellant main engine; 4x 21 N and 7x 3.5 N monopropellant hydrazine attitude thrusters",
+        "thrust_rating": "Main engine: 450 N (101 lbf); RCS: 3.5 N to 21 N",
+        "specific_impulse_sec": 312.0,
+        "propellants": [
+          "Hydrazine (N2H4)",
+          "Nitrogen Tetroxide (N2O4)"
+        ]
+      },
+      "power_system": {
+        "primary_power_source": "Solar Photovoltaic Arrays",
+        "solar_array_details": "Four fixed gallium arsenide (GaAs) solar panels providing 1,800 W at 1 AU and roughly 1,000 W at Eros' orbital distance (~1.4 AU)",
+        "battery_specifications": "9-Ah rechargeable super nickel-cadmium (NiCd) battery for launch and eclipse support",
+        "nuclear_rtg_details": null
+      },
+      "communications": {
+        "antennas": [
+          "Fixed 1.5-meter (4.9 ft) parabolic high-gain dish antenna",
+          "Two medium-gain horn antennas",
+          "One low-gain omnidirectional antenna"
+        ],
+        "frequency_bands": [
+          "X-band (Uplink and Downlink via Deep Space Network)"
+        ],
+        "relay_systems": null
+      },
+      "scientific_instruments": [
+        {
+          "name": "Multispectral Imager",
+          "acronym": "MSI",
+          "instrument_id": "1996-008A-01",
+          "purpose": "High-resolution optical framing camera for surface mapping, topography, and geologic feature identification",
+          "specifications": "537 x 244 pixel CCD camera with an 8-position filter wheel (450 to 1050 nm)",
+          "operational_status": "Returned over 160,000 images of Eros and Mathilde"
+        },
+        {
+          "name": "Near-Infrared Spectrometer",
+          "acronym": "NIS",
+          "instrument_id": "1996-008A-02",
+          "purpose": "Measured reflected solar infrared spectra to identify silicate mineralogy (olivine and pyroxene)",
+          "specifications": "64-channel grating spectrometer covering 0.8 to 2.5 micrometers",
+          "operational_status": "Mapped surface composition until an instrument shutter anomaly in May 2000"
+        },
+        {
+          "name": "X-Ray / Gamma-Ray Spectrometer",
+          "acronym": "XGRS",
+          "instrument_id": "1996-008A-03",
+          "purpose": "Detected characteristic solar-induced X-ray fluorescence and cosmic-ray gamma rays to quantify elemental ratios",
+          "specifications": "Gas proportional counters for X-rays and BGO/NaI scintillation detectors for gamma rays",
+          "operational_status": "Mapped Mg, Al, Si, and Fe; operated directly on the surface of Eros for 16 days after touchdown"
+        },
+        {
+          "name": "NEAR Laser Rangefinder",
+          "acronym": "NLR",
+          "instrument_id": "1996-008A-04",
+          "purpose": "Pulsed laser altimeter measuring spacecraft-to-surface ranges to construct 3D shape and topographic models",
+          "specifications": "Diode-pumped Nd:YAG laser operating at 1.064 micrometers with 31-cm receiver optics",
+          "operational_status": "Acquired over 11 million altimetry range measurements"
+        },
+        {
+          "name": "Three-Axis Fluxgate Magnetometer",
+          "acronym": "MAG",
+          "instrument_id": "1996-008A-05",
+          "purpose": "Searched for intrinsic and induced magnetic fields around Eros",
+          "specifications": "Fluxgate magnetometer mounted on the high-gain antenna feed mast",
+          "operational_status": "Confirmed the complete absence of any measurable intrinsic magnetic field"
+        },
+        {
+          "name": "Radio Science Investigation",
+          "acronym": "RS",
+          "instrument_id": "1996-008A-06",
+          "purpose": "Measured Eros' gravitational field, mass, and center-of-mass perturbations via X-band Doppler tracking",
+          "specifications": "Dual-frequency coherent Doppler tracking via DSN stations",
+          "operational_status": "Determined Eros' bulk mass (6.687 x 10^15 kg) and uniform density distribution"
+        }
+      ],
+      "source_refs": [
+        "src_near_jhuapl_archive",
+        "src_near_nssdca",
+        "src_near_siddiqi_beyond_earth"
+      ]
+    },
+    "the_journey": {
+      "topic_number": 4,
+      "title": "The Journey",
+      "journey_narrative": "NEAR Shoemaker launched from Cape Canaveral on February 17, 1996, on a pioneering voyage to the asteroid belt. On June 27, 1997, it flew within 1,212 km of main-belt asteroid 253 Mathilde, capturing images of a heavily battered, carbon-rich body. On December 20, 1998, an abort during a critical rendezvous burn caused the spacecraft to tumble and miss its planned orbital insertion. JHU/APL engineers heroically recovered the probe and placed it on a 13-month backup trajectory. On Valentine's Day (February 14, 2000), NEAR was successfully captured into orbit around 433 Eros—becoming the first spacecraft ever to orbit an asteroid. Over the next year, controllers stepped down its orbit to just 35 km from the center. On February 12, 2001, having completed its prime mission, NEAR Shoemaker executed five braking burns and gently set down onto the surface at 1.5 to 1.8 m/s, operating its gamma-ray spectrometer from the surface for over two weeks until final contact on February 28, 2001.",
+      "launch_event": {
+        "timestamp_utc": "1996-02-17T20:43:27Z",
+        "local_time": "15:43:27 EST",
+        "launch_site": "Cape Canaveral Air Station Space Launch Complex 17B, Florida, USA",
+        "launch_vehicle": "Delta II 7925-8"
+      },
+      "arrival_event": {
+        "event_type": "Terminal Touchdown",
+        "timestamp_utc": "2001-02-12T20:01:52Z",
+        "local_time": "15:01:52 EST",
+        "touchdown_velocity_or_approach_speed": "1.5 to 1.8 m/s (3.4 to 4.0 mph)",
+        "arrival_notes": "First landing ever achieved on an asteroid. The unreinforced spacecraft touched down gently on its lower bus tips and solar array edges, surviving completely intact."
+      },
+      "mission_timeline": [
+        {
+          "date_or_sol": "1996-02-17",
+          "phase": "Launch",
+          "event_description": "Launched successfully from Cape Canaveral SLC-17B."
+        },
+        {
+          "date_or_sol": "1997-06-27",
+          "phase": "Mathilde Flyby",
+          "event_description": "Flew within 1,212 km of C-type asteroid 253 Mathilde at 9.9 km/s, discovering massive impact craters."
+        },
+        {
+          "date_or_sol": "1998-12-20",
+          "phase": "Rendezvous Abort & Recovery",
+          "event_description": "Main engine burn aborted prematurely, causing telemetry loss; controllers recovered spacecraft into a 13-month backup orbit.",
+          "anomaly_or_record_flag": "Burn Abort & Trajectory Recovery"
+        },
+        {
+          "date_or_sol": "2000-02-14",
+          "phase": "Eros Orbit Insertion",
+          "event_description": "Successfully entered orbit around Asteroid 433 Eros on Valentine's Day, becoming the first spacecraft to orbit an asteroid.",
+          "anomaly_or_record_flag": "First Asteroid Orbital Insertion"
+        },
+        {
+          "date_or_sol": "2000-03-14",
+          "phase": "Spacecraft Renaming",
+          "event_description": "Formally renamed NEAR Shoemaker in honor of planetary scientist Dr. Eugene M. Shoemaker."
+        },
+        {
+          "date_or_sol": "2000-10-25",
+          "phase": "Low Altitude Orbit",
+          "event_description": "Descended to low mapping orbit of 35 km from the center of Eros, returning sub-meter surface imagery."
+        },
+        {
+          "date_or_sol": "2001-02-12",
+          "phase": "Controlled Surface Landing",
+          "event_description": "Executed five braking burns and touched down gently at 1.5 to 1.8 m/s in the Himeros region, surviving intact.",
+          "anomaly_or_record_flag": "First Soft Landing on an Asteroid"
+        },
+        {
+          "date_or_sol": "2001-02-28",
+          "phase": "Final Contact",
+          "event_description": "Operations concluded after 16 days of surface gamma-ray observations as extreme cold depleted battery reserves."
+        }
+      ],
+      "operational_totals": {
+        "total_duration_days_or_sols": "5 years, 11 days in flight",
+        "distance_traversed_km": 3200000000.0,
+        "flights_completed": null,
+        "orbits_completed": 230,
+        "images_returned": "160,000+ images of Eros and Mathilde",
+        "samples_collected_kg": null
+      },
+      "source_refs": [
+        "src_near_science_nasa",
+        "src_near_jhuapl_archive",
+        "src_near_siddiqi_beyond_earth"
+      ]
+    },
+    "scientific_discoveries": {
+      "topic_number": 5,
+      "title": "Scientific Discoveries",
+      "summary_narrative": "NEAR Shoemaker provided humanity's first comprehensive in-situ exploration of an asteroid, determining the physical shape, density, mineralogy, and internal structure of 433 Eros. It proved that Eros is an intact consolidated fragment from a shattered primordial planetesimal rather than a loose rubble pile, and discovered curious dynamic regolith processes including smooth electrostatic dust ponds.",
+      "key_discoveries": [
+        {
+          "title": "Physical Characterization & Exact Dimensions of 433 Eros",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "NEAR Laser Rangefinder (NLR)",
+            "Multispectral Imager (MSI)",
+            "Radio Science Investigation"
+          ],
+          "description": "NLR and MSI modeling established Eros' precise peanut-shaped dimensions: 34.4 x 11.2 x 11.2 kilometers, with a total volume of ~2,500 km³ and a bulk density of 2.67 g/cm³, closely matching the density of Earth's crustal rocks.",
+          "scientific_impact": "Provided the first complete 3D geodetic model of an asteroid, establishing the benchmark for small-body gravitational dynamics.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Consolidated Internal Structure (Solid Fragment, Not Rubble Pile)",
+          "discovery_category": "Geophysics & Internal Structure",
+          "instruments_involved": [
+            "Radio Science Investigation",
+            "NEAR Laser Rangefinder (NLR)"
+          ],
+          "description": "High-precision Doppler tracking and center-of-mass measurements proved that Eros possesses a remarkably uniform internal density throughout. Rather than a loosely bound 'rubble pile' aggregate, Eros is a solid, fractured fragment of a larger ancient parent body.",
+          "scientific_impact": "Crucial finding for planetary defense: solid asteroids respond very differently to kinetic impact deflection than porous rubble piles.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Primitive Chondritic Composition Matching Undifferentiated Meteorites",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "X-Ray / Gamma-Ray Spectrometer (XGRS)",
+            "Near-Infrared Spectrometer (NIS)"
+          ],
+          "description": "XGRS elemental ratios (Mg/Si, Al/Si, Fe/Si) and NIS infrared absorption bands proved that Eros has undergone minimal thermal melting and differentiation, closely matching primitive ordinary chondrite meteorites (L and LL types).",
+          "scientific_impact": "Directly linked S-type near-Earth asteroids to the most common class of stony meteorites falling to Earth.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Discovery of Fine Regolith 'Dust Ponds'",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Multispectral Imager (MSI)"
+          ],
+          "description": "High-resolution low-altitude imagery revealed extraordinarily flat deposits of fine, well-sorted dust settled inside small depressions and craters. These 'dust ponds' are formed by electrostatic levitation and acoustic fluidization of dust across the asteroid.",
+          "scientific_impact": "Identified active regolith sorting and mobilization mechanisms operating in microgravity environments.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        }
+      ],
+      "source_refs": [
+        "src_near_science_nasa",
+        "src_near_jhuapl_archive",
+        "src_near_siddiqi_beyond_earth"
+      ]
+    },
+    "where_is_it_now": {
+      "topic_number": 6,
+      "title": "Where Is It Now?",
+      "operational_status": "Inactive on Surface",
+      "last_contact_date": "2001-02-28",
+      "is_still_communicating": false,
+      "location_summary": "NEAR Shoemaker rests on the surface of Asteroid 433 Eros inside the saddle-shaped depression named Himeros in the southern hemisphere.",
+      "resting_coordinates": {
+        "latitude_deg": -35.0,
+        "longitude_deg": 81.0,
+        "body_or_frame": "Asteroid 433 Eros (Himeros Depression)",
+        "distance_au": 1.45,
+        "interstellar_heading": null
+      },
+      "why_left_behind": "The spacecraft was never designed as a return vehicle; its controlled descent was a daring end-of-mission terminal science experiment executed after all orbital objectives were completed.",
+      "hardware_elements_at_site": [
+        {
+          "element_name": "NEAR Shoemaker Spacecraft Airframe",
+          "condition": "Structurally intact, resting on lower bus tips and edges of fixed solar panels"
+        },
+        {
+          "element_name": "X-Ray / Gamma-Ray Spectrometer (XGRS)",
+          "condition": "Intact on forward deck directly against the regolith; collected final surface data in February 2001"
+        },
+        {
+          "element_name": "High-Gain Parabolic Antenna",
+          "condition": "1.5-meter fixed dish pointed away from Earth into space"
+        }
+      ],
+      "terrestrial_repositories": [],
+      "source_refs": [
+        "src_near_science_nasa",
+        "src_near_jhuapl_archive",
+        "src_near_nssdca"
+      ]
+    },
+    "its_legacy": {
+      "topic_number": 7,
+      "title": "Its Legacy",
+      "historical_significance": "NEAR Shoemaker was a watershed triumph for planetary exploration, inaugurating NASA's Discovery Program and demonstrating that focused, low-cost robotic missions could accomplish revolutionary science. It proved that robotic probes could navigate the irregular, non-spherical gravity fields of small asteroids, enter orbit, and even perform controlled touchdowns on their surfaces without dedicated landing gear.",
+      "key_contributions": [
+        "First spacecraft to orbit an asteroid (Asteroid 433 Eros, February 14, 2000)",
+        "First spacecraft to perform a controlled soft landing on an asteroid (February 12, 2001)",
+        "First mission of NASA's Discovery Program, establishing the template for low-cost planetary exploration",
+        "Acquired over 160,000 images and 11 million laser altimetry measurements",
+        "Provided fundamental empirical data on asteroid internal cohesion and composition essential for planetary defense and impact hazard mitigation"
+      ],
+      "influence_on_future_missions": [
+        {
+          "mission_or_technology": "JAXA Hayabusa & Hayabusa2 Missions",
+          "influence_description": "NEAR's proximity operations and low-gravity surface interaction directly informed Japan's asteroid rendezvous and sample-return mission designs."
+        },
+        {
+          "mission_or_technology": "NASA OSIRIS-REx Mission",
+          "influence_description": "NEAR's techniques for laser altimetry shape modeling and gravitational field mapping served as the operational baseline for Bennu proximity operations."
+        },
+        {
+          "mission_or_technology": "NASA DART Planetary Defense Mission",
+          "influence_description": "NEAR's discovery of Eros' consolidated internal structure provided crucial empirical parameters for kinetic impactor deflection physics."
+        }
+      ],
+      "cultural_or_philosophical_impact": "Named in honor of Eugene Shoemaker, the mission transformed asteroids from dangerous, faceless cosmic hazards into rich, accessible worlds carrying the pristine primordial record of solar system formation.",
+      "source_refs": [
+        "src_near_science_nasa",
+        "src_near_jhuapl_archive",
+        "src_near_siddiqi_beyond_earth"
+      ]
+    }
+  },
+  "images": [],
+  "model_3d": null,
+  "sources": [
+    {
+      "source_id": "src_near_science_nasa",
+      "title": "NASA Science Mission: NEAR Shoemaker",
+      "url": "https://science.nasa.gov/mission/near-shoemaker/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-08-15",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "the_journey",
+        "scientific_discoveries",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_near_jhuapl_archive",
+      "title": "NEAR Mission Archive & Technical Overview",
+      "url": "https://near.jhuapl.edu/",
+      "publishing_organization": "Johns Hopkins University Applied Physics Laboratory (JHU/APL)",
+      "source_type": "Institutional Laboratory Archive",
+      "publication_date": "2023-05-01",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "meet_the_technology",
+        "the_journey",
+        "scientific_discoveries",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_near_nssdca",
+      "title": "NEAR Shoemaker Master Catalog Spacecraft Record (1996-008A)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-008A",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2024-01-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "meet_the_technology",
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_near_siddiqi_beyond_earth",
+      "title": "Beyond Earth: A Chronicle of Deep Space Exploration, 1958-2016",
+      "url": "https://solarsystem.nasa.gov/resources/1060/beyond-earth-a-chronicle-of-deep-space-exploration/",
+      "publishing_organization": "NASA History Program Office",
+      "source_type": "Official Historical Monograph",
+      "publication_date": "2018-09-01",
+      "topics_supported": [
+        "mission_and_purpose",
+        "meet_the_technology",
+        "the_journey",
+        "scientific_discoveries",
+        "its_legacy"
+      ]
+    }
+  ],
+  "verification_status": {
+    "overall_status": "VERIFIED_WITH_ANNOTATIONS",
+    "step_verified": "Step 3.2",
+    "verified_date": "2026-11-14",
+    "unresolved_conflicts_count": 0,
+    "preservation_notes": "Preserves verified launch mass breakdown (805 kg launch / 318 kg fuel / 487 kg dry) from JHU/APL and NSSDCA; documents 1.5 to 1.8 m/s touchdown velocity, 1,212 km Mathilde flyby distance, and exact 433 Eros dimensions (34.4 x 11.2 x 11.2 km) from PDS records."
+  },
+  "metadata": {
+    "created_at": "2026-11-14T15:30:00Z",
+    "updated_at": "2026-11-14T15:30:00Z",
+    "schema_version": "1.0.0"
+  }
+}

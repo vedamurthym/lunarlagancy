@@ -1,0 +1,96 @@
+# Equipment Data: Viking 2 (Orbiter & Lander)
+
+## 1. Meet the Explorer
+- **Equipment Name:** Viking 2 (Viking-A Spacecraft: Orbiter & Lander)
+- **Specific Designations:**
+  - **Lander Station Name:** Gerald Soffen Memorial Station (renamed in July 2001 in honor of Gerald A. Soffen [1926–2000], NASA Project Scientist for the Viking missions)
+  - **Spacecraft Designations:** Viking-A (originally scheduled to launch first, but swapped to second following battery problems during pad testing), COSPAR IDs: 1975-083A (Orbiter), 1975-083C (Lander); NORAD IDs: 08199, 09405
+- **Image References:**
+  - Viking 2 on the surface of Mars with boulder field: Credit: NASA/JPL-Caltech
+  - First color image taken by Viking 2 on the Martian surface: Credit: NASA/JPL-Caltech
+  - Oblique mosaic of Candor Chasma (Viking Orbiter 1 & 2): Credit: NASA
+- **Introduction:**
+  Viking 2 was the twin sister mission to Viking 1, completing NASA's dual orbital and surface exploration of Mars in 1976. Consisting of a dedicated orbiter and a nuclear-powered lander, Viking 2 was targeted to the high northern latitudes of Utopia Planitia, roughly 4,000 miles (6,460 km) northeast of Viking 1. Landing on September 3, 1976, Viking Lander 2 investigated a much rockier, flatter northern landscape closer to the polar ice caps where water ice was expected in the soil, while the Viking 2 Orbiter conducted high-inclination photography, including historic close flybys of the Martian moon Deimos.
+
+## 2. Mission & Purpose
+- **Mission Name:** Viking Project (Viking 2 Mission)
+- **Program & Management:** NASA Langley Research Center (LaRC) / Jet Propulsion Laboratory (JPL)
+- **Type:** Interplanetary Mars Orbiter & Nuclear-Powered Surface Lander
+- **Destination:** Utopia Planitia (Near the edge of the northern polar cap), Mars
+- **Landing Site Coordinates:**
+  - 47.968° N latitude, 225.71° W longitude (or 47.64° N, 134.29° E planetocentric; landed ~4,000 miles / 6,460 km from Viking 1)
+- **Purpose & Objectives:**
+  - Survey high northern latitudes from orbit with high inclination (55.6 degrees) to observe polar cap dynamics, water vapor transport, and northern volcanic plains.
+  - Land a second sterilized biological and meteorological station near the northern ice cap where higher water content was suspected.
+  - Conduct three automated biological experiments to replicate or verify findings from Viking 1.
+  - Operate a functional three-axis surface seismometer (following the mechanical failure of the seismometer on Viking 1).
+  - Perform high-resolution imaging of the outer Martian moon, Deimos.
+
+## 3. Meet the Technology
+- **Viking Orbiter 2:**
+  - **Mass:** 5,132 pounds (2,328 kg) at launch, containing 3,185.7 lb of liquid bipropellant (MMH and N2O4).
+  - **Structure:** Octagonal aluminum bus with four solar wings (34,800 solar cells generating 620 W) and two 30-Ah nickel-cadmium batteries.
+  - **Propulsion:** 1,323 N gimballed bipropellant rocket engine providing 1,480 m/s delta-V.
+  - **Payload:** Visual Imaging Subsystem (VIS - twin high-resolution vidicon cameras), Mars Atmospheric Water Detector (MAWD - infrared grating spectrometer), Infrared Thermal Mapper (IRTM - multi-channel radiometer), and dual-frequency X/S-band radio science system.
+- **Viking Lander 2:**
+  - **Mass:** ~1,448 pounds (657 kg) landed dry mass; 2,156 pounds (978 kg) separated mass.
+  - **Structure:** Six-sided aluminum chassis supported on three legs (tilted 8.5 degrees to the west after settling on a local rock).
+  - **Power:** Two SNAP-19 Radioisotope Thermoelectric Generators (RTGs) powered by Plutonium-238, providing ~70 W of continuous DC electrical power.
+  - **Descent Propulsion:** 12-nozzle monopropellant hydrazine thruster system.
+  - **Lander Science Suite (~91 kg payload):**
+    1. **Two Facsimile Scanning Cameras:** Provided 360-degree panoramic imaging in monochrome, color, and near-infrared.
+    2. **Biology Laboratory:** Miniature automated laboratory housing the Pyrolytic Release (PR), Labeled Release (LR), and Gas Exchange (GEX) experiments.
+    3. **Gas Chromatograph Mass Spectrometer (GCMS):** Analyzed soil vapors for organic compounds down to parts-per-billion levels.
+    4. **X-Ray Fluorescence Spectrometer:** Quantified elemental rock and soil chemistry.
+    5. **Surface Seismometer:** Three-axis seismometer mounted on top of the lander leg structure (uncaged successfully, unlike Viking 1).
+    6. **Meteorology Boom:** High-standing mast with wind speed/direction, ambient temperature, and pressure sensors.
+    7. **Robotic Surface Sampler Arm:** Retractable backhoe boom with motorized sampling scoop.
+
+## 4. The Journey
+- **Launch:** September 9, 1975, at 18:39:00 UT aboard a Titan IIIE-Centaur rocket (TC-3) from Cape Canaveral Launch Complex 41.
+- **Mars Orbit Insertion (August 7, 1976):**
+  - Entered orbit after an 11-month interplanetary transit; initial orbital parameters: 933 x 22,200 miles (1,502 x 35,728 km) inclined at 55.6 degrees.
+  - Photographed the primary candidate site (Cydonia); finding it heavily cratered and rugged, planners diverted the lander to Utopia Planitia.
+- **Lander Descent & Touchdown (September 3, 1976):**
+  - Separated from Orbiter 2 at 20:19 UT on September 3, 1976.
+  - Touched down at 22:37:50 UT in Utopia Planitia. The lander came to rest tilted 8.5 degrees to the west on a densely boulder-strewn volcanic plain.
+  - Transmitted its first color and panoramic surface photographs, revealing a rockier and flatter landscape than Chryse Planitia with virtually no pronounced horizon features.
+- **Surface Science & Sampling:**
+  - Extended its robotic sampler arm on September 12, 1976, pushing aside rocks to scoop shielded soil samples and deliver them to the onboard biology and GCMS ovens.
+- **Deimos Reconnaissance:**
+  - In May 1977, the Viking 2 Orbiter maneuvered within 17 miles (28 km) of the Martian moon Deimos, capturing the closest and highest-resolution photographs of the outer moon ever acquired up to that time.
+- **Mission Conclusions:**
+  - **Orbiter 2:** Experienced a series of thruster gas leaks in its attitude-control system. After 706 orbits around Mars, operations were officially terminated on July 24, 1978.
+  - **Lander 2:** Operated through primary, extended, and continuation missions until its batteries failed on April 12, 1980, after 1,281 sols (over 3.5 Earth years).
+
+## 5. Scientific Discoveries
+- **Surface Geology & Boulder Distribution:**
+  - Panoramic images revealed Utopia Planitia to be an expansive plain densely strewn with pitted, vesicular volcanic boulders, consistent with impact ejecta and volcanic basalt flows.
+- **Surface Seismology:**
+  - Viking 2's seismometer uncaged properly and operated on the Martian surface. It recorded microseisms primarily driven by Martian wind buffeting the lander structure, but recorded one candidate genuine seismic event (a potential magnitude 3 Martian moonquake).
+- **Biology & Soil Chemistry:**
+  - Soil samples tested across three separate cycles yielded results identical to Viking 1: gas exchange and labeled release showed rapid chemical reaction activity, but the GCMS detected no organic carbon molecules.
+  - Confirmed that the soil chemistry across widely separated hemispheres of Mars is dominated by oxidizing minerals (peroxides) rather than living biological metabolic pathways.
+- **Atmospheric Water Vapor & Deimos Science:**
+  - MAWD observations showed northern polar cap water vapor evaporation peaks in midsummer, mapping atmospheric humidity across latitude bands.
+  - Close-up imagery of Deimos revealed a cratered, dust-blanketed asteroid-like body with smooth regolith filling small craters.
+
+## 6. Where Is It Now?
+- **Viking Lander 2 (Gerald Soffen Memorial Station):**
+  - Rests intact on the boulder-strewn plain of Utopia Planitia at coordinates 47.968° N, 225.71° W. Inactive since April 12, 1980.
+- **Viking Orbiter 2:**
+  - Decommissioned in Mars orbit on July 24, 1978. Remains in a slowly decaying high-altitude orbit around Mars.
+- **Why Left Behind:** Designed strictly as an in-situ robotic surface and orbital research platform with no retrieval capability.
+
+## 7. Its Legacy
+- Provided comparative surface truth 4,000 miles away from Viking 1, proving that the chemical and physical nature of the Martian regolith is globally uniform.
+- Returned the first in-situ planetary seismic measurements from the surface of Mars.
+- Completed comprehensive orbital mapping that served as the primary reference atlas of Mars for over two decades until the arrival of Mars Global Surveyor in 1997.
+- Established the foundational operational protocols for robotic spacecraft surviving multi-year planetary winters.
+
+---
+### Source References
+- NASA Science Mission: Viking 2: https://science.nasa.gov/mission/viking-2/
+- NASA Science Mission: Viking Overview: https://science.nasa.gov/mission/viking/
+- Siddiqi, Asif A. *Beyond Earth: A Chronicle of Deep Space Exploration, 1958-2016.* NASA History Program Office, 2018.
+- NASA NSSDCA Master Catalog (Viking 2 Orbiter: `1975-083A`; Viking 2 Lander: `1975-083C`)

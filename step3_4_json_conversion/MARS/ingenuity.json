@@ -1,0 +1,394 @@
+{
+  "id": "eq_mars_ingenuity",
+  "slug": "ingenuity",
+  "name": "Ingenuity Mars Helicopter",
+  "alternate_designations": [
+    "Mars Helicopter",
+    "Technology Demonstration",
+    "Operations Demonstration",
+    "Ginny",
+    "COSPAR: 2020-052E"
+  ],
+  "category": "Mars",
+  "equipment_type": "Autonomous Aerial Rotorcraft",
+  "target_body": "Mars",
+  "short_description": "NASA's Ingenuity Mars Helicopter achieved humanity's first powered, controlled flight on another world on April 19, 2021. Designed for up to 5 tech-demo flights, it completed 72 flights over nearly 3 years before sustaining rotor damage in January 2024.",
+  "topics": {
+    "meet_the_explorer": {
+      "topic_number": 1,
+      "title": "Meet the Explorer",
+      "introduction": "NASA's Ingenuity Mars Helicopter was a pioneering robotic rotorcraft that achieved the first powered, controlled flight on another planet—an aviation milestone widely celebrated as a 'Wright Brothers moment.' Carried to Mars attached beneath the belly of the Perseverance rover, Ingenuity was designed as a high-risk, high-reward technology demonstration to prove whether aerodynamic flight was possible in Mars' ultra-thin atmosphere. Originally slated for up to five test flights across 30 days, it vastly exceeded all expectations, completing 72 flights over nearly three years and transforming into an operational aerial scout.",
+      "equipment_identity": {
+        "formal_name": "Ingenuity Mars Helicopter",
+        "call_sign_or_nickname": "Ginny",
+        "cospar_id": null,
+        "norad_id": null,
+        "pds_id": null,
+        "memorial_station_name": "Wright Brothers Field (First Flight Site)"
+      },
+      "sub_components_represented": [
+        {
+          "name": "Fuselage & Avionics Core",
+          "role": "Insulated chassis housing lithium-ion batteries, Linux flight computer, sensors, and cameras",
+          "status_at_site": "Intact and functional at Valinor Hills"
+        },
+        {
+          "name": "Coaxial Dual Rotor System",
+          "role": "Two counter-rotating carbon-fiber foam composite blades spinning at 2,400 to 2,800 RPM",
+          "status_at_site": "Rotor blade tips damaged during Flight 72 emergency landing; permanently prevents flight"
+        },
+        {
+          "name": "Solar Array & Antenna Mast",
+          "role": "Top-mounted solar panel and omnidirectional antenna for battery recharging and Zigbee communications",
+          "status_at_site": "Intact and continuing daily solar charging"
+        }
+      ],
+      "source_refs": [
+        "src_ingenuity_science_nasa",
+        "src_ingenuity_jpl_archive"
+      ]
+    },
+    "mission_and_purpose": {
+      "topic_number": 2,
+      "title": "Mission & Purpose",
+      "mission_name": "Mars 2020 (Perseverance Rover Mission)",
+      "program": "Mars Exploration Program",
+      "sponsoring_agencies": [
+        "NASA Science Mission Directorate",
+        "Jet Propulsion Laboratory (JPL)"
+      ],
+      "disciplines": [
+        "Planetary Aerial Mobility",
+        "Autonomous Flight Avionics",
+        "Atmospheric Aerodynamics",
+        "Reconnaissance & Scouting"
+      ],
+      "destination": {
+        "body": "Mars",
+        "region_name": "Jezero Crater",
+        "targeted_feature": "Ancient river delta, sand ripple fields, and crater floor"
+      },
+      "landing_or_orbital_coordinates": {
+        "latitude_deg": 18.4447,
+        "longitude_deg": 77.4508,
+        "coordinate_standard": "Mars 2020 Planetocentric Ephemeris (Octavia E. Butler Landing Site initial coordinates)",
+        "coordinate_discrepancies": []
+      },
+      "objectives": [
+        "Demonstrate powered, controlled aerodynamic flight in the extremely thin Martian atmosphere (less than 1% of Earth's atmospheric density).",
+        "Test miniaturized autonomous flight-control algorithms, sensors, and avionics without real-time human intervention from Earth.",
+        "Evaluate the feasibility of using aerial rotorcraft as scouts to preview terrain, investigate steep slopes and hazards, and assist rover route planning.",
+        "Assess aerodynamic limits, high-speed rotor dynamics, and landing performance on unpredictable Martian sands and boulder fields."
+      ],
+      "source_refs": [
+        "src_ingenuity_science_nasa",
+        "src_mars2020_perseverance_archive"
+      ]
+    },
+    "meet_the_technology": {
+      "topic_number": 3,
+      "title": "Meet the Technology",
+      "architecture_description": "Ultra-lightweight coaxial robotic rotorcraft featuring two counter-rotating carbon-fiber composite blade sets, four flexible carbon-composite landing legs, a cubic fuselage with aerogel insulation, and autonomous visual odometry navigation.",
+      "physical_specifications": {
+        "launch_mass_kg": 1.8,
+        "dry_mass_kg": 1.8,
+        "landed_mass_kg": 1.8,
+        "dimensions": {
+          "height_m": 0.49,
+          "width_or_diameter_m": 0.17,
+          "length_m": 0.17,
+          "span_m": 1.21
+        },
+        "mass_discrepancies": []
+      },
+      "propulsion": {
+        "type": "Coaxial Counter-Rotating Dual Electric Rotors",
+        "engines_or_thrusters": "Brushless DC electric motors powering upper and lower rotor assemblies",
+        "thrust_rating": "Aerodynamic lift generated by rotors rotating at 2,400 to 2,700 RPM (up to 2,800 RPM in winter thin air)",
+        "specific_impulse_sec": null,
+        "propellants": []
+      },
+      "power_system": {
+        "primary_power_source": "Solar Panel Array with Lithium-Ion Battery Storage",
+        "solar_array_details": "Single top-mounted planar solar array (approx. 544 cm²) positioned above the rotor mast.",
+        "battery_specifications": "Six Sony lithium-ion cells delivering approximately 350 to 500 Watts of peak electrical power during flight (~90 to 170 seconds per sol).",
+        "nuclear_rtg_details": null
+      },
+      "communications": {
+        "antennas": [
+          "Mast-mounted 900 MHz omnidirectional whip antenna"
+        ],
+        "frequency_bands": [
+          "900 MHz Zigbee radio frequency band"
+        ],
+        "relay_systems": "Short-range Zigbee radio communicating with the Helicopter Base Station (HBS) on the Perseverance rover, which relayed data via Mars orbiters to Earth."
+      },
+      "scientific_instruments": [
+        {
+          "name": "Navigation Camera",
+          "acronym": "Navcam",
+          "instrument_id": null,
+          "purpose": "Track ground surface texture features at 30 frames per second to calculate real-time optical velocity and autonomous visual odometry.",
+          "specifications": "Downward-pointing monochrome sensor (0.5 megapixel resolution).",
+          "operational_status": "Operated through Flight 72."
+        },
+        {
+          "name": "Return-to-Earth Color Camera",
+          "acronym": "RTE",
+          "instrument_id": null,
+          "purpose": "Capture high-resolution color aerial photographs of the Martian surface, rover tracks, sand ripples, and EDL hardware.",
+          "specifications": "Horizon-facing 13-megapixel color CMOS sensor (4208 x 3120 pixels).",
+          "operational_status": "Returned thousands of aerial scout photographs."
+        },
+        {
+          "name": "Laser Altimeter & Inertial Measurement Unit",
+          "acronym": "LIDAR/IMU",
+          "instrument_id": null,
+          "purpose": "Measure ground altitude and 3-axis angular rates and accelerations for real-time flight stabilization.",
+          "specifications": "Garmin optical laser rangefinder and consumer-grade MEMS IMU.",
+          "operational_status": "Operated through Flight 72."
+        }
+      ],
+      "associated_surface_vehicles_or_stations": [],
+      "source_refs": [
+        "src_ingenuity_science_nasa",
+        "src_ingenuity_jpl_flight_logs"
+      ]
+    },
+    "the_journey": {
+      "topic_number": 4,
+      "title": "The Journey",
+      "journey_narrative": "Ingenuity launched aboard the Mars 2020 mission on July 30, 2020, and landed attached beneath Perseverance on February 18, 2021. Deployed onto the surface on April 3, 2021, it completed its historic first flight on April 19, 2021. After completing its 5 planned technology demonstrations, NASA transitioned Ingenuity into an operational aerial scout. Flying 72 times across Jezero Crater, it survived brutal Martian winters, dust storms, and a navigation glitch, until its 72nd flight on January 18, 2024, when a hard landing over featureless terrain caused rotor tip damage.",
+      "launch_event": {
+        "timestamp_utc": "2020-07-30T11:50:00Z",
+        "local_time": "07:50:00 EDT",
+        "launch_site": "Cape Canaveral Space Force Station SLC-41, Florida",
+        "launch_vehicle": "Atlas V 541 (AV-088)"
+      },
+      "arrival_event": {
+        "event_type": "Landing",
+        "timestamp_utc": "2021-02-18T20:55:00Z",
+        "local_time": "15:55:00 EST",
+        "touchdown_velocity_or_approach_speed": "Touchdown velocity ~0.75 m/s via sky-crane delivery stowed under Perseverance",
+        "arrival_notes": "Landed inside Jezero Crater cocooned beneath the rover debris shield."
+      },
+      "mission_timeline": [
+        {
+          "date_or_sol": "2021-04-03",
+          "phase": "Deployment onto Surface",
+          "event_description": "Dropped the final 4 inches from Perseverance's belly onto Martian regolith; survived its first freezing night alone on internal battery power.",
+          "anomaly_or_record_flag": null,
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "2021-04-19",
+          "phase": "Flight 1 (Historic First Flight)",
+          "event_description": "First powered aerodynamic flight on another world; hovered at 3 meters for 30 seconds (total 39.1 seconds duration).",
+          "anomaly_or_record_flag": "First Powered Flight on another Planet",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "2021-05-07",
+          "phase": "Flight 5 & Transition to Scout",
+          "event_description": "Completed first one-way flight to a new landing site; officially transitioned from technology demonstration to operational scout.",
+          "anomaly_or_record_flag": "Operational Role Transition",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "2022-04-19",
+          "phase": "Flight 26 & EDL Hardware Forensics",
+          "event_description": "Flew over and photographed the jettisoned Mars 2020 backshell and supersonic parachute.",
+          "anomaly_or_record_flag": "Aerial Hardware Forensics",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "2024-01-18",
+          "phase": "Flight 72 & Mission Conclusion",
+          "event_description": "Navigation loss over bland sand terrain during descent led to emergency landing; rotor blade tips struck ground and suffered aerodynamic fractures. Mission concluded on Jan 25, 2024.",
+          "anomaly_or_record_flag": "Final Flight & Blade Damage",
+          "discrepancy_note": null
+        }
+      ],
+      "operational_totals": {
+        "total_duration_days_or_sols": "993 sols / nearly 3 Earth years (designed for 30 sols)",
+        "distance_traversed_km": 17.0,
+        "flights_completed": 72,
+        "orbits_completed": null,
+        "images_returned": "Thousands of Navcam and RTE aerial images",
+        "samples_collected_kg": null
+      },
+      "source_refs": [
+        "src_ingenuity_science_nasa",
+        "src_ingenuity_jpl_flight_logs"
+      ]
+    },
+    "scientific_discoveries": {
+      "topic_number": 5,
+      "title": "Scientific Discoveries",
+      "summary_narrative": "Ingenuity demonstrated that aerodynamic flight is practical in Mars' ultra-thin atmosphere, accelerated ground rover route planning, and provided unprecedented aerial geomorphic surveys of ancient river delta formations.",
+      "key_discoveries": [
+        {
+          "title": "Aerodynamic Flight in Ultra-Thin Atmosphere",
+          "discovery_category": "Engineering & Materials Science",
+          "instruments_involved": [
+            "Coaxial Rotor Assembly",
+            "Avionics & Flight Software"
+          ],
+          "description": "Proved empirically that high-RPM carbon-fiber rotors (2,400 to 2,800 RPM) can generate sufficient lift and stable attitude control in an atmospheric density less than 1% of Earth's.",
+          "scientific_impact": "Opened a completely new dimension (planetary aviation) for future exploration missions across the solar system.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Aerial Reconnaissance of Jezero Delta Channels",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Return-to-Earth Color Camera"
+          ],
+          "description": "Captured bird's-eye views of sand ripples, boulder fields, and fractured bedrock along the Séítah region and delta front, scouting safe travel corridors for Perseverance.",
+          "scientific_impact": "Doubled Perseverance's overland traverse speed by identifying sand hazards in advance.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Atmospheric Density and Dust Lifting Telemetry",
+          "discovery_category": "Atmospheric & Climate Science",
+          "instruments_involved": [
+            "Motor Current Telemetry",
+            "Navigation Camera"
+          ],
+          "description": "Monitored variations in motor torque and rotor wash dust lifting across seasonal changes in atmospheric density and violent dust storm events.",
+          "scientific_impact": "Refined Martian atmospheric circulation and dust transport models.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        }
+      ],
+      "source_refs": [
+        "src_ingenuity_science_nasa",
+        "src_ingenuity_jpl_flight_logs"
+      ]
+    },
+    "where_is_it_now": {
+      "topic_number": 6,
+      "title": "Where Is It Now?",
+      "operational_status": "Inactive on Surface",
+      "last_contact_date": "2024-01-25",
+      "is_still_communicating": false,
+      "location_summary": "Rests on the sands of Valinor Hills, Jezero Crater, Mars. Its avionics, computer, and solar panel remain functional, but damaged rotor blade tips prevent any future flight.",
+      "resting_coordinates": {
+        "latitude_deg": 18.4447,
+        "longitude_deg": 77.4508,
+        "body_or_frame": "Mars (Planetocentric Ephemeris)",
+        "distance_au": null,
+        "interstellar_heading": null
+      },
+      "why_left_behind": "Designed as a one-way robotic planetary exploration vehicle with no sample-return or retrieval capability.",
+      "hardware_elements_at_site": [
+        {
+          "element_name": "Ingenuity Rotorcraft Assembly",
+          "condition": "Standing upright on four composite landing legs at Valinor Hills; rotor blade tips fractured"
+        }
+      ],
+      "terrestrial_repositories": [],
+      "source_refs": [
+        "src_ingenuity_science_nasa",
+        "src_ingenuity_jpl_flight_logs"
+      ]
+    },
+    "its_legacy": {
+      "topic_number": 7,
+      "title": "Its Legacy",
+      "historical_significance": "Ingenuity was humanity's first aircraft on another world, transforming extraterrestrial exploration from 2D ground rovers to 3D aerial mobility.",
+      "key_contributions": [
+        "Achieved the first powered, controlled flight on another celestial body.",
+        "Proved that commercial off-the-shelf electronics (Qualcomm Snapdragon Linux computer) can survive harsh deep-space radiation environments.",
+        "Completed 72 flights—vastly exceeding its 5-flight design envelope—and transformed into an indispensable operational scout.",
+        "Demonstrated the value of aerial reconnaissance for planetary surface rovers."
+      ],
+      "influence_on_future_missions": [
+        {
+          "mission_or_technology": "Dragonfly Mission to Titan",
+          "influence_description": "Autonomous flight control algorithms and off-world rotorcraft flight data directly benefited NASA's upcoming Dragonfly mission to Saturn's moon Titan."
+        },
+        {
+          "mission_or_technology": "Mars Sample Recovery Helicopters & SkyFall Concept",
+          "influence_description": "Directly inspired the 2.3 kg Mars Sample Recovery Helicopter design and the NASA/JPL SkyFall mission concept utilizing a trio of rotorcraft with ground-penetrating radar."
+        }
+      ],
+      "cultural_or_philosophical_impact": "Carrying a small swatch of fabric from the 1903 Wright Flyer under its solar panel, Ingenuity linked humanity's first flight on Earth with its first flight on Mars.",
+      "source_refs": [
+        "src_ingenuity_science_nasa",
+        "src_ingenuity_jpl_archive"
+      ]
+    }
+  },
+  "images": [],
+  "model_3d": null,
+  "sources": [
+    {
+      "source_id": "src_ingenuity_science_nasa",
+      "title": "NASA Science Mission: Ingenuity Mars Helicopter",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2024-01-25",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "meet_the_technology",
+        "the_journey",
+        "scientific_discoveries",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_ingenuity_jpl_flight_logs",
+      "title": "NASA JPL Mars Helicopter Flight Logs & Updates",
+      "url": "https://mars.nasa.gov/technology/helicopter/#Flight-Log",
+      "publishing_organization": "NASA Jet Propulsion Laboratory",
+      "source_type": "NASA Mission Archive / Press Kit",
+      "publication_date": "2024-06-21",
+      "topics_supported": [
+        "meet_the_technology",
+        "the_journey",
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_ingenuity_jpl_archive",
+      "title": "Ingenuity Mars Helicopter Fact Sheet & Overview",
+      "url": "https://www.jpl.nasa.gov/missions/ingenuity",
+      "publishing_organization": "NASA Jet Propulsion Laboratory",
+      "source_type": "NASA Mission Archive / Press Kit",
+      "publication_date": "2024-01-25",
+      "topics_supported": [
+        "meet_the_explorer",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_mars2020_perseverance_archive",
+      "title": "Mars 2020 Perseverance Mission Archive",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2024-02-18",
+      "topics_supported": [
+        "mission_and_purpose"
+      ]
+    }
+  ],
+  "verification_status": {
+    "overall_status": "VERIFIED",
+    "step_verified": "Step 3.2",
+    "verified_date": "2026-11-14",
+    "unresolved_conflicts_count": 0,
+    "preservation_notes": "All flight telemetry, rotor RPM envelope data (up to 2,800 RPM), and successor concepts (Mars Sample Recovery Helicopters and SkyFall) verified against official JPL flight archives."
+  },
+  "metadata": {
+    "created_at": "2026-11-14T15:30:00Z",
+    "updated_at": "2026-11-14T15:30:00Z",
+    "schema_version": "1.0.0"
+  }
+}

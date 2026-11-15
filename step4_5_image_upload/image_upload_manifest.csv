@@ -1,0 +1,66 @@
+equipment_id,original_filename,storage_path,upload_status,title,purpose,display_order,source_url,nasa_photo_id,has_attribution
+eq_moon_apollo11_lm,ap11-1.jpg,moon/apollo11/ap11-1.jpg,SUCCESS,Apollo 11 Lunar Module on the Moon,hero,1,https://nssdc.gsfc.nasa.gov/planetary/image/ap11_lm_as11_40_5927.jpg,AS11-40-5927,True
+eq_moon_apollo11_lm,ap11-2.jpg,moon/apollo11/ap11-2.jpg,SUCCESS,Apollo 11 Lunar Module Ascent & Descent Architecture,technical_diagram,2,https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif,,True
+eq_moon_apollo11_lm,ap11-3.jpg,moon/apollo11/ap11-3.jpg,SUCCESS,Buzz Aldrin Deploying Scientific Experiments,surface_view,3,,AS11-40-5942,True
+eq_moon_apollo11_lm,ap11-4.jpg,moon/apollo11/ap11-4.jpg,SUCCESS,Laser Ranging Retroreflector (LRRR),science_sample,4,https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_laser_reflector.jpg,,True
+eq_moon_apollo11_lm,ap11-5.jpg,moon/apollo11/ap11-5.jpg,SUCCESS,Tranquility Base Panoramic Horizon View,surface_view,5,,,False
+eq_moon_apollo12_lm,ap12-1.jpg,moon/apollo12/ap12-1.jpg,SUCCESS,Apollo 12 Lunar Module Intrepid on the Moon,hero,1,https://nssdc.gsfc.nasa.gov/planetary/image/apollo12_lunar_module.jpg,AS12-46-6729,True
+eq_moon_apollo12_lm,ap12-2.jpg,moon/apollo12/ap12-2.jpg,SUCCESS,Astronaut Pete Conrad Inspecting Surveyor 3,surface_view,2,https://nssdc.gsfc.nasa.gov/planetary/news/image/conrad_19990709_c.jpg,AS12-48-7134,True
+eq_moon_apollo12_lm,ap12-3.jpg,moon/apollo12/ap12-3.jpg,SUCCESS,Apollo 12 ALSEP Central Station Deployment,science_sample,3,https://nssdc.gsfc.nasa.gov/image/spacecraft/alsep_passive_seismic.jpg,,True
+eq_moon_apollo12_lm,ap12-4.jpg,moon/apollo12/ap12-4.jpg,SUCCESS,Solar Wind Spectrometer & Ion Detector Payload,technical_diagram,4,https://nssdc.gsfc.nasa.gov/planetary/image/sws.jpg,,True
+eq_moon_apollo12_lm,ap12-5.jpg,moon/apollo12/ap12-5.jpg,SUCCESS,Ocean of Storms Exploration Landscape,surface_view,5,,,False
+eq_moon_apollo15_lm,ap15-1.jpg,moon/apollo15/ap15-1.jpg,SUCCESS,Apollo 15 Lunar Module Falcon at Hadley Rille,hero,1,,AS15-86-11603,True
+eq_moon_apollo15_lm,ap15-2.jpg,moon/apollo15/ap15-2.jpg,SUCCESS,First Deployment of the Lunar Roving Vehicle,surface_view,2,,AS15-88-11866,True
+eq_moon_apollo15_lm,ap15-3.jpg,moon/apollo15/ap15-3.jpg,SUCCESS,Hadley Delta and Apennine Mountain Exploration,surface_view,3,,,False
+eq_moon_apollo15_lm,ap15-4.jpg,moon/apollo15/ap15-4.jpg,SUCCESS,Apollo 15 ALSEP Science Station & Heat Flow Experiment,science_sample,4,https://nssdc.gsfc.nasa.gov/planetary/image/ap15_alsep.jpg,,True
+eq_moon_apollo15_lm,ap15-5.jpg,moon/apollo15/ap15-5.jpg,SUCCESS,Apollo 15 Lunar Module & Rover Integration Architecture,technical_diagram,5,https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif,,True
+eq_moon_surveyor3,Surveyor3-1.jpg,moon/surveyor3/Surveyor3-1.jpg,SUCCESS,Surveyor 3 Robotic Lander in Ocean of Storms,hero,1,https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/as12-48-7134_1280.jpg,,True
+eq_moon_surveyor3,Surveyor3-2.jpg,moon/surveyor3/Surveyor3-2.jpg,SUCCESS,Surveyor 3 Surface Sampler Scoop & Camera,surface_view,2,,,False
+eq_moon_surveyor3,Surveyor3-3.jpg,moon/surveyor3/Surveyor3-3.jpg,SUCCESS,Surveyor 3 Footpad Soil Impression Telemetry,science_sample,3,,,False
+eq_moon_surveyor3,Surveyor3-4.jpg,moon/surveyor3/Surveyor3-4.jpg,SUCCESS,Surveyor Spacecraft Engineering Schematic,technical_diagram,4,,,False
+eq_moon_surveyor3,Surveyor3-5.jpg,moon/surveyor3/Surveyor3-5.jpg,SUCCESS,Apollo 12 Astronaut Recovering Surveyor 3 Hardware,surface_view,5,https://nssdc.gsfc.nasa.gov/planetary/news/image/conrad_19990709_c.jpg,AS12-48-7133,True
+eq_mars_ingenuity,ingenuity-1.jpg,mars/ingenuity/ingenuity-1.jpg,SUCCESS,Ingenuity Flight in the Martian Sky,hero,1,,,False
+eq_mars_ingenuity,ingenuity-2.jpg,mars/ingenuity/ingenuity-2.jpg,SUCCESS,Ingenuity on the Surface at Wright Brothers Field,surface_view,2,,PIA24497,True
+eq_mars_ingenuity,ingenuity-3.jpg,mars/ingenuity/ingenuity-3.jpg,SUCCESS,Ingenuity Rotorcraft Technical Subsystem Diagram,technical_diagram,3,,,False
+eq_mars_ingenuity,ingenuity-4.jpg,mars/ingenuity/ingenuity-4.jpg,SUCCESS,Aerial High-Resolution Color View of Jezero Dunes,surface_view,4,,,False
+eq_mars_ingenuity,ingenuity-5.jpg,mars/ingenuity/ingenuity-5.jpg,SUCCESS,Ingenuity Navigation Camera Aerial Shadow,surface_view,5,,,False
+eq_mars_spirit,spirit-1.jpg,mars/spirit/spirit-1.jpg,SUCCESS,"Spirit Self-Portrait, Sols 329-330",hero,1,,PIA03175,True
+eq_mars_spirit,spirit-2.jpg,mars/spirit/spirit-2.jpg,SUCCESS,Spirit Looks Back,surface_view,2,,,False
+eq_mars_spirit,spirit-3.jpg,mars/spirit/spirit-3.jpg,SUCCESS,"Tracks in, Path out?",surface_view,3,,,False
+eq_mars_spirit,spirit-4.jpg,mars/spirit/spirit-4.jpg,SUCCESS,Spirit's Robotic Stretch on Sol 2052,science_sample,4,,,False
+eq_mars_spirit,spirit-5.jpg,mars/spirit/spirit-5.jpg,SUCCESS,A Moment Frozen in Time (Martian Sunset at Gusev),surface_view,5,,,False
+eq_mars_opportunity,opportunity-1.jpg,mars/opportunity/opportunity-1.jpg,SUCCESS,Self-Portrait by Opportunity Mars Rover in January 2014,hero,1,,PIA18079,True
+eq_mars_opportunity,opportunity-2.jpg,mars/opportunity/opportunity-2.jpg,SUCCESS,"Opportunity's Heat Shield in Color, Sol 325",surface_view,2,,PIA07365,True
+eq_mars_opportunity,opportunity-3.jpg,mars/opportunity/opportunity-3.jpg,SUCCESS,Opportunity's Shadow and Tracks on Martian Slope,surface_view,3,,,False
+eq_mars_opportunity,opportunity-4.jpg,mars/opportunity/opportunity-4.jpg,SUCCESS,'Blueberries' Inside 'Popcorn',science_sample,4,,PIA19113,True
+eq_mars_opportunity,opportunity-5.jpg,mars/opportunity/opportunity-5.jpg,SUCCESS,Panorama from 'Cape Verde' (Victoria Crater),surface_view,5,,,False
+eq_mars_sojourner_pathfinder,sojourner-1.jpg,mars/sojourner/sojourner-1.jpg,SUCCESS,Sojourner Rover Near The Lander Ramp,hero,1,,,False
+eq_mars_sojourner_pathfinder,sojourner-2.jpg,mars/sojourner/sojourner-2.jpg,SUCCESS,"Pathfinder's Rover, Airbags, & Martian Terrain",surface_view,2,,,False
+eq_mars_sojourner_pathfinder,sojourner-3.jpg,mars/sojourner/sojourner-3.jpg,SUCCESS,Sojourner's APXS at Work,science_sample,3,,,False
+eq_mars_sojourner_pathfinder,sojourner-4.jpg,mars/sojourner/sojourner-4.jpg,SUCCESS,Sojourner's APXS Studies Barnacle Bill,science_sample,4,,,False
+eq_mars_sojourner_pathfinder,sojourner-5.jpg,mars/sojourner/sojourner-5.jpg,SUCCESS,Twin Peaks in Super Resolution - Left Eye,surface_view,5,,,False
+eq_mars_viking1,viking1-1.jpg,mars/viking1/viking1-1.jpg,SUCCESS,First Photograph Ever Taken on the Surface of Mars,hero,1,,P-17022,True
+eq_mars_viking1,viking1-2.jpg,mars/viking1/viking1-2.jpg,SUCCESS,Viking 1 Chryse Planitia Surface Panorama,surface_view,2,,P-17076,True
+eq_mars_viking1,viking1-3.jpg,mars/viking1/viking1-3.jpg,SUCCESS,Viking Spacecraft Engineering Architecture Diagram,technical_diagram,3,,,False
+eq_mars_viking1,viking1-4.jpg,mars/viking1/viking1-4.jpg,SUCCESS,Martian Sky and Horizon Color Landscape,surface_view,4,,,False
+eq_mars_viking1,viking1-5.jpg,mars/viking1/viking1-5.jpg,SUCCESS,Valles Marineris Global Orbital Mosaic,orbit_view,5,,,False
+eq_mars_viking2,viking2-1.jpg,mars/viking2/viking2-1.jpg,SUCCESS,Viking Lander Proof Test Article,hero,1,,NASM2016-02690,True
+eq_mars_viking2,viking2-2.jpg,mars/viking2/viking2-2.jpg,SUCCESS,Viking 2 Utopia Planitia Boulder Field,surface_view,2,,P-17631,True
+eq_mars_viking2,viking2-3.jpg,mars/viking2/viking2-3.jpg,SUCCESS,Viking 2 First Color Image of Mars Surface,surface_view,3,,,False
+eq_mars_viking2,viking2-4.jpg,mars/viking2/viking2-4.jpg,SUCCESS,Viking 2 Surface Sampler Trenching Operations,science_sample,4,,,False
+eq_mars_viking2,viking2-5.jpg,mars/viking2/viking2-5.jpg,SUCCESS,Candor Chasma Mosaic by Viking Orbiters,orbit_view,5,,,False
+eq_deep_space_dawn,dawn1.jpg,deep-space/dawn/dawn1.jpg,SUCCESS,Dawn Spacecraft Approaching Asteroid Vesta,hero,1,,PIA13540,True
+eq_deep_space_dawn,dawn2.jpg,deep-space/dawn/dawn2.jpg,SUCCESS,Giant Asteroid Vesta Full-Disk View,surface_view,2,,PIA14316,True
+eq_deep_space_dawn,dawn3.jpg,deep-space/dawn/dawn3.jpg,SUCCESS,Dwarf Planet Ceres Global Portrait,surface_view,3,,PIA21906,True
+eq_deep_space_dawn,dwan4.jpg,deep-space/dawn/dwan4.jpg,SUCCESS,Occator Crater Bright Sodium Carbonate Faculae,science_sample,4,,PIA21924,True
+eq_deep_space_dawn,dawn5.jpg,deep-space/dawn/dawn5.jpg,SUCCESS,Crescent Ceres and Dawn Orbital Vista,orbit_view,5,,,False
+eq_deep_space_near_shoemaker,NEAR Shoemaker-1.jpg,deep-space/near-shoemaker/NEAR Shoemaker-1.jpg,SUCCESS,NEAR Shoemaker at Asteroid 433 Eros,hero,1,,,False
+eq_deep_space_near_shoemaker,NEAR Shoemaker-2.jpg,deep-space/near-shoemaker/NEAR Shoemaker-2.jpg,SUCCESS,Asteroid 433 Eros Global Mosaic,surface_view,2,,PIA03112,True
+eq_deep_space_near_shoemaker,NEAR Shoemaker-3.jpg,deep-space/near-shoemaker/NEAR Shoemaker-3.jpg,SUCCESS,Close-Up of Eros Craters and Regolith Ponds,surface_view,3,,,False
+eq_deep_space_near_shoemaker,NEAR Shoemaker-4.jpg,deep-space/near-shoemaker/NEAR Shoemaker-4.jpg,SUCCESS,NEAR Shoemaker Spacecraft Instrumentation Diagram,technical_diagram,4,,,False
+eq_deep_space_near_shoemaker,NEAR Shoemaker-5.jpg,deep-space/near-shoemaker/NEAR Shoemaker-5.jpg,SUCCESS,Final Descent Images and Touchdown on Eros,surface_view,5,,PIA03142,True
+eq_deep_space_pioneer10,Pioneer10-1.jpg,deep-space/pioneer10/Pioneer10-1.jpg,SUCCESS,Pioneer 10 Spacecraft Full-Scale Museum Model,hero,1,,NASM2016-00084,True
+eq_deep_space_pioneer10,Pioneer10-2.jpg,deep-space/pioneer10/Pioneer10-2.jpg,SUCCESS,The Pioneer Plaque Interstellar Message,memorial,2,,P-13164,True
+eq_deep_space_pioneer10,Pioneer10-3.jpg,deep-space/pioneer10/Pioneer10-3.jpg,SUCCESS,Jupiter and the Great Red Spot from Pioneer 10,orbit_view,3,,73-HC-1002,True
+eq_deep_space_pioneer10,Pioneer10-4.jpg,deep-space/pioneer10/Pioneer10-4.jpg,SUCCESS,Jovian Moon Ganymede Photographed by Pioneer 10,science_sample,4,,73-H-1175,True
+eq_deep_space_pioneer10,Pioneer10-5.jpg,deep-space/pioneer10/Pioneer10-5.jpg,SUCCESS,Pioneer 10 Outer Solar System Trajectory Diagram,technical_diagram,5,,,False

@@ -1,0 +1,570 @@
+{
+  "id": "eq_moon_apollo15_lm",
+  "slug": "apollo-15-lunar-module",
+  "name": "Apollo 15 Lunar Module, ALSEP & Lunar Roving Vehicle",
+  "alternate_designations": [
+    "LM-10",
+    "Falcon",
+    "Rover 15",
+    "Apollo 15 LM/ALSEP",
+    "COSPAR: 1971-063C",
+    "NORAD: 05366",
+    "PDS: urn:nasa:pds:context:instrument_host:spacecraft.a15a"
+  ],
+  "category": "Moon",
+  "equipment_type": "Lunar Module & Science Package",
+  "target_body": "The Moon",
+  "short_description": "The Apollo 15 Lunar Module Falcon inaugurated the 'J-series' extended science missions on July 30, 1971, deploying the first Lunar Roving Vehicle (LRV-1). Dave Scott and Jim Irwin traversed 27.9 km across Hadley-Apennine, discovering the ancient 4.1-billion-year-old Genesis Rock.",
+  "topics": {
+    "meet_the_explorer": {
+      "topic_number": 1,
+      "title": "Meet the Explorer",
+      "introduction": "The Apollo 15 Lunar Module 'Falcon' was the fourth crewed spacecraft to land on the Moon and the premier 'J-series' extended exploration mission. Commanded by David R. Scott with Lunar Module Pilot James B. Irwin, and Command Module Pilot Alfred M. Worden in orbit, Falcon touched down in the dramatic Hadley-Apennine region. Apollo 15 introduced the Lunar Roving Vehicle (LRV), allowing the crew to travel tens of kilometers across the lunar surface, and deployed the most comprehensive ALSEP geophysical station to date, operating with eight science instruments powered by a nuclear SNAP-27 RTG.",
+      "equipment_identity": {
+        "formal_name": "Apollo 15 Lunar Module (LM-10), Apollo Lunar Surface Experiments Package (ALSEP) & Lunar Roving Vehicle (LRV-1)",
+        "call_sign_or_nickname": "Falcon",
+        "cospar_id": "1971-063C",
+        "norad_id": "05366",
+        "pds_id": "urn:nasa:pds:context:instrument_host:spacecraft.a15a",
+        "memorial_station_name": null
+      },
+      "sub_components_represented": [
+        {
+          "name": "Apollo 15 LM Descent Stage",
+          "role": "Extended-stay rocket stage with Quadrant 1 LRV bay and scientific equipment",
+          "status_at_site": "Intact at Hadley-Apennine landing site"
+        },
+        {
+          "name": "Apollo 15 LM Ascent Stage",
+          "role": "Crew cabin with ascent propulsion, avionics, and life support",
+          "status_at_site": "Deliberately impacted the Moon on August 3, 1971, to calibrate the ALSEP seismometer network"
+        },
+        {
+          "name": "Lunar Roving Vehicle (LRV-1)",
+          "role": "Four-wheeled electric crewed exploration rover",
+          "status_at_site": "Parked permanently ~100 meters east of the descent stage"
+        },
+        {
+          "name": "ALSEP Central Station & SNAP-27 RTG",
+          "role": "Nuclear-powered geophysical laboratory operating eight surface experiments",
+          "status_at_site": "Located at 26.1341° N, 3.6298° E; operated until shutdown on September 30, 1977"
+        }
+      ],
+      "source_refs": [
+        "src_a15_nssdca_spacecraft",
+        "src_a15_mission_overview"
+      ]
+    },
+    "mission_and_purpose": {
+      "topic_number": 2,
+      "title": "Mission & Purpose",
+      "mission_name": "Apollo 15",
+      "program": "Apollo Program (J-Series Mission)",
+      "sponsoring_agencies": [
+        "NASA - Office of Manned Space Flight",
+        "NASA - Office of Space Science"
+      ],
+      "disciplines": [
+        "Human Spaceflight",
+        "Lunar Geology & Volcanology",
+        "Heat Flow Geophysics",
+        "Planetary Atmospheres",
+        "Space Physics"
+      ],
+      "destination": {
+        "body": "The Moon",
+        "region_name": "Hadley-Apennine Region (Mare Imbrium basin edge)",
+        "targeted_feature": "Foot of the Apennine Mountains along Hadley Rille (sinuous volcanic canyon)"
+      },
+      "landing_or_orbital_coordinates": {
+        "latitude_deg": 26.13239,
+        "longitude_deg": 3.6333,
+        "coordinate_standard": "LRO DE421 Ephemeris Reference Frame (Nominal mission log: 26.132° N, 3.634° E)",
+        "coordinate_discrepancies": [
+          {
+            "source": "NASA Lunar Landing Sites Table (DE421)",
+            "value": "26.13239° N, 3.63330° E",
+            "notes": "Photogrammetric coordinates derived from high-resolution Lunar Reconnaissance Orbiter Camera (LROC) data."
+          },
+          {
+            "source": "Apollo 15 Mission Report (Nominal)",
+            "value": "26.132° N, 3.634° E",
+            "notes": "Historical nominal landing coordinates reported post-mission in 1971."
+          }
+        ]
+      },
+      "objectives": [
+        "Conduct extended scientific exploration of a diverse geological landing site containing both high lunar mountains and a deep volcanic sinuous rille (Hadley Rille).",
+        "Deploy and test the first crewed Lunar Roving Vehicle on extraterrestrial terrain.",
+        "Drill deep boreholes with the Apollo Lunar Surface Drill (ALSD) to emplace the Heat Flow Experiment.",
+        "Emplace an expanded ALSEP suite for long-duration seismic, atmospheric, dust, magnetic, and thermal monitoring.",
+        "Conduct three major EVAs totaling over 18 hours, covering distances up to 5 km from the lander."
+      ],
+      "source_refs": [
+        "src_a15_mission_overview",
+        "src_a15_landing_coordinates"
+      ]
+    },
+    "meet_the_technology": {
+      "topic_number": 3,
+      "title": "Meet the Technology",
+      "architecture_description": "Heavily modified extended-stay J-series Lunar Module featuring extended propellant tanks, enlarged consumables storage, and a 10-inch nozzle skirt extension for enhanced engine performance. Carried the foldable Lunar Roving Vehicle in Quadrant 1 and an expanded ALSEP station.",
+      "physical_specifications": {
+        "launch_mass_kg": 16430.0,
+        "dry_mass_kg": 5182.0,
+        "landed_mass_kg": 2797.0,
+        "dimensions": {
+          "height_m": 7.0,
+          "width_or_diameter_m": 4.2,
+          "length_m": 4.2,
+          "span_m": 9.4
+        },
+        "mass_discrepancies": [
+          {
+            "reported_value": "Spacecraft mass 16,430 kg vs earlier missions (~15,100 kg)",
+            "source": "Apollo 15 Flight Evaluation Report",
+            "resolution_or_erratum": "Increased mass reflects J-mission extended fuel capacity (8,873 kg descent propellants), longer consumables life, and the 210 kg Lunar Roving Vehicle."
+          }
+        ]
+      },
+      "propulsion": {
+        "type": "Deep-throttling descent engine with 10-inch nozzle skirt extension + Fixed ascent engine + 16 RCS thrusters",
+        "engines_or_thrusters": "TRW descent engine (~45,000 N thrust with extended nozzle); Bell ascent engine (~15,000 N thrust); 16 Marquardt RCS thrusters",
+        "thrust_rating": "Descent 45,000 N; Ascent 15,000 N; RCS 450 N each",
+        "specific_impulse_sec": 313.5,
+        "propellants": [
+          "Aerozine 50",
+          "Nitrogen Tetroxide (N2O4)"
+        ]
+      },
+      "power_system": {
+        "primary_power_source": "Silver-Zinc Batteries (LM & LRV) / SNAP-27 Nuclear RTG (ALSEP)",
+        "solar_array_details": null,
+        "battery_specifications": "Descent stage powered by five 400-Ah silver-zinc batteries; ascent stage powered by two 296-Ah silver-zinc batteries. LRV powered by two independent 36-volt silver-zinc non-rechargeable batteries (121 Ah capacity each).",
+        "nuclear_rtg_details": {
+          "model": "SNAP-27 Radioisotope Thermoelectric Generator",
+          "fuel_isotope": "Plutonium-238 (Pu-238)",
+          "launch_power_w": 73.5,
+          "power_decay_profile": "17 kg assembly with ~4 kg Plutonium-238 fuel rod in beryllium thermal shield; produced 73.5 W DC at launch, decaying to 63.5 W after one year; powered ALSEP instruments continuously for over six years."
+        }
+      },
+      "communications": {
+        "antennas": [
+          "Steerable parabolic S-band high-gain dish",
+          "In-flight VHF omnidirectional antennas",
+          "ALSEP modified axial-helical antenna",
+          "LRV mast-mounted steerable high-gain parabolic mesh antenna"
+        ],
+        "frequency_bands": [
+          "S-band (uplink 2119 MHz, downlink 2278.0 MHz)",
+          "VHF (spacesuit EVA and LRV telemetry relay)"
+        ],
+        "relay_systems": "LRV television and telemetry relayed directly to Earth; lunar surface operations broadcasted live globally."
+      },
+      "scientific_instruments": [
+        {
+          "name": "Heat Flow Experiment",
+          "acronym": "HFE",
+          "instrument_id": "1971-063C-06",
+          "purpose": "Measure the internal temperature gradient and thermal conductivity of lunar crustal rocks.",
+          "specifications": "Two multi-sensor probes emplaced into boreholes drilled with Apollo Lunar Surface Drill (ALSD) to depths of 1.62 m.",
+          "operational_status": "Operated continuously from August 1971 until ALSEP shutdown in Sept 1977."
+        },
+        {
+          "name": "Laser Ranging Retroreflector",
+          "acronym": "LRRR",
+          "instrument_id": "1971-063C-08",
+          "purpose": "Provide long-term precision optical target for Earth-based lasers.",
+          "specifications": "Array of 300 fused-silica corner cubes (three times larger than Apollo 11 array), transported via LRV.",
+          "operational_status": "Passive optical reflector; operational continuously to the present day."
+        },
+        {
+          "name": "Cold Cathode Ion Gauge",
+          "acronym": "CCIG",
+          "instrument_id": "1971-063C-07",
+          "purpose": "Quantify neutral gas density in the tenuous lunar exosphere.",
+          "specifications": "Townsend discharge gauge measuring pressures from 10^-12 to 10^-6 torr.",
+          "operational_status": "Operated continuously until ALSEP shutdown in Sept 1977."
+        },
+        {
+          "name": "Passive Seismic Experiment",
+          "acronym": "PSE",
+          "instrument_id": "1971-063C-01",
+          "purpose": "Record internal moonquakes and surface impacts to map the lunar mantle and core.",
+          "specifications": "Triaxial long-period and short-period seismometer in beryllium casing.",
+          "operational_status": "Operated continuously until ALSEP network shutdown in Sept 1977."
+        },
+        {
+          "name": "Lunar Dust Detector",
+          "acronym": "DTREM",
+          "instrument_id": "1971-063C-09",
+          "purpose": "Measure long-term solar cell output degradation and dust deposition.",
+          "specifications": "Three silicon solar cells with resistance thermistors.",
+          "operational_status": "Operated until ALSEP shutdown in Sept 1977."
+        }
+      ],
+      "associated_surface_vehicles_or_stations": [
+        {
+          "entity_name": "Lunar Roving Vehicle (LRV-1)",
+          "category": "Crewed Electric Surface Vehicle",
+          "technical_summary": "Foldable electric rover (3.1 m long, 210 kg Earth mass) featuring four 1/4-hp wheel hub motors, 80:1 harmonic drive, woven wire-mesh wheels, and color TV camera controlled from Houston.",
+          "specifications": {
+            "mass_earth_kg": 210.0,
+            "mass_moon_kg": 34.0,
+            "wheelbase_m": 2.3,
+            "battery_type": "Two 36V Silver-Zinc (121 Ah each)",
+            "max_speed_kmh": 13.0,
+            "turning_radius_m": 3.1
+          }
+        },
+        {
+          "entity_name": "Apollo 15 ALSEP Central Station",
+          "category": "Nuclear Geophysical Station",
+          "technical_summary": "Expanded geophysical laboratory powered by SNAP-27 RTG, operating eight scientific instruments at 26.1341° N, 3.6298° E.",
+          "specifications": {
+            "mass_kg": 25.0,
+            "power_nominal_w": 70.0,
+            "downlink_freq_mhz": 2278.0
+          }
+        }
+      ],
+      "source_refs": [
+        "src_a15_nssdca_spacecraft",
+        "src_a15_heat_flow_experiment",
+        "src_a15_lrv_handbook",
+        "src_a15_lrrr_experiment"
+      ]
+    },
+    "the_journey": {
+      "topic_number": 4,
+      "title": "The Journey",
+      "journey_narrative": "Apollo 15 launched on July 26, 1971. Falcon touched down in Hadley-Apennine on July 30. Scott conducted a 33-minute Stand-up EVA from the cabin roof to survey mountain peaks. Over the next three days, Scott and Irwin completed three rover moonwalks totaling 18 hours 35 minutes across 27.9 km, exploring Hadley Rille and the Apennine Front, and discovering the 4.1-billion-year-old Genesis Rock. Before liftoff, Scott demonstrated Galileo's gravity equivalence by dropping a hammer and a falcon feather. Falcon's ascent stage was intentionally crashed on August 3 to calibrate the seismic network.",
+      "launch_event": {
+        "timestamp_utc": "1971-07-26T13:34:00Z",
+        "local_time": "09:34:00 EDT",
+        "launch_site": "Cape Canaveral Pad 39A, Florida",
+        "launch_vehicle": "Saturn V (SA-510)"
+      },
+      "arrival_event": {
+        "event_type": "Landing",
+        "timestamp_utc": "1971-07-30T22:16:29Z",
+        "local_time": "18:16:29 EDT",
+        "touchdown_velocity_or_approach_speed": "Touchdown velocity 2.0 m/s vertical",
+        "arrival_notes": "First landing in high-relief mountainous lunar terrain; Falcon settled on a 10-degree slope with one rear footpad in a depression."
+      },
+      "mission_timeline": [
+        {
+          "date_or_sol": "1971-07-30",
+          "phase": "Stand-up EVA (SEVA)",
+          "event_description": "Dave Scott opened the top docking hatch and stood on the cabin engine cover for 33 minutes, capturing panoramic telephoto surveys of Apennine mountain peaks.",
+          "anomaly_or_record_flag": "Only Stand-up EVA in Apollo Program",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1971-07-31",
+          "phase": "EVA 1 & LRV Deployment",
+          "event_description": "Deployed the Lunar Roving Vehicle; drove 10.3 km along Hadley Rille to Elbow and St. George craters; deployed ALSEP station.",
+          "anomaly_or_record_flag": "First Use of Wheeled Vehicle on another World",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1971-08-01",
+          "phase": "EVA 2 & Genesis Rock Discovery",
+          "event_description": "Drove 12.5 km along Apennine Front (Mount Hadley Delta); discovered anorthosite Genesis Rock (Sample 15415); drilled deep core tubes.",
+          "anomaly_or_record_flag": "Discovery of Pristine Lunar Magma Ocean Crust",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1971-08-02",
+          "phase": "EVA 3 & Galileo Experiment",
+          "event_description": "Drove 5.1 km to Scarp Crater and Hadley Rille; dropped geological hammer and falcon feather simultaneously in vacuum; emplaced Fallen Astronaut memorial.",
+          "anomaly_or_record_flag": "Galileo Equivalence Principle Demonstration",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1971-08-03",
+          "phase": "Ascent Stage Jettison & Impact",
+          "event_description": "Ascent stage launched, docked with Endeavour, and was jettisoned at 01:04:14 UT. Targeted to crash at 26.36° N, 0.25° E at 03:03:37 UT, producing calibrated seismic waves.",
+          "anomaly_or_record_flag": "Seismic Network Calibration Impact",
+          "discrepancy_note": null
+        }
+      ],
+      "operational_totals": {
+        "total_duration_days_or_sols": "Total lunar surface stay: 66 hours, 54 minutes, 53 seconds",
+        "distance_traversed_km": 27.9,
+        "flights_completed": null,
+        "orbits_completed": 74,
+        "images_returned": "Over 2,300 surface photographs",
+        "samples_collected_kg": 77.31
+      },
+      "source_refs": [
+        "src_a15_mission_overview",
+        "src_a15_nssdca_spacecraft",
+        "src_a15_impact_sites"
+      ]
+    },
+    "scientific_discoveries": {
+      "topic_number": 5,
+      "title": "Scientific Discoveries",
+      "summary_narrative": "Apollo 15 verified the foundational 'Lunar Magma Ocean' hypothesis through the discovery of the Genesis Rock and conducted the first quantitative heat flow measurements from within another celestial body.",
+      "key_discoveries": [
+        {
+          "title": "Genesis Rock & Lunar Magma Ocean Hypothesis",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Sample Tongs and Collection Bags",
+            "Lunar Roving Vehicle"
+          ],
+          "description": "Sample 15415 ('Genesis Rock'), an anorthosite composed of 98% plagioclase feldspar dating to 4.1 billion years ago, verified that the early Moon was covered by a global magma ocean where buoyant feldspar floated to form the primordial crust.",
+          "scientific_impact": "Became the cornerstone empirical evidence for planetary magma ocean differentiation models across terrestrial planets.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "First Planetary Subsurface Heat Flow Measurements",
+          "discovery_category": "Geophysics & Internal Structure",
+          "instruments_involved": [
+            "Heat Flow Experiment (HFE)",
+            "Apollo Lunar Surface Drill (ALSD)"
+          ],
+          "description": "Thermistor probes emplaced 1.6 meters into boreholes measured absolute temperature gradients (±0.001 K precision) and thermal conductivity, providing the first direct measurement of heat leaking from the lunar interior.",
+          "scientific_impact": "Constrained radioactive isotope concentrations (uranium, thorium, potassium) and internal thermal balance models of the Moon.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Deep Moonquake Nests Correlated with Tidal Cycles",
+          "discovery_category": "Geophysics & Internal Structure",
+          "instruments_involved": [
+            "Passive Seismic Experiment"
+          ],
+          "description": "Triangulated moonquakes in the multi-station network, localizing deep moonquake clusters at depths of 800 to 1,000 km, correlating their occurrence with Earth-Moon monthly tidal stresses.",
+          "scientific_impact": "Proved that the Moon possesses a rigid, solid mantle extending to at least 1,000 km depth.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Extreme Lunar Vacuum Exosphere",
+          "discovery_category": "Atmospheric & Climate Science",
+          "instruments_involved": [
+            "Cold Cathode Ion Gauge"
+          ],
+          "description": "Measured daytime exosphere densities of ~10^5 particles/cm³ (pressure <10^-12 torr), detecting transient artificial gas clouds from astronaut spacesuit venting.",
+          "scientific_impact": "Established baseline natural exospheric parameters for airless planetary bodies.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        }
+      ],
+      "source_refs": [
+        "src_a15_heat_flow_experiment",
+        "src_a15_pse_experiment",
+        "src_a15_mission_overview"
+      ]
+    },
+    "where_is_it_now": {
+      "topic_number": 6,
+      "title": "Where Is It Now?",
+      "operational_status": "Inactive on Surface",
+      "last_contact_date": "1977-09-30",
+      "is_still_communicating": false,
+      "location_summary": "Descent stage rests in Hadley-Apennine at 26.13239° N, 3.63330° E. Lunar Roving Vehicle is parked ~100 meters east. ALSEP station rests at 26.1341° N, 3.6298° E (shut down Sept 1977). LRRR continues passive laser reflection. Ascent stage was destroyed on commanded impact at 26.36° N, 0.25° E.",
+      "resting_coordinates": {
+        "latitude_deg": 26.13239,
+        "longitude_deg": 3.6333,
+        "body_or_frame": "The Moon (LRO DE421 Ephemeris Standard)",
+        "distance_au": null,
+        "interstellar_heading": null
+      },
+      "why_left_behind": "The descent stage was the launch platform for the ascent stage. The LRV and ALSEP were designed exclusively for surface operations and had no Earth-return capability.",
+      "hardware_elements_at_site": [
+        {
+          "element_name": "Apollo 15 LM Descent Stage",
+          "condition": "Intact on Hadley plain with ladder plaque"
+        },
+        {
+          "element_name": "Lunar Roving Vehicle (LRV-1)",
+          "condition": "Parked ~100 m east of LM; TV camera pointed toward lander"
+        },
+        {
+          "element_name": "ALSEP Central Station & SNAP-27 RTG",
+          "condition": "Located ~110 m northwest of LM; inactive since Sept 30, 1977"
+        },
+        {
+          "element_name": "Laser Ranging Retroreflector",
+          "condition": "Located ~300 m west of LM; optically operational"
+        },
+        {
+          "element_name": "Fallen Astronaut Memorial",
+          "condition": "Aluminum statuette and plaque listing 14 fallen astronauts and cosmonauts resting in regolith"
+        }
+      ],
+      "terrestrial_repositories": [
+        {
+          "artifact_name": "Genesis Rock (Sample 15415) and 77.31 kg Lunar Samples",
+          "repository_facility": "Lunar Sample Laboratory Facility, NASA Johnson Space Center (JSC)",
+          "city_and_country": "Houston, Texas, United States",
+          "exhibition_status": "Preserved in nitrogen-purged research vaults"
+        }
+      ],
+      "source_refs": [
+        "src_a15_hardware_locations",
+        "src_a15_landing_coordinates",
+        "src_a15_impact_sites"
+      ]
+    },
+    "its_legacy": {
+      "topic_number": 7,
+      "title": "Its Legacy",
+      "historical_significance": "Apollo 15 transformed lunar exploration from short-range reconnaissance into wide-ranging field expeditions, discovering the Genesis Rock and proving the viability of off-world electric mobility.",
+      "key_contributions": [
+        "Revolutionized planetary field geology through the introduction of the crewed Lunar Roving Vehicle.",
+        "Discovered the Genesis Rock, establishing the empirical foundation for planetary magma ocean theories.",
+        "Conducted the first quantitative measurements of internal planetary heat flow from another world.",
+        "Demonstrated the equivalence principle of gravitational acceleration in a live global broadcast (Galileo experiment)."
+      ],
+      "influence_on_future_missions": [
+        {
+          "mission_or_technology": "Artemis Lunar Terrain Vehicle (LTV)",
+          "influence_description": "The LRV-1 mobility architecture, wire-mesh wheels, and remote camera control set the engineering requirements for modern Artemis unpressurized rovers."
+        },
+        {
+          "mission_or_technology": "Planetary Heat Flow Probes (InSight on Mars)",
+          "influence_description": "The borehole heat flow drilling technique piloted by Apollo 15 directly influenced heat flow instruments flown on subsequent planetary missions."
+        }
+      ],
+      "cultural_or_philosophical_impact": "The Fallen Astronaut memorial placed by Scott and Irwin remains the only recognized artistic memorial on another celestial world, honoring human sacrifice in space exploration.",
+      "source_refs": [
+        "src_a15_mission_overview",
+        "src_a15_nssdca_spacecraft"
+      ]
+    }
+  },
+  "images": [],
+  "model_3d": null,
+  "sources": [
+    {
+      "source_id": "src_a15_nssdca_spacecraft",
+      "title": "Apollo 15 Lunar Module / ALSEP Spacecraft Details (1971-063C)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+      "publishing_organization": "NASA Space Science Data Coordinated Archive (NSSDCA)",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2024-01-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "meet_the_technology",
+        "the_journey",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_a15_mission_overview",
+      "title": "NASA Apollo 15 Mission Overview",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo15.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-07-26",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "the_journey",
+        "scientific_discoveries",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_a15_landing_coordinates",
+      "title": "Apollo Landing Sites Coordinates (LRO DE421 Ephemeris)",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2022-11-04",
+      "topics_supported": [
+        "mission_and_purpose",
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_a15_lrv_handbook",
+      "title": "Lunar Roving Vehicle Operations Handbook (LS006-002-2H)",
+      "url": "https://ntrs.nasa.gov/citations/19710015566",
+      "publishing_organization": "NASA Marshall Space Flight Center / Boeing",
+      "source_type": "NASA Technical Report (NTRS)",
+      "publication_date": "1971-04-19",
+      "topics_supported": [
+        "meet_the_technology",
+        "the_journey"
+      ]
+    },
+    {
+      "source_id": "src_a15_heat_flow_experiment",
+      "title": "Apollo 15 Heat Flow Experiment (1971-063C-06)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-06",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2023-09-15",
+      "topics_supported": [
+        "meet_the_technology",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_a15_lrrr_experiment",
+      "title": "Apollo 15 Laser Ranging Retroreflector (1971-063C-08)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-08",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2023-09-15",
+      "topics_supported": [
+        "meet_the_technology",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_a15_pse_experiment",
+      "title": "Apollo 15 Passive Seismic Experiment (1971-063C-01)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-01",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2023-09-15",
+      "topics_supported": [
+        "meet_the_technology",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_a15_hardware_locations",
+      "title": "Apollo Lunar Module Locations",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apolloloc.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2022-11-04",
+      "topics_supported": [
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_a15_impact_sites",
+      "title": "Apollo Lunar Impact Sites Table",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_impact.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2022-11-04",
+      "topics_supported": [
+        "the_journey",
+        "where_is_it_now"
+      ]
+    }
+  ],
+  "verification_status": {
+    "overall_status": "VERIFIED",
+    "step_verified": "Step 3.2",
+    "verified_date": "2026-11-14",
+    "unresolved_conflicts_count": 0,
+    "preservation_notes": "All technical and timeline details verified against NASA Apollo 15 flight evaluation reports and Boeing LRV handbook."
+  },
+  "metadata": {
+    "created_at": "2026-11-14T15:30:00Z",
+    "updated_at": "2026-11-14T15:30:00Z",
+    "schema_version": "1.0.0"
+  }
+}

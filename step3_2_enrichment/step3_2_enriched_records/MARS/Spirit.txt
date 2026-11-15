@@ -1,0 +1,109 @@
+# Equipment Data: Mars Exploration Rover Spirit (MER-A)
+
+## 1. Meet the Explorer
+- **Equipment Name:** Spirit (Mars Exploration Rover A / MER-A)
+- **Alternate Designations:** Mars Exploration Rover 2 (MER 2), Spacecraft: MER-A, COSPAR ID: 2003-027A
+- **Landing Site Station Name:** Columbia Memorial Station (named in honor of the seven astronauts lost in the Space Shuttle Columbia STS-107 disaster)
+- **Image References:**
+  - True-color summit panorama from Husband Hill (Pancam): PIA03175
+  - Home Plate volcanic "bomb sag" and layered deposits: Caption in source file (credit: NASA/JPL-Caltech/USGS/Cornell)
+  - Bright silica soil churned up at "Gertrude Weise": Caption in source file (credit: NASA/JPL/Cornell)
+  - Comanche rock carbonate outcrop: Caption in source file (credit: NASA/JPL-Caltech/Cornell University)
+- **Introduction:**
+  Spirit (MER-A) was the first of NASA's twin Mars Exploration Rovers sent to explore the Red Planet in search of clues to past water and environmental habitability. Landing inside the vast impact basin of Gusev Crater on January 4, 2004 UTC (January 3 PST), Spirit was designed for a 90-sol (three-month) prime mission. Nicknamed a "wonderful workhorse," Spirit operated on Mars for 6 years, 2 months, and 19 days—more than 25 times its intended lifespan. Despite losing the use of its right-front wheel in 2006, Spirit turned this mechanical failure into a major scientific discovery by dragging the locked wheel to unearth deposits of nearly pure silica, proving the existence of ancient volcanic hot springs or hydrothermal steam vents.
+
+## 2. Mission & Purpose
+- **Mission Name:** Mars Exploration Rover (MER) Mission
+- **Program & Management:** NASA Mars Exploration Program / Jet Propulsion Laboratory (JPL)
+- **Type:** Robotic Six-Wheeled Geologic Rover
+- **Destination:** Gusev Crater, Mars
+- **Landing Site Coordinates:**
+  - 14.5692° S latitude, 175.4729° E longitude (Columbia Memorial Station; landed ~8 miles / 13.4 km from target center inside Gusev Crater)
+- **Purpose & Objectives:**
+  - Investigate Gusev Crater, an ancient crater basin hypothesized to have once held a giant lake fed by Ma'adim Vallis.
+  - Search for and characterize rocks and soils bearing mineralogical evidence of past liquid water (carbonates, sulfates, silica, iron oxides).
+  - Determine the geologic processes that shaped the local terrain (volcanism, impact cratering, sedimentary deposition, hydrothermal action).
+  - Provide "ground truth" calibration for Mars orbital observations (Mars Global Surveyor, 2001 Mars Odyssey).
+  - Assess whether the past Martian environment in Gusev Crater was ever hospitable to microbial life.
+
+## 3. Meet the Technology
+- **Physical Specifications:**
+  - **Rover Mass:** 185.0 kg metric (recorded as 405 pounds in Spirit mission overview; converted precisely as 407.9 lb); total spacecraft launch mass with entry aeroshell: 1,062 kg (2,341 lb).
+  - **Dimensions:** Golf-cart sized; 4.9 ft (1.5 m) high, 7.5 ft (2.3 m) wide, 5.2 ft (1.6 m) long.
+- **Mobility System (Rocker-Bogie):**
+  - Six aluminum wheels with cleats, each with independent drive motor.
+  - Front and rear steering motors allowing the rover to turn in place (360 degrees).
+  - Rocker-bogie suspension system designed to climb over obstacles larger than a wheel diameter (up to 25 cm / 10 inches) while keeping all six wheels in ground contact.
+- **Power & Thermal:**
+  - Multi-panel gallium arsenide solar array mounted on top deck, generating up to ~700 to 900 watt-hours per sol under clear skies.
+  - Two rechargeable lithium-ion batteries.
+  - Radioisotope heater units (RHUs) containing small pellets of plutonium-238 plus electrical resistance heaters to protect electronics from cold Martian nights.
+- **Computer & Avionics:**
+  - Radiation-hardened 20 MHz BAE RAD6000 microprocessor with 128 MB DRAM, 256 MB flash memory, and 3 MB EEPROM running VxWorks RTOS.
+- **Communications:**
+  - Steerable High-Gain Antenna (HGA) and Low-Gain Antenna (LGA) for direct-to-Earth X-band communication via the Deep Space Network.
+  - Ultra-High Frequency (UHF) dipole antenna for high-bandwidth relays through Mars Global Surveyor and 2001 Mars Odyssey orbiters.
+- **Science Payload (Athena Science Package):**
+  1. **Pancam (Panoramic Camera):** Mast-mounted stereo multispectral color CCD camera (1.5 m above ground).
+  2. **Navcam (Navigation Camera):** Mast-mounted stereo wide-angle black-and-white camera.
+  3. **Mini-TES (Miniature Thermal Emission Spectrometer):** Infrared spectrometer for identifying rock and mineral compositions from a distance.
+  4. **Hazcams (Hazard Avoidance Cameras):** Four black-and-white fisheye cameras on front and rear chassis.
+  5. **Instrument Deployment Device (IDD / Robotic Arm):** Three-jointed arm carrying:
+     - **Microscopic Imager (MI):** Extreme close-up camera revealing grain scale textures.
+     - **Mössbauer Spectrometer (MB):** Analyzed iron-bearing mineralogy (hematite, olivine, pyroxene).
+     - **Alpha Particle X-ray Spectrometer (APXS):** Quantified elemental rock chemistry.
+     - **Rock Abrasion Tool (RAT):** Motorized diamond-tipped grinding head to scrape off weathered rinds and expose fresh interior rock.
+     - **Magnetic Collector Array:** Permanent magnets to isolate magnetic airborne dust particles.
+
+## 4. The Journey
+- **Launch:** June 10, 2003, at 17:58:47 UTC (10:58:47 PDT) from Cape Canaveral SLC-17A aboard a Delta II 7925-9.5 rocket.
+- **Landing (January 4, 2004 UTC / Jan 3 PST):**
+  - Direct atmospheric entry protected by an ablative heat shield.
+  - Parachute deployed at ~4–5 miles (6–7.5 km) altitude; heat shield jettisoned; rover lowered on a tether.
+  - Four giant airbags inflated; three solid retrorockets fired 28 ft (8.5 m) above ground to arrest descent speed.
+  - Impacted surface at ~46 ft/s (14 m/s); bounced 28 times and rolled to a stop inside Gusev Crater.
+- **Mission Execution & Key Milestones:**
+  - **Flash Memory Crisis (Jan 21, 2004):** A critical memory overload prevented the computer from sleeping; ground controllers reformatted flash memory and restored full operations by Feb 5.
+  - **First Rock Grinding:** On Feb 6, 2004, used the RAT to grind rock "Adirondack"—the first mechanical rock grinding on another planet.
+  - **Leaving the Plains:** Traversed from Bonneville Crater across the basalt plains to the Columbia Hills (over 3 km away).
+  - **Summiting Husband Hill:** Spent 2005 climbing Husband Hill, reaching the summit on September 29, 2005, capturing a 360-degree true-color vista of Gusev Crater.
+  - **Cleaning Events:** In March 2005, multiple dust devils swept directly over Spirit, blowing dust off the solar panels and boosting power from 60% back up to 93%.
+  - **Mechanical Failure & Discovery (2006):** In early 2006, the right-front wheel drive motor permanently failed. Driving in reverse while dragging the frozen wheel churned a deep trench in the soil, unearthing brilliant white deposits of 90% pure silica at "Gertrude Weise" near Home Plate.
+  - **Trapped at Troy (May 1, 2009):** While driving around the western edge of Home Plate, Spirit broke through an iron-sulfate crust and became stuck in loose, powdery hidden sand at a site dubbed "Troy." On Nov 28, 2009, the right-rear wheel also failed.
+  - **Transition to Stationary Station (Jan 2010):** NASA transitioned Spirit to a stationary science platform to study precession of Mars' rotational axis.
+  - **Final Transmission:** On March 22, 2010, facing a severe Martian winter with low solar power and an unfavorable southward tilt, Spirit fell silent.
+  - **Mission Conclusion:** After sending over 1,300 recovery commands, NASA officially declared mission completion on May 25, 2011.
+  - **Final Odometer:** 4.8 miles (7.73 km); total lifetime: 2,210 sols (over 6 years).
+
+## 5. Scientific Discoveries
+- **Hydrothermal Hot Springs & Silica Deposits:**
+  - Uncovered 90% pure amorphous silica at Home Plate. On Earth, deposits of this purity form exclusively in hot spring hydrothermal vents or volcanic fumaroles, demonstrating that ancient Mars possessed heated water systems capable of supporting extremophile microbial life.
+- **Comanche Carbonate Outcrops:**
+  - Detailed analysis of the "Comanche" rock outcrop revealed it was 10 times richer in magnesium-iron carbonates than any previously studied Martian rock. This proved that ancient Martian waters were near-neutral in pH (non-acidic) and that a thick carbon dioxide atmosphere once existed.
+- **Volcanic Explosions at Home Plate:**
+  - Discovered a "bomb sag" structural feature in stratified rocks at Home Plate, created when a volcanic rock ejected from an explosive steam-driven phreatomagmatic eruption dropped into wet, soft volcanic ash.
+- **Sulfate-Rich Evaporites at "Tyrone":**
+  - Churned bright soils containing heavy concentrations of sulfur and bound water, indicating underground water dissolved minerals and evaporated at the surface.
+- **Atmospheric Dynamics:**
+  - Captured the first motion movies of Martian dust devils scouring the plains of Gusev; documented atmospheric dust opacity (tau) over multi-year seasonal cycles.
+
+## 6. Where Is It Now?
+- **Status:** Inactive stationary rover on the Martian surface; last communicated March 22, 2010; mission concluded May 25, 2011.
+- **Location:** Western edge of the "Home Plate" volcanic plateau, Columbia Hills, Gusev Crater, Mars (14.5692° S, 175.4729° E).
+- **Why Left Behind:** Spirit was designed for in-situ robotic surface exploration without sample return or retrieval capability. The rover became permanently bogged down in soft sand and lost heating power during the cold Martian winter.
+
+## 7. Its Legacy
+- Pioneered multi-year robotic overland mobile field science on another world, far exceeding its 90-sol design envelope.
+- Provided the first conclusive evidence that Mars once had active hydrothermal systems with neutral-pH, mineral-rich liquid water.
+- Proved the long-term viability of the rocker-bogie mobility architecture, solar-powered operations with natural wind-cleaning events, and autonomous visual navigation on planetary surfaces.
+- Directly paved the way for larger planetary science rovers, including Curiosity and Perseverance.
+
+---
+### Source References & Enrichment Provenance
+- NASA Science Mission: Spirit: https://science.nasa.gov/mission/mer-spirit/
+- NASA NSSDCA Master Catalog (Spirit): `2003-027A` (https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A)
+- Siddiqi, Asif A. *Beyond Earth: A Chronicle of Deep Space Exploration, 1958-2016.* NASA History Program Office, 2018.
+- Mars Exploration Rovers Science Highlights: https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
+- JPL News: "NASA Rover Finds Clue to Mars' Past and Environment for Life (Comanche)"
+- JPL News: "Mars Rover Investigates Signs of Steamy Martian Past"
+- **Enrichment Verification:** Confirmed that Curiosity/Perseverance parachute and wheel coding paragraphs remain completely removed. Mass discrepancy (405 lb vs. 408 lb) harmonized to canonical 185.0 kg metric standard with imperial conversion notation.

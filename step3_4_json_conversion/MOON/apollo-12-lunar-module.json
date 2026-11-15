@@ -1,0 +1,533 @@
+{
+  "id": "eq_moon_apollo12_lm",
+  "slug": "apollo-12-lunar-module",
+  "name": "Apollo 12 Lunar Module & ALSEP",
+  "alternate_designations": [
+    "LM-6",
+    "Intrepid",
+    "Apollo 12 LM/ALSEP",
+    "COSPAR: 1969-099C",
+    "NORAD: 04246",
+    "PDS: urn:nasa:pds:context:instrument_host:spacecraft.a12c"
+  ],
+  "category": "Moon",
+  "equipment_type": "Lunar Module & Science Package",
+  "target_body": "The Moon",
+  "short_description": "The Apollo 12 Lunar Module Intrepid achieved humanity's first pinpoint extraterrestrial landing on November 19, 1969, touching down ~180 meters from Surveyor 3. Intrepid deployed the first complete nuclear-powered ALSEP station and retrieved parts of Surveyor 3 for Earth analysis.",
+  "topics": {
+    "meet_the_explorer": {
+      "topic_number": 1,
+      "title": "Meet the Explorer",
+      "introduction": "The Apollo 12 Lunar Module 'Intrepid' was the second crewed spacecraft to land on the Moon. Flown by Commander Charles P. 'Pete' Conrad and Lunar Module Pilot Alan L. Bean, with Command Module Pilot Richard F. Gordon Jr. in lunar orbit, Intrepid executed the first pinpoint lunar landing, touching down within walking distance (~180 meters) of the robotic Surveyor 3 lander. Intrepid deployed the first complete, nuclear-powered Apollo Lunar Surface Experiments Package (ALSEP), which transmitted scientific data continuously to Earth for nearly eight years.",
+      "equipment_identity": {
+        "formal_name": "Apollo 12 Lunar Module (LM-6) & Apollo Lunar Surface Experiments Package (ALSEP)",
+        "call_sign_or_nickname": "Intrepid",
+        "cospar_id": "1969-099C",
+        "norad_id": "04246",
+        "pds_id": "urn:nasa:pds:context:instrument_host:spacecraft.a12c",
+        "memorial_station_name": null
+      },
+      "sub_components_represented": [
+        {
+          "name": "Apollo 12 LM Descent Stage",
+          "role": "Octagonal rocket stage with landing gear, equipment bays, tool carrier, and launch platform for ascent stage",
+          "status_at_site": "Intact in Oceanus Procellarum near Surveyor Crater rim"
+        },
+        {
+          "name": "Apollo 12 LM Ascent Stage",
+          "role": "Pressurized crew cabin with ascent propulsion and guidance systems",
+          "status_at_site": "Deliberately crashed into lunar surface on November 20, 1969, to create an artificial moonquake"
+        },
+        {
+          "name": "ALSEP Central Station & SNAP-27 RTG",
+          "role": "Nuclear-powered geophysical research station transmitting continuous surface data",
+          "status_at_site": "Located at ~3.0094° S, 23.4246° W; operated until shutdown on September 30, 1977"
+        }
+      ],
+      "source_refs": [
+        "src_a12_nssdca_spacecraft",
+        "src_a12_mission_overview"
+      ]
+    },
+    "mission_and_purpose": {
+      "topic_number": 2,
+      "title": "Mission & Purpose",
+      "mission_name": "Apollo 12",
+      "program": "Apollo Program",
+      "sponsoring_agencies": [
+        "NASA - Office of Manned Space Flight",
+        "NASA - Office of Space Science"
+      ],
+      "disciplines": [
+        "Human Spaceflight",
+        "Lunar Geology",
+        "Geophysics",
+        "Space Physics (Fields & Particles)"
+      ],
+      "destination": {
+        "body": "The Moon",
+        "region_name": "Oceanus Procellarum (Ocean of Storms)",
+        "targeted_feature": "Surveyor Crater basaltic mare plain"
+      },
+      "landing_or_orbital_coordinates": {
+        "latitude_deg": -3.0128,
+        "longitude_deg": -23.4219,
+        "coordinate_standard": "LRO DE421 Ephemeris Standard (Nominal landing site: 3.0128° S, 23.4219° W)",
+        "coordinate_discrepancies": [
+          {
+            "source": "NSSDCA ALSEP Station Coordinates (Nominal)",
+            "value": "3.0094° S, 23.4246° W",
+            "notes": "Astronaut-reported surface placement coordinates relative to the LM descent stage."
+          },
+          {
+            "source": "LRO Photogrammetric Site Catalog",
+            "value": "-3.0098° S, -23.4249° W",
+            "notes": "High-precision LROC photogrammetric coordinates in DE421 ephemeris frame."
+          }
+        ]
+      },
+      "objectives": [
+        "Demonstrate pinpoint landing capability on the lunar surface.",
+        "Perform two extended surface EVAs totaling nearly 8 hours.",
+        "Emplace and activate the first full ALSEP geophysical station powered by a SNAP-27 RTG.",
+        "Investigate the Surveyor 3 robotic spacecraft and recover hardware components (TV camera, soil scoop, tubing) to analyze the effects of 2.5 years of lunar environmental exposure.",
+        "Collect extensive rock, soil, and core tube samples across a 1.3 km geological traverse."
+      ],
+      "source_refs": [
+        "src_a12_mission_overview",
+        "src_a12_landing_coordinates"
+      ]
+    },
+    "meet_the_technology": {
+      "topic_number": 3,
+      "title": "Meet the Technology",
+      "architecture_description": "Two-stage Apollo Lunar Module featuring deep-throttling descent rocket engine and constant-thrust ascent engine. Carried the first SNAP-27 nuclear-powered ALSEP station, designed to operate continuously through lunar day and night cycles.",
+      "physical_specifications": {
+        "launch_mass_kg": 15235.0,
+        "dry_mass_kg": 4501.0,
+        "landed_mass_kg": 2118.0,
+        "dimensions": {
+          "height_m": 7.0,
+          "width_or_diameter_m": 4.2,
+          "length_m": 4.2,
+          "span_m": 9.4
+        },
+        "mass_discrepancies": []
+      },
+      "propulsion": {
+        "type": "Gimballed deep-throttling descent rocket engine + Fixed ascent engine + 16 RCS thrusters",
+        "engines_or_thrusters": "TRW descent engine (~45,000 N thrust); Bell ascent engine (~15,000 N thrust); 16 Marquardt RCS thrusters (450 N each)",
+        "thrust_rating": "Descent 45,000 N; Ascent 15,000 N; RCS 450 N",
+        "specific_impulse_sec": 311.0,
+        "propellants": [
+          "Aerozine 50",
+          "Nitrogen Tetroxide (N2O4)"
+        ]
+      },
+      "power_system": {
+        "primary_power_source": "Silver-Zinc Batteries (LM) / SNAP-27 Nuclear RTG (ALSEP)",
+        "solar_array_details": null,
+        "battery_specifications": "Six silver-zinc batteries powering the descent and ascent stages during lunar flight and surface operations.",
+        "nuclear_rtg_details": {
+          "model": "SNAP-27 Radioisotope Thermoelectric Generator",
+          "fuel_isotope": "Plutonium-238 (Pu-238)",
+          "launch_power_w": 73.5,
+          "power_decay_profile": "17 kg assembly with 4 kg Plutonium-238 fuel capsule inserted on the surface; produced 73.5 W DC at launch, decaying to 63.5 W after 1 year; powered ALSEP uninterrupted for nearly 8 years."
+        }
+      },
+      "communications": {
+        "antennas": [
+          "Steerable parabolic high-gain S-band dish",
+          "In-flight VHF antennas",
+          "ALSEP 58 cm helical antenna pointed toward Earth"
+        ],
+        "frequency_bands": [
+          "S-band (uplink 2119 MHz, downlink 2278.5 MHz)"
+        ],
+        "relay_systems": "Telemetry and science data downlinked directly to Earth ground stations via DSN."
+      },
+      "scientific_instruments": [
+        {
+          "name": "Passive Seismic Experiment",
+          "acronym": "PSE",
+          "instrument_id": "1969-099C-03",
+          "purpose": "Monitor moonquakes, meteoroid impacts, and artificial spacecraft impacts to map the Moon's interior.",
+          "specifications": "11.5 kg triaxial long-period and short-period seismometer in beryllium drum.",
+          "operational_status": "Operated continuously from Nov 1969 until station shutdown on Sept 30, 1977."
+        },
+        {
+          "name": "Suprathermal Ion Detector Experiment & Cold Cathode Ion Gauge",
+          "acronym": "SIDE/CCIG",
+          "instrument_id": "1969-099C-05",
+          "purpose": "Measure positive ion flux, mass spectra, and neutral atmospheric gas density.",
+          "specifications": "Curved-plate electrostatic analyzer with Wien velocity filter; cold cathode ionization gauge.",
+          "operational_status": "Operated continuously until ALSEP shutdown in Sept 1977."
+        },
+        {
+          "name": "Solar Wind Spectrometer",
+          "acronym": "SWS",
+          "instrument_id": "1969-099C-02",
+          "purpose": "Measure solar wind protons and electrons and their interaction with the lunar surface.",
+          "specifications": "Array of seven modulated Faraday cups pointing in hemispherical directions.",
+          "operational_status": "Operated continuously until ALSEP shutdown in Sept 1977."
+        },
+        {
+          "name": "Solar Wind Composition Experiment",
+          "acronym": "SWC",
+          "instrument_id": "1969-099C-08",
+          "purpose": "Capture solar wind noble gas isotopes in high-purity aluminum foil.",
+          "specifications": "Foil sheet exposed for 18 hours 42 minutes.",
+          "operational_status": "Retrieved and returned to Earth by astronauts."
+        },
+        {
+          "name": "Soil Mechanics Experiment",
+          "acronym": "SM",
+          "instrument_id": "1969-099C-10",
+          "purpose": "Assess bearing strength, packing, cohesion, and trench stability of regolith.",
+          "specifications": "Astronaut bootprints, core tubes, and trench evaluations.",
+          "operational_status": "Completed successfully."
+        }
+      ],
+      "associated_surface_vehicles_or_stations": [
+        {
+          "entity_name": "Apollo 12 ALSEP Central Station",
+          "category": "Nuclear Geophysical Station",
+          "technical_summary": "First operational ALSEP station powered by a SNAP-27 RTG, transmitting continuous multi-instrument science data for 7 years 10 months.",
+          "specifications": {
+            "mass_kg": 25.0,
+            "volume_cm3": 34800,
+            "power_source": "SNAP-27 RTG (73.5 W DC)",
+            "downlink_freq_mhz": 2278.5
+          }
+        }
+      ],
+      "source_refs": [
+        "src_a12_nssdca_spacecraft",
+        "src_a12_pse_experiment",
+        "src_a12_side_experiment",
+        "src_a12_sws_experiment"
+      ]
+    },
+    "the_journey": {
+      "topic_number": 4,
+      "title": "The Journey",
+      "journey_narrative": "Launched on November 14, 1969, Apollo 12 survived two lightning strikes during ascent. Intrepid separated from Yankee Clipper in lunar orbit and performed a pinpoint descent into Oceanus Procellarum, landing just 180 meters from Surveyor 3. Conrad and Bean conducted two surface moonwalks totaling 7 hours 45 minutes, deploying the nuclear ALSEP and retrieving hardware from Surveyor 3. Following crew return to orbit, Intrepid's ascent stage was deliberately targeted to crash into the Moon, creating the first artificial moonquake recorded by a planetary seismometer.",
+      "launch_event": {
+        "timestamp_utc": "1969-11-14T16:22:00Z",
+        "local_time": "11:22:00 EST",
+        "launch_site": "Cape Canaveral Pad 39A, Florida",
+        "launch_vehicle": "Saturn V (SA-507)"
+      },
+      "arrival_event": {
+        "event_type": "Landing",
+        "timestamp_utc": "1969-11-19T06:54:35Z",
+        "local_time": "01:54:35 EST",
+        "touchdown_velocity_or_approach_speed": "Touchdown velocity ~1.0 m/s vertical",
+        "arrival_notes": "First pinpoint landing; Conrad manually flew over Surveyor Crater to touch down ~180 meters from Surveyor 3."
+      },
+      "mission_timeline": [
+        {
+          "date_or_sol": "1969-11-14",
+          "phase": "Launch & Lightning Anomaly",
+          "event_description": "Saturn V struck by lightning at T+36s and T+52s; telemetry restored by John Aaron's call 'SCE to AUX'.",
+          "anomaly_or_record_flag": "Lightning Strike Recovery",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1969-11-19",
+          "phase": "Pinpoint Lunar Landing",
+          "event_description": "LM Intrepid touched down smoothly in Oceanus Procellarum, 180 meters from Surveyor 3.",
+          "anomaly_or_record_flag": "First Pinpoint Lunar Landing",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1969-11-19",
+          "phase": "EVA 1",
+          "event_description": "Conrad and Bean deployed ALSEP central station and SNAP-27 RTG; color TV camera burned out when pointed at Sun.",
+          "anomaly_or_record_flag": "First Nuclear ALSEP Station Deployed",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1969-11-20",
+          "phase": "EVA 2 & Surveyor 3 Visitation",
+          "event_description": "Astronauts walked 1.3 km visiting craters and Surveyor 3, cutting off and retrieving ~10 kg of components.",
+          "anomaly_or_record_flag": "First Human Visitation to a Robot on another World",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1969-11-20",
+          "phase": "Liftoff & Deliberate LM Impact",
+          "event_description": "Ascent stage launched from Moon at 14:25:47 UT; docked with Yankee Clipper. Jettisoned and retro-fired to crash at 3.94° S, 21.20° W (338.80° E) at 22:17:17.7 UT, creating the first artificial moonquake.",
+          "anomaly_or_record_flag": "First Recorded Artificial Moonquake",
+          "discrepancy_note": "Impact longitude 21.20° W is mathematically equivalent to 338.80° E in positive-east coordinates."
+        }
+      ],
+      "operational_totals": {
+        "total_duration_days_or_sols": "Total lunar surface stay: 31 hours, 31 minutes, 12 seconds",
+        "distance_traversed_km": 1.35,
+        "flights_completed": null,
+        "orbits_completed": 45,
+        "images_returned": "Over 1,600 still photographs",
+        "samples_collected_kg": 34.35
+      },
+      "source_refs": [
+        "src_a12_mission_overview",
+        "src_a12_nssdca_spacecraft",
+        "src_a12_impact_sites"
+      ]
+    },
+    "scientific_discoveries": {
+      "topic_number": 5,
+      "title": "Scientific Discoveries",
+      "summary_narrative": "Apollo 12 proved that the Moon transmits seismic energy with minimal attenuation ('ringing like a bell') and returned the first engineered artifacts exposed to decades of space weathering.",
+      "key_discoveries": [
+        {
+          "title": "The Moon 'Rings Like a Bell' (Artificial Moonquake)",
+          "discovery_category": "Geophysics & Internal Structure",
+          "instruments_involved": [
+            "Passive Seismic Experiment"
+          ],
+          "description": "The deliberate impact of Intrepid's ascent stage (~60 km from the seismometer) caused seismic reverberations lasting over an hour, proving that the lunar crust is intensely dry, fractured, and lacks fluid damping.",
+          "scientific_impact": "Revolutionized lunar seismology and internal structure models, establishing the technique of controlled impacts for seismic soundings.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Materials Weathering of Returned Surveyor 3 Parts",
+          "discovery_category": "Engineering & Materials Science",
+          "instruments_involved": [
+            "Retrieved Surveyor 3 TV Camera",
+            "Retrieved Sampler Scoop and Tubing"
+          ],
+          "description": "Laboratory analysis of returned parts determined micrometeoroid pitting rates, solar wind sputtering, and radiation-induced optical glass darkening over 31 months of lunar exposure.",
+          "scientific_impact": "Created the empirical foundation for long-duration planetary materials science and spacecraft environmental hardening.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Solar Wind and Magnetotail Plasma Dynamics",
+          "discovery_category": "Space Weather & Heliospheric Physics",
+          "instruments_involved": [
+            "Solar Wind Spectrometer",
+            "Suprathermal Ion Detector"
+          ],
+          "description": "Detected accelerated lunar atmospheric ions, direct solar wind interactions with unshielded regolith, and plasma variations inside Earth's geomagnetic tail.",
+          "scientific_impact": "Mapped the boundary dynamics between the solar wind and Earth's planetary magnetic shield.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        }
+      ],
+      "source_refs": [
+        "src_a12_pse_experiment",
+        "src_a12_surveyor_analysis_sp284"
+      ]
+    },
+    "where_is_it_now": {
+      "topic_number": 6,
+      "title": "Where Is It Now?",
+      "operational_status": "Inactive on Surface",
+      "last_contact_date": "1977-09-30",
+      "is_still_communicating": false,
+      "location_summary": "Descent stage rests in Oceanus Procellarum at 3.0128° S, 23.4219° W. ALSEP central station remains in place (shut down Sept 30, 1977). Ascent stage was destroyed upon commanded impact at 3.94° S, 21.20° W. Retrieved Surveyor 3 parts are preserved in museums.",
+      "resting_coordinates": {
+        "latitude_deg": -3.0128,
+        "longitude_deg": -23.4219,
+        "body_or_frame": "The Moon (LRO DE421 Ephemeris Standard)",
+        "distance_au": null,
+        "interstellar_heading": null
+      },
+      "why_left_behind": "The descent stage served as the launch platform for the ascent stage. The ALSEP station was designed as a long-duration nuclear research station.",
+      "hardware_elements_at_site": [
+        {
+          "element_name": "Apollo 12 LM Descent Stage",
+          "condition": "Intact on the plain ~180 meters northwest of Surveyor Crater"
+        },
+        {
+          "element_name": "ALSEP Central Station & SNAP-27 RTG",
+          "condition": "Located at 3.0094° S, 23.4246° W; inactive since commanded shutdown on September 30, 1977"
+        },
+        {
+          "element_name": "Ascent Stage Impact Crater",
+          "condition": "Crater formed by high-velocity impact at 3.94° S, 21.20° W"
+        }
+      ],
+      "terrestrial_repositories": [
+        {
+          "artifact_name": "Surveyor 3 TV Camera (Retrieved by Apollo 12)",
+          "repository_facility": "Smithsonian National Air and Space Museum",
+          "city_and_country": "Washington, D.C., United States",
+          "exhibition_status": "On permanent public display"
+        },
+        {
+          "artifact_name": "Surveyor 3 Soil Scoop (Retrieved by Apollo 12)",
+          "repository_facility": "NASA Jet Propulsion Laboratory (JPL) Visitor Center",
+          "city_and_country": "Pasadena, California, United States",
+          "exhibition_status": "On public display"
+        },
+        {
+          "artifact_name": "Surveyor 3 Aluminum Tubes & 34.35 kg Lunar Samples",
+          "repository_facility": "Lunar Sample Laboratory Facility, NASA Johnson Space Center (JSC)",
+          "city_and_country": "Houston, Texas, United States",
+          "exhibition_status": "Preserved in curatorial research vaults"
+        }
+      ],
+      "source_refs": [
+        "src_a12_hardware_locations",
+        "src_a12_impact_sites"
+      ]
+    },
+    "its_legacy": {
+      "topic_number": 7,
+      "title": "Its Legacy",
+      "historical_significance": "Apollo 12 proved that pinpoint planetary landings were achievable, demonstrated the multi-year reliability of nuclear RTG power on celestial surfaces, and returned the first materials science data from prolonged extraterrestrial exposure.",
+      "key_contributions": [
+        "Proved that spacecraft could land within walking distance of pre-designated exploration targets on another world.",
+        "Proved that nuclear RTG power systems can provide continuous scientific data through years of extreme day/night thermal cycling.",
+        "Founded active planetary seismology through deliberate spacecraft impacts.",
+        "Returned the first engineered artifacts exposed to long-term space weathering, creating the field of extraterrestrial materials durability."
+      ],
+      "influence_on_future_missions": [
+        {
+          "mission_or_technology": "Targeted Lunar Highlands Landings (Apollo 14–17)",
+          "influence_description": "Pinpoint guidance precision demonstrated on Apollo 12 gave NASA clearance to target complex geological sites like Fra Mauro, Hadley Rille, and Taurus-Littrow."
+        },
+        {
+          "mission_or_technology": "Outer Solar System RTG Applications",
+          "influence_description": "The flawless 8-year performance of the SNAP-27 RTG validated radioisotope thermoelectric generators for Viking, Voyager, Galileo, Cassini, Curiosity, and Perseverance."
+        }
+      ],
+      "cultural_or_philosophical_impact": "Pete Conrad's joyous first words on the surface ('Whoopee! Man, that may have been a small one for Neil, but that's a long one for me') captured the human spirit of exploration.",
+      "source_refs": [
+        "src_a12_mission_overview",
+        "src_a12_nssdca_spacecraft"
+      ]
+    }
+  },
+  "images": [],
+  "model_3d": null,
+  "sources": [
+    {
+      "source_id": "src_a12_nssdca_spacecraft",
+      "title": "Apollo 12 Lunar Module / ALSEP Spacecraft Details (1969-099C)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+      "publishing_organization": "NASA Space Science Data Coordinated Archive (NSSDCA)",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2024-01-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "meet_the_technology",
+        "the_journey",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_a12_mission_overview",
+      "title": "NASA Apollo 12 Mission Overview",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo12info.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-07-20",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "the_journey",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_a12_landing_coordinates",
+      "title": "Apollo Landing Sites Coordinates (LRO DE421 Ephemeris)",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2022-11-04",
+      "topics_supported": [
+        "mission_and_purpose",
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_a12_pse_experiment",
+      "title": "Apollo 12 Passive Seismic Experiment (1969-099C-03)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-099C-03",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2023-09-15",
+      "topics_supported": [
+        "meet_the_technology",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_a12_side_experiment",
+      "title": "Apollo 12 Suprathermal Ion Detector Experiment (1969-099C-05)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-099C-05",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2023-09-15",
+      "topics_supported": [
+        "meet_the_technology",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_a12_sws_experiment",
+      "title": "Apollo 12 Solar Wind Spectrometer Experiment (1969-099C-02)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-099C-02",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2023-09-15",
+      "topics_supported": [
+        "meet_the_technology",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_a12_impact_sites",
+      "title": "Apollo Lunar Impact Sites Table",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_impact.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2022-11-04",
+      "topics_supported": [
+        "the_journey",
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_a12_hardware_locations",
+      "title": "Apollo Lunar Module Locations",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apolloloc.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2022-11-04",
+      "topics_supported": [
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_a12_surveyor_analysis_sp284",
+      "title": "Analysis of Surveyor 3 Material and Photographs Returned by Apollo 12 (NASA SP-284)",
+      "url": "http://nssdcftp.gsfc.nasa.gov/miscellaneous/documents/b16023.pdf",
+      "publishing_organization": "NASA Manned Spacecraft Center",
+      "source_type": "Official Historical Monograph",
+      "publication_date": "1972-01-01",
+      "topics_supported": [
+        "scientific_discoveries",
+        "where_is_it_now"
+      ]
+    }
+  ],
+  "verification_status": {
+    "overall_status": "VERIFIED_WITH_ANNOTATIONS",
+    "step_verified": "Step 3.2",
+    "verified_date": "2026-11-14",
+    "unresolved_conflicts_count": 1,
+    "preservation_notes": "Preserves coordinate standard differences for the ALSEP central station (nominal mission coordinates vs LRO DE421 photogrammetry) and confirms mathematical equivalence of impact longitude (21.20° W = 338.80° E)."
+  },
+  "metadata": {
+    "created_at": "2026-11-14T15:30:00Z",
+    "updated_at": "2026-11-14T15:30:00Z",
+    "schema_version": "1.0.0"
+  }
+}

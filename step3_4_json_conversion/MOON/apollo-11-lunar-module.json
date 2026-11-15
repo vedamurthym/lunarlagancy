@@ -1,0 +1,526 @@
+{
+  "id": "eq_moon_apollo11_lm",
+  "slug": "apollo-11-lunar-module",
+  "name": "Apollo 11 Lunar Module & EASEP",
+  "alternate_designations": [
+    "LM-5",
+    "Eagle",
+    "Apollo 11 LM/EASEP",
+    "COSPAR: 1969-059C",
+    "NORAD: 04041",
+    "PDS: urn:nasa:pds:context:instrument_host:spacecraft.a11e"
+  ],
+  "category": "Moon",
+  "equipment_type": "Lunar Module & Science Package",
+  "target_body": "The Moon",
+  "short_description": "The Apollo 11 Lunar Module Eagle was the historic first crewed vehicle to land on the Moon on July 20, 1969, carrying Neil Armstrong and Buzz Aldrin. Mounted to its descent stage was the Early Apollo Scientific Experiment Package (EASEP), deploying the first lunar surface experiments.",
+  "topics": {
+    "meet_the_explorer": {
+      "topic_number": 1,
+      "title": "Meet the Explorer",
+      "introduction": "The Apollo 11 Lunar Module 'Eagle' was the historic first crewed space vehicle to land on the Moon. Piloted by Commander Neil A. Armstrong and Lunar Module Pilot Edwin E. 'Buzz' Aldrin, Jr., with Command Module Pilot Michael Collins in lunar orbit, Eagle carried the first humans to the lunar surface. Mounted to the descent stage was the Early Apollo Scientific Experiment Package (EASEP), the precursor to the later ALSEP stations, consisting of self-contained surface experiments designed to be deployed and left on the Moon.",
+      "equipment_identity": {
+        "formal_name": "Apollo 11 Lunar Module (LM-5) & Early Apollo Scientific Experiment Package (EASEP)",
+        "call_sign_or_nickname": "Eagle",
+        "cospar_id": "1969-059C",
+        "norad_id": "04041",
+        "pds_id": "urn:nasa:pds:context:instrument_host:spacecraft.a11e",
+        "memorial_station_name": "Tranquility Base"
+      },
+      "sub_components_represented": [
+        {
+          "name": "Apollo 11 LM Descent Stage",
+          "role": "Octagonal rocket stage with landing gear, scientific equipment bay (MESA), and launch platform for ascent stage",
+          "status_at_site": "Intact at Tranquility Base"
+        },
+        {
+          "name": "Apollo 11 LM Ascent Stage",
+          "role": "Pressurized crew cabin with ascent propulsion, avionics, AGC, and rendezvous systems",
+          "status_at_site": "Presumed crashed on lunar surface post-jettison (exact location unknown)"
+        },
+        {
+          "name": "Early Apollo Scientific Experiment Package (EASEP / PSEP)",
+          "role": "Solar-powered geophysical station deploying seismic and dust monitoring instruments",
+          "status_at_site": "Resting at Tranquility Base (inactive since August 27, 1969)"
+        },
+        {
+          "name": "Laser Ranging Retroreflector (LRRR)",
+          "role": "100-corner-cube optical retroreflector array for Earth-Moon laser distance measurements",
+          "status_at_site": "Resting passively at Tranquility Base (still active for laser reflection)"
+        }
+      ],
+      "source_refs": [
+        "src_a11_nssdca_spacecraft",
+        "src_a11_mission_overview"
+      ]
+    },
+    "mission_and_purpose": {
+      "topic_number": 2,
+      "title": "Mission & Purpose",
+      "mission_name": "Apollo 11",
+      "program": "Apollo Program",
+      "sponsoring_agencies": [
+        "NASA - Office of Manned Space Flight (United States)"
+      ],
+      "disciplines": [
+        "Human Spaceflight",
+        "Planetary Science",
+        "Geophysics",
+        "Celestial Mechanics"
+      ],
+      "destination": {
+        "body": "The Moon",
+        "region_name": "Mare Tranquillitatis (Sea of Tranquility)",
+        "targeted_feature": "Flat basaltic mare volcanic plains (Tranquility Base)"
+      },
+      "landing_or_orbital_coordinates": {
+        "latitude_deg": 0.67416,
+        "longitude_deg": 23.47314,
+        "coordinate_standard": "LRO DE421 Ephemeris Reference Frame (Nominal mission log: 0.67° N, 23.47° E)",
+        "coordinate_discrepancies": [
+          {
+            "source": "NASA Lunar Landing Site Coordinates (DE421 Ephemeris)",
+            "value": "0.67416° N, 23.47314° E",
+            "notes": "Modern high-precision coordinates established by Lunar Reconnaissance Orbiter photogrammetry."
+          },
+          {
+            "source": "Apollo 11 Flight Mission Report (Nominal)",
+            "value": "0.67° N, 23.47° E",
+            "notes": "Historical nominal landing coordinates reported during mission operations in July 1969."
+          }
+        ]
+      },
+      "objectives": [
+        "Achieve national goal of landing astronauts on the lunar surface and returning them safely to Earth.",
+        "Perform the first extravehicular activity (EVA) on the lunar surface.",
+        "Emplace scientific instruments to record seismic events, solar wind flux, and lunar dust accumulation.",
+        "Emplace a passive retroreflector array to measure the exact Earth-Moon distance over decades via laser ranging.",
+        "Gather geological rock and core tube soil samples from the lunar surface."
+      ],
+      "source_refs": [
+        "src_a11_mission_overview",
+        "src_a11_landing_coordinates"
+      ]
+    },
+    "meet_the_technology": {
+      "topic_number": 3,
+      "title": "Meet the Technology",
+      "architecture_description": "Two-stage spacecraft designed exclusively for lunar orbit descent, landing, surface habitat, and lunar liftoff to rendezvous with Command Module Columbia. Consisted of a lower descent stage with landing legs and throttling rocket, and an upper ascent stage with pressurized stand-up crew cabin.",
+      "physical_specifications": {
+        "launch_mass_kg": 15103.0,
+        "dry_mass_kg": 4479.0,
+        "landed_mass_kg": 2034.0,
+        "dimensions": {
+          "height_m": 7.0,
+          "width_or_diameter_m": 4.2,
+          "length_m": 4.2,
+          "span_m": 9.4
+        },
+        "mass_discrepancies": [
+          {
+            "reported_value": "Descent stage dry mass: 2,034 kg; Ascent stage dry mass: 2,445 kg",
+            "source": "NSSDCA Master Catalog 1969-059C",
+            "resolution_or_erratum": "Total dry mass combined is 4,479 kg; total spacecraft mass at separation with propellants was 15,103 kg."
+          }
+        ]
+      },
+      "propulsion": {
+        "type": "Deep-throttling ablative descent engine + Fixed constant-thrust ascent engine + 16 RCS thrusters",
+        "engines_or_thrusters": "TRW descent engine (45,000 N max thrust, gimballed); Bell Aerosystems ascent engine (15,000 N constant thrust); Marquardt RCS (16 x 450 N quads)",
+        "thrust_rating": "Descent ~45,000 N; Ascent ~15,000 N; RCS 450 N each",
+        "specific_impulse_sec": 311.0,
+        "propellants": [
+          "Aerozine 50 (Hydrazine / UDMH blend)",
+          "Nitrogen Tetroxide (N2O4)"
+        ]
+      },
+      "power_system": {
+        "primary_power_source": "Silver-Zinc Batteries (LM) / Solar Arrays with Radioisotope Heater Units (EASEP)",
+        "solar_array_details": "EASEP powered by two canted rectangular solar panels with 2,520 silicon solar cells delivering 31 to 46 Watts nominal (daytime only).",
+        "battery_specifications": "Ascent stage powered by 2 silver-zinc batteries (296 Ah); descent stage powered by 4 silver-zinc batteries (1,600 Ah total capacity).",
+        "nuclear_rtg_details": {
+          "model": "Radioisotope Heater Units (RHU - Polonium/Plutonium-238)",
+          "fuel_isotope": "Pu-238 / Po-238",
+          "launch_power_w": 30.0,
+          "power_decay_profile": "Dual 15-Watt thermal isotope heaters provided heat to EASEP electronics to survive nighttime freeze (no long-duration electrical RTG was flown on Apollo 11)."
+        }
+      },
+      "communications": {
+        "antennas": [
+          "Steerable parabolic S-band dish antenna",
+          "Two in-flight omnidirectional VHF antennas",
+          "Parabolic rendezvous radar antenna",
+          "EASEP cylindrical helical antenna mast"
+        ],
+        "frequency_bands": [
+          "S-band (uplink 2119 MHz, downlink 2276.5 MHz)",
+          "VHF (astronaut suit EVA communications and LM-to-CSM links)"
+        ],
+        "relay_systems": "S-band voice, telemetry, and biomedical data transmitted directly to Earth via NASA Deep Space Network and Manned Space Flight Network."
+      },
+      "scientific_instruments": [
+        {
+          "name": "Early Apollo Scientific Experiment Package - Passive Seismic Experiment",
+          "acronym": "PSEP",
+          "instrument_id": "1969-059C-03",
+          "purpose": "Detect lunar seismic activity, moonquakes, meteoroid impacts, and free oscillations to determine internal crustal structure.",
+          "specifications": "47.7 kg stowed mass, 113,300 cm³ volume; triaxial long-period and vertical short-period seismometer in 23 cm x 29 cm beryllium drum.",
+          "operational_status": "Operated successfully for 21 days until commands ceased on August 27, 1969."
+        },
+        {
+          "name": "Laser Ranging Retroreflector",
+          "acronym": "LRRR",
+          "instrument_id": "1969-059C-04",
+          "purpose": "Provide long-term optical target for ground-based lasers to measure Earth-Moon distance, orbital mechanics, and continental drift.",
+          "specifications": "77 kg pallet holding 100 fused-silica corner cubes mounted in an aluminum folding frame.",
+          "operational_status": "Passive optical reflector; operational continuously from July 21, 1969 to present."
+        },
+        {
+          "name": "Lunar Dust Detector",
+          "acronym": "DTREM",
+          "instrument_id": "1969-059C-05",
+          "purpose": "Measure dust deposition from ascent engine blast, radiation degradation, and temperature extremes on solar cells.",
+          "specifications": "0.27 kg sensor unit with 3 silicon solar cells and 3 nickel resistance thermometers.",
+          "operational_status": "Operated until EASEP station command termination on August 27, 1969."
+        },
+        {
+          "name": "Solar Wind Composition Experiment",
+          "acronym": "SWC",
+          "instrument_id": "1969-059C-02",
+          "purpose": "Trap noble gas ions (He, Ne, Ar, Kr, Xe) in the solar wind for laboratory mass spectrometry on Earth.",
+          "specifications": "Aluminum foil sheet (0.3 m x 1.4 m) deployed on a telescopic staff for 77 minutes.",
+          "operational_status": "Retrieved and returned to Earth."
+        }
+      ],
+      "associated_surface_vehicles_or_stations": [
+        {
+          "entity_name": "Early Apollo Scientific Experiment Package (EASEP)",
+          "category": "Geophysical Station",
+          "technical_summary": "Precursor to the ALSEP stations, consisting of a self-contained central station, solar panels, and PSEP sensor deployed ~17 meters south of the LM.",
+          "specifications": {
+            "mass_kg": 47.7,
+            "power_nominal_w": 40.0,
+            "transmitter_freq_mhz": 2276.5
+          }
+        }
+      ],
+      "source_refs": [
+        "src_a11_nssdca_spacecraft",
+        "src_a11_prelim_science_report",
+        "src_a11_lrrr_experiment",
+        "src_a11_dust_detector_experiment"
+      ]
+    },
+    "the_journey": {
+      "topic_number": 4,
+      "title": "The Journey",
+      "journey_narrative": "Apollo 11 lifted off from Cape Canaveral on July 16, 1969. Eagle separated from Columbia in lunar orbit on July 20, executing a 756-second powered descent. Armstrong manually piloted the lander past a boulder-strewn crater, touching down at 20:17:40 UT. Armstrong and Aldrin performed a historic 2.5-hour moonwalk, deploying EASEP and the retroreflector, and collecting 21.55 kg of samples. Eagle's ascent stage launched the following day, docked with Columbia, and was jettisoned into lunar orbit.",
+      "launch_event": {
+        "timestamp_utc": "1969-07-16T13:32:00Z",
+        "local_time": "09:32:00 EDT",
+        "launch_site": "Cape Canaveral Pad 39A, Florida",
+        "launch_vehicle": "Saturn V (SA-506)"
+      },
+      "arrival_event": {
+        "event_type": "Landing",
+        "timestamp_utc": "1969-07-20T20:17:40Z",
+        "local_time": "16:17:40 EDT (25th Anniversary summary rounds to 4:18 PM EDT)",
+        "touchdown_velocity_or_approach_speed": "Touchdown vertical velocity 0.5 m/s, forward velocity ~0.3 m/s",
+        "arrival_notes": "Program alarms (1202 and 1201) triggered by radar data overload; Armstrong took semi-manual control to maneuver past West Crater boulders."
+      },
+      "mission_timeline": [
+        {
+          "date_or_sol": "1969-07-16",
+          "phase": "Launch & TLI",
+          "event_description": "Launch from Pad 39A; translunar injection burn placed Apollo 11 on lunar trajectory.",
+          "anomaly_or_record_flag": null,
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1969-07-20",
+          "phase": "Lunar Landing",
+          "event_description": "LM Eagle touchdown in Mare Tranquillitatis at 20:17:40 UT. Armstrong radioed: 'Houston, Tranquility Base here - the Eagle has landed.'",
+          "anomaly_or_record_flag": "First Human Landing on another Celestial Body",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1969-07-21",
+          "phase": "Extravehicular Activity (EVA)",
+          "event_description": "Armstrong stepped on Moon at 02:56:15 UT ('One small step'). Aldrin followed 19 min later. EASEP and LRRR deployed; 21.55 kg samples gathered.",
+          "anomaly_or_record_flag": "First Human Surface Moonwalk",
+          "discrepancy_note": "Hatch open-to-close duration was 2h 31m 40s; surface boots-on-regolith duration was 2h 10m for Armstrong and 1h 33m for Aldrin."
+        },
+        {
+          "date_or_sol": "1969-07-21",
+          "phase": "Lunar Surface Liftoff",
+          "event_description": "Ascent stage launched from descent stage launch pad at 17:54:01 UT; docked with Columbia at 21:34:00 UT.",
+          "anomaly_or_record_flag": "First Liftoff from another World",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1969-07-22",
+          "phase": "Ascent Stage Jettison",
+          "event_description": "Ascent stage uncoupled and jettisoned into lunar orbit.",
+          "anomaly_or_record_flag": null,
+          "discrepancy_note": "Primary NSSDCA log records jettison at 00:01:01 UT July 22; retrospective summary cites 23:41 UT July 21 (20-minute uncoupling vs separation burn variance)."
+        }
+      ],
+      "operational_totals": {
+        "total_duration_days_or_sols": "Total lunar surface stay: 21 hours, 36 minutes, 21 seconds",
+        "distance_traversed_km": 0.25,
+        "flights_completed": null,
+        "orbits_completed": 30,
+        "images_returned": "Over 1,400 still photos and several rolls of 16mm/TV film",
+        "samples_collected_kg": 21.55
+      },
+      "source_refs": [
+        "src_a11_mission_overview",
+        "src_a11_nssdca_spacecraft",
+        "src_a11_operations_log"
+      ]
+    },
+    "scientific_discoveries": {
+      "topic_number": 5,
+      "title": "Scientific Discoveries",
+      "summary_narrative": "Apollo 11 transformed planetary science by returning the first pristine extraterrestrial geological samples and establishing continuous laser ranging and seismic measurements from the lunar surface.",
+      "key_discoveries": [
+        {
+          "title": "Lunar Maria Volcanic Origin & Extreme Rock Antiquity",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Sample Return Container",
+            "Geological Hammer and Core Tubes"
+          ],
+          "description": "Analysis of 21.55 kg of basaltic rocks and breccias proved the volcanic origin of lunar maria, complete absence of hydrated minerals, and extreme antiquity (>3.6 billion years), establishing a baseline for solar system crater-chronology.",
+          "scientific_impact": "Disproved hypotheses of a cold, sedimentary Moon and established that the Moon experienced early volcanic melting and differentiation.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Centimeter-Accuracy Earth-Moon Laser Ranging (LRRR)",
+          "discovery_category": "Planetary Dynamics & Celestial Mechanics",
+          "instruments_involved": [
+            "Laser Ranging Retroreflector"
+          ],
+          "description": "Ground lasers firing at the 100-corner-cube fused-silica array measured Earth-Moon distance to centimeter accuracy, tracking lunar orbit recession (~3.8 cm/year) and physical librations.",
+          "scientific_impact": "Supplied continuous tests of Einstein's general relativity (equivalence principle) and measured Earth's continental plate drift over decades.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Seismically Quiet, Rigid Lunar Crust",
+          "discovery_category": "Geophysics & Internal Structure",
+          "instruments_involved": [
+            "Passive Seismic Experiment"
+          ],
+          "description": "Recorded internal background vibrations and established that the lunar crust is intensely dry, highly scattering, and orders of magnitude less seismically active than Earth.",
+          "scientific_impact": "First direct geophysical confirmation of the Moon's structural differentiation and absence of plate tectonics.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Direct Capture of Solar Wind Noble Gases",
+          "discovery_category": "Space Weather & Heliospheric Physics",
+          "instruments_involved": [
+            "Solar Wind Composition Foil"
+          ],
+          "description": "Exposed high-purity aluminum foil captured solar noble gas isotopes (He, Ne, Ar) unimpeded by an atmosphere or magnetic field.",
+          "scientific_impact": "Provided the first direct, uncontaminated isotopic measurements of the Sun's outer corona composition.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        }
+      ],
+      "source_refs": [
+        "src_a11_prelim_science_report",
+        "src_a11_lrrr_experiment",
+        "src_a11_dust_detector_experiment"
+      ]
+    },
+    "where_is_it_now": {
+      "topic_number": 6,
+      "title": "Where Is It Now?",
+      "operational_status": "Inactive on Surface",
+      "last_contact_date": "1969-08-27",
+      "is_still_communicating": false,
+      "location_summary": "Descent stage and EASEP central station rest at Tranquility Base, Mare Tranquillitatis. The passive LRRR remains resting on the regolith and continues reflecting laser pulses. Ascent stage presumed crashed into Moon post-jettison.",
+      "resting_coordinates": {
+        "latitude_deg": 0.67416,
+        "longitude_deg": 23.47314,
+        "body_or_frame": "The Moon (LRO DE421 Ephemeris Standard)",
+        "distance_au": null,
+        "interstellar_heading": null
+      },
+      "why_left_behind": "The descent stage served as the launch platform for the ascent stage and had no propulsion to return. EASEP and LRRR were designed as permanent surface stations.",
+      "hardware_elements_at_site": [
+        {
+          "element_name": "Apollo 11 LM Descent Stage",
+          "condition": "Intact at Tranquility Base with ladder plaque inscribed: 'We came in peace for all mankind'"
+        },
+        {
+          "element_name": "EASEP Central Station & Passive Seismometer",
+          "condition": "Located ~17 meters south of LM at 0.6735° N, 23.4730° E; inactive since August 1969"
+        },
+        {
+          "element_name": "Laser Ranging Retroreflector",
+          "condition": "Located at 0.67345° N, 23.47307° E; optically functional for laser pulses"
+        },
+        {
+          "element_name": "Memorial Artifacts & US Flag",
+          "condition": "Ladder plaque intact; US flag knocked over during ascent blast; memorial silicon disk resting on regolith"
+        }
+      ],
+      "terrestrial_repositories": [
+        {
+          "artifact_name": "Apollo 11 Lunar Rock & Soil Samples (21.55 kg)",
+          "repository_facility": "Lunar Sample Laboratory Facility, NASA Johnson Space Center (JSC)",
+          "city_and_country": "Houston, Texas, United States",
+          "exhibition_status": "Preserved in clean nitrogen vaults; subsamples exhibited in museums worldwide"
+        }
+      ],
+      "source_refs": [
+        "src_a11_hardware_locations",
+        "src_a11_landing_coordinates"
+      ]
+    },
+    "its_legacy": {
+      "topic_number": 7,
+      "title": "Its Legacy",
+      "historical_significance": "Apollo 11 proved that humanity could travel across interplanetary space, land safely on another world, and return, fulfilling the national mandate and opening the planetary exploration era.",
+      "key_contributions": [
+        "First human landing and extravehicular exploration on another celestial world.",
+        "Proved that extraterrestrial regolith could structurally support heavy spacecraft footpads and human mobility.",
+        "Initiated planetary sample return science, returning pristine ancient basalts that established the solar system crater-dating chronology.",
+        "Deployed the Laser Ranging Retroreflector, which remains the longest-operating experiment of the Apollo program, supplying continuous relativistic physics data."
+      ],
+      "influence_on_future_missions": [
+        {
+          "mission_or_technology": "Subsequent Apollo Lunar Sorties (Apollo 12–17)",
+          "influence_description": "Operational protocols, spacesuit mobility data, and descent guidance algorithms established the template for all subsequent Apollo missions."
+        },
+        {
+          "mission_or_technology": "Artemis Program & Modern Lunar Landers",
+          "influence_description": "Tranquility Base serves as the historical benchmark for modern lunar landing precision and surface heritage preservation policies."
+        }
+      ],
+      "cultural_or_philosophical_impact": "Watched live by an estimated 650 million people, Neil Armstrong's first steps became the defining human exploration achievement of the 20th century.",
+      "source_refs": [
+        "src_a11_mission_overview",
+        "src_a11_nssdca_spacecraft"
+      ]
+    }
+  },
+  "images": [],
+  "model_3d": null,
+  "sources": [
+    {
+      "source_id": "src_a11_nssdca_spacecraft",
+      "title": "Apollo 11 Lunar Module / EASEP Spacecraft Details (1969-059C)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+      "publishing_organization": "NASA Space Science Data Coordinated Archive (NSSDCA)",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2024-01-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "meet_the_technology",
+        "the_journey",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_a11_mission_overview",
+      "title": "NASA Apollo 11 Mission Overview",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11info.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-07-20",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "the_journey",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_a11_landing_coordinates",
+      "title": "Apollo Landing Sites Coordinates (LRO DE421 Ephemeris)",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2022-11-04",
+      "topics_supported": [
+        "mission_and_purpose",
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_a11_prelim_science_report",
+      "title": "Apollo 11 Preliminary Science Report (NASA SP-214)",
+      "url": "https://ntrs.nasa.gov/citations/19700010996",
+      "publishing_organization": "NASA Manned Spacecraft Center / NASA Technical Reports Server",
+      "source_type": "NASA Technical Report (NTRS)",
+      "publication_date": "1969-10-01",
+      "topics_supported": [
+        "meet_the_technology",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_a11_lrrr_experiment",
+      "title": "Apollo 11 Laser Ranging Retroreflector (1969-059C-04)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-059C-04",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2023-09-15",
+      "topics_supported": [
+        "meet_the_technology",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_a11_dust_detector_experiment",
+      "title": "Apollo 11 Lunar Dust Detector Experiment (1969-059C-05)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-059C-05",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2023-09-15",
+      "topics_supported": [
+        "meet_the_technology",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_a11_hardware_locations",
+      "title": "Apollo Lunar Module Locations",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apolloloc.html",
+      "publishing_organization": "NASA Goddard Space Flight Center",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2022-11-04",
+      "topics_supported": [
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_a11_operations_log",
+      "title": "Apollo 11 Mission Operations Report (MSC-00171)",
+      "url": "https://ntrs.nasa.gov/citations/19710015566",
+      "publishing_organization": "NASA Manned Spacecraft Center",
+      "source_type": "NASA Technical Report (NTRS)",
+      "publication_date": "1969-11-01",
+      "topics_supported": [
+        "the_journey"
+      ]
+    }
+  ],
+  "verification_status": {
+    "overall_status": "VERIFIED_WITH_ANNOTATIONS",
+    "step_verified": "Step 3.2",
+    "verified_date": "2026-11-14",
+    "unresolved_conflicts_count": 2,
+    "preservation_notes": "Preserves documented archival discrepancies regarding ascent stage jettison timestamp (00:01:01 UT July 22 vs 23:41 UT July 21) and EVA duration definitions (cabin hatch-to-hatch vs surface boots-on-regolith)."
+  },
+  "metadata": {
+    "created_at": "2026-11-14T15:30:00Z",
+    "updated_at": "2026-11-14T15:30:00Z",
+    "schema_version": "1.0.0"
+  }
+}

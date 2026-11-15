@@ -1,0 +1,94 @@
+# Equipment Data: Dawn Spacecraft
+
+## 1. Meet the Explorer
+- **Equipment Name:** Dawn Spacecraft
+- **Alternate Designations:** Discovery 9, COSPAR ID: 2007-043A, NORAD ID: 32249
+- **Image References:**
+  - Interactive mission trajectory simulation: NASA/JPL-Caltech
+  - Crescent Ceres and Occator Crater bright spots imagery: NASA/JPL-Caltech/UCLA/MPS/DLR/IDA
+- **Introduction:**
+  NASA's Dawn mission was an extraordinary interplanetary journey to the asteroid belt and the first spacecraft to orbit two different extraterrestrial destinations. Powered by revolutionary solar electric ion propulsion, Dawn traveled over 4.3 billion miles to explore the two most massive protoplanets in the main asteroid belt between Mars and Jupiter: the dry, rocky, differentiated asteroid **Vesta** and the water- and ice-rich dwarf planet **Ceres**. By characterizing both bodies, Dawn functioned as a "time machine," peering back into the earliest epochs of solar system formation.
+
+## 2. Mission & Purpose
+- **Mission Name:** Dawn (NASA Discovery Program Mission 9)
+- **Program & Management:** NASA Science Mission Directorate / Jet Propulsion Laboratory (JPL)
+- **Type:** Interplanetary Ion-Propulsion Orbiter
+- **Destination:** Main Asteroid Belt (Asteroid 4 Vesta and Dwarf Planet 1 Ceres)
+- **Purpose & Objectives:**
+  - Investigate the role of water and size in terrestrial planet formation and evolutionary divergence.
+  - Characterize the conditions and building blocks of the inner solar system at the dawn of its creation (~4.6 billion years ago).
+  - Determine the internal structure, density, and differentiation of Vesta (dry, rocky protoplanet with metallic core).
+  - Determine the composition, presence of subsurface water/ice, and geologic activity of Ceres (primitive, volatile-rich dwarf planet).
+  - Demonstrate the operational capability of solar electric ion propulsion for long-duration multi-target deep-space orbital missions.
+
+## 3. Meet the Technology
+- **Physical Specifications:**
+  - **Dimensions:** Core bus: 5.4 ft (1.64 m) long, 4.2 ft (1.27 m) wide, 5.8 ft (1.77 m) high.
+  - **Solar Array Span:** 65 feet (19.7 m) tip-to-tip when deployed.
+  - **High-Gain Antenna:** 5.0-foot (1.52 m) parabolic dish.
+  - **Mass:** Spacecraft dry mass: 1,647.1 pounds (747.1 kg); launch mass with fuel: ~2,685 pounds (1,218 kg).
+  - **Propellant:** 937 pounds (425 kg) of high-purity xenon gas for ion propulsion; 100 pounds (45.6 kg) of hydrazine for reaction control attitude thrusters.
+- **Solar Electric Ion Propulsion (NSTAR):**
+  - Carried three 30-cm electrostatic xenon ion thrusters (derived from Deep Space 1 technology).
+  - Thrust mechanism: Electrically bombards xenon with electrons, accelerates positive xenon ions through an electrostatic grid at ~30 km/s (67,000 mph).
+  - Thrust capacity: Ultra-gentle thrust between 19 and 91 millinewtons (0.07 to 0.33 ounces of force). At maximum throttle, accelerating from 0 to 60 mph takes roughly 4 days.
+  - Efficiency (Specific Impulse): ~3,100 seconds—ten times more fuel-efficient than conventional chemical rockets, allowing unprecedented cumulative velocity change (delta-V exceeding 11 km/s).
+- **Power System:**
+  - Two 27-foot solar array wings generating over 10 kW at 1 AU (Earth distance) and ~1.3 kW at Ceres' orbital distance (~3 AU).
+- **Science Payload:**
+  1. **Framing Cameras (FC):** Dual redundant optical cameras (provided by Germany/DLR/MPS) with clear and 7 color filters for geomorphologic mapping, topography, and navigation.
+  2. **Visible and Infrared Mapping Spectrometer (VIR):** Imaging spectrometer (provided by the Italian Space Agency / ASI) covering 0.25 to 5.0 micrometers to map surface mineralogy and hydrated salts.
+  3. **Gamma Ray and Neutron Detector (GRaND):** Detected cosmic-ray secondary emissions to quantify subsurface elemental abundances (H, Fe, Mg, Si, K, Th, U) down to 1 meter depth.
+  4. **Gravity Science:** High-precision X-band radio Doppler tracking measuring spacecraft orbital perturbations to model internal mass distributions and gravity harmonics.
+
+## 4. The Journey
+- **Launch:** September 27, 2007, at 11:34 UTC aboard a Delta II 7925H rocket from Cape Canaveral SLC-17B.
+- **Interplanetary Cruise & Mars Gravity Assist:**
+  - Traveled outward through the solar system under continuous gentle ion thrust.
+  - On February 17, 2009, performed a Mars gravity assist flyby (closest approach 549 km), gaining orbital energy toward the asteroid belt.
+- **Vesta Orbital Phase (July 2011 – September 2012):**
+  - Captured into Vesta orbit on July 16, 2011; spent 14 months orbiting the asteroid across multiple survey altitudes (Survey, HAMO, LAMO).
+  - Departed Vesta on September 5, 2012 (Sept 4 PDT), firing its ion engines to climb out of Vesta's gravity well—the first time a spacecraft ever broke orbit from one extraterrestrial body to travel to another.
+- **Ceres Orbital Phase (March 2015 – November 2018):**
+  - Captured into orbit around Ceres on March 6, 2015, becoming the first spacecraft to visit a dwarf planet.
+  - Prime mission completed June 2016; conducted two extended science campaigns, maneuvering into low elliptical orbits down to just 22 miles (35 km) from the surface.
+- **Operational Totals:**
+  - Traveled >4.3 billion miles (6.9 billion km).
+  - Fired ion engines for 51,385 hours (nearly 6 years of cumulative thrusting).
+  - Completed 3,052 orbits around Vesta and Ceres, returning 100,000 images and 172 GB of science data.
+- **Mission Conclusion:**
+  - Depleted its attitude-control hydrazine propellant around October 31, 2018. Without hydrazine, it could no longer hold its antennas toward Earth or point solar panels at the Sun.
+  - Mission officially concluded on November 1, 2018.
+
+## 5. Scientific Discoveries
+- **Vesta Discoveries (The Dry Protoplanet):**
+  - Confirmed that Vesta is a differentiated protoplanet with a dense iron-nickel core (~110 km radius), rocky mantle, and basaltic crust, closely resembling the terrestrial planets.
+  - Verified that Vesta is the parent body of the HED (howardite, eucrite, diogenite) meteorites found on Earth.
+  - Imaged the colossal Rheasilvia impact basin at the south pole with a central peak rising 14 miles (22 km) high—more than twice the height of Mount Everest.
+  - Mapped a global network of deep equatorial troughs and chasms formed by tectonic deformation following giant impacts.
+- **Ceres Discoveries (The Ocean World Dwarf Planet):**
+  - Discovered that Ceres is an active, volatile-rich world with an icy crust, hydrated salts, and an interior brine reservoir.
+  - Imaged the brilliant reflective spots in Occator Crater (Cerealia Facula and Vinalia Faculae), determined to be sodium carbonate and ammonium salts deposited by recent briny cryovolcanic eruptions.
+  - Identified Ahuna Mons, a 2.5-mile-high (4 km) isolated volcanic dome formed by cryovolcanism (slurry of water ice, salts, and mud).
+  - Detected ubiquitous ammoniated phyllosilicates, suggesting Ceres either formed in the outer solar system beyond Jupiter or accreted material transported from trans-Neptunian regions.
+
+## 6. Where Is It Now?
+- **Status:** Inactive deep-space orbiter; communications ceased late October 2018.
+- **Location:** In a perpetual, stable parking orbit around the dwarf planet Ceres.
+- **Why Left in Orbit (Planetary Protection):**
+  - Rather than being commanded to impact Ceres, Dawn was placed into a highly stable graveyard orbit designed to guarantee that the spacecraft will not collide with Ceres for at least 20 years, and likely for more than 50 to 100 years.
+  - This preserves Ceres' pristine environment and potential subsurface brine reservoirs from biological contamination by any dormant terrestrial spores on the spacecraft.
+
+## 7. Its Legacy
+- Proved that solar electric ion propulsion is a mature, ultra-reliable deep-space technology capable of complex orbital insertions and departures between multiple distant planetary targets.
+- Transformed understanding of planetary embryogenesis, showing how different amounts of water ice produced starkly divergent evolutionary paths between neighboring protoplanets (rocky Vesta vs. icy Ceres).
+- Established dwarf planet Ceres as an active ocean world, expanding the recognized zones of potential habitability in the solar system.
+
+---
+### Source References
+- NASA Science Mission: Dawn: https://science.nasa.gov/mission/dawn/
+- NASA JPL Dawn Mission Archive: https://www.jpl.nasa.gov/missions/dawn/
+- NASA Dawn Objectives: https://science.nasa.gov/mission/dawn/objectives/
+- NASA Dawn Quick Facts: https://science.nasa.gov/mission/dawn/toolkit/quick-facts/
+- NASA Dawn End of Mission: https://science.nasa.gov/mission/dawn/toolkit/end-of-mission/
+- NASA Dawn by the Numbers: https://science.nasa.gov/resource/dawn-by-the-numbers/

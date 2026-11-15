@@ -1,0 +1,544 @@
+{
+  "id": "eq_mars_viking2",
+  "slug": "viking-2",
+  "name": "Viking 2 (Orbiter & Lander)",
+  "alternate_designations": [
+    "Viking-A",
+    "Gerald Soffen Memorial Station",
+    "COSPAR: 1975-083A (Orbiter)",
+    "COSPAR: 1975-083C (Lander)",
+    "NORAD: 08199 (Orbiter)",
+    "NORAD: 09405 (Lander)"
+  ],
+  "category": "Mars",
+  "equipment_type": "Interplanetary Orbiter & Lander",
+  "target_body": "Mars",
+  "short_description": "Viking 2 was the twin sister mission to Viking 1, landing in Utopia Planitia on September 3, 1976. Operating an orbiter and nuclear-powered lander (Gerald Soffen Memorial Station) near the northern polar cap, it returned the first in-situ seismology data from Mars and close-up images of Deimos.",
+  "topics": {
+    "meet_the_explorer": {
+      "topic_number": 1,
+      "title": "Meet the Explorer",
+      "introduction": "Viking 2 was the twin sister mission to Viking 1, completing NASA's dual orbital and surface exploration of Mars in 1976. Consisting of a dedicated orbiter and a nuclear-powered lander, Viking 2 was targeted to the high northern latitudes of Utopia Planitia, roughly 4,000 miles (6,460 km) northeast of Viking 1. Landing on September 3, 1976, Viking Lander 2 investigated a much rockier, flatter northern landscape closer to the polar ice caps where water ice was expected in the soil, while the Viking 2 Orbiter conducted high-inclination photography, including historic close flybys of the Martian moon Deimos.",
+      "equipment_identity": {
+        "formal_name": "Viking 2 (Viking-A Spacecraft: Orbiter & Lander)",
+        "call_sign_or_nickname": "Viking 2",
+        "cospar_id": "1975-083A",
+        "norad_id": "08199",
+        "pds_id": null,
+        "memorial_station_name": "Gerald Soffen Memorial Station"
+      },
+      "sub_components_represented": [
+        {
+          "name": "Viking Lander 2 (Gerald Soffen Memorial Station)",
+          "role": "Hexagonal nuclear-powered surface research station equipped with functioning three-axis seismometer, biology suite, GCMS, and facsimile cameras",
+          "status_at_site": "Resting intact, tilted 8.5 degrees to the west, in Utopia Planitia (inactive since battery failure on April 12, 1980)"
+        },
+        {
+          "name": "Viking Orbiter 2",
+          "role": "High-inclination orbital mapping spacecraft equipped with dual vidicon cameras, atmospheric water detector, and infrared radiometer",
+          "status_at_site": "Decommissioned in high-altitude Mars orbit since July 24, 1978"
+        },
+        {
+          "name": "Bi-conic Aeroshell & Parachute System",
+          "role": "Thermal and aerodynamic entry decelerator and 16-meter disc-gap-band parachute",
+          "status_at_site": "Impacted surface of Utopia Planitia several kilometers from lander touchdown site"
+        }
+      ],
+      "source_refs": [
+        "src_viking2_science_nasa",
+        "src_viking2_orbiter_nssdca",
+        "src_viking2_lander_nssdca"
+      ]
+    },
+    "mission_and_purpose": {
+      "topic_number": 2,
+      "title": "Mission & Purpose",
+      "mission_name": "Viking Project (Viking 2 Mission)",
+      "program": "Viking Program",
+      "sponsoring_agencies": [
+        "NASA Langley Research Center (Project Management)",
+        "Jet Propulsion Laboratory (Orbiter & Telecommunications)"
+      ],
+      "disciplines": [
+        "Planetary Science",
+        "Astrobiology & Organic Chemistry",
+        "Atmospheric Meteorology & Polar Science",
+        "Surface Geology & Mineralogy",
+        "Geophysics & Seismology"
+      ],
+      "destination": {
+        "body": "Mars",
+        "region_name": "Utopia Planitia ('Nowhere Plains')",
+        "targeted_feature": "High northern latitude volcanic plain near the edge of the permanent northern polar cap"
+      },
+      "landing_or_orbital_coordinates": {
+        "latitude_deg": 47.968,
+        "longitude_deg": -225.71,
+        "coordinate_standard": "Planetographic (IAU Mars Coordinates; equivalent to 134.29° E planetocentric)",
+        "coordinate_discrepancies": [
+          {
+            "source": "NASA Cartographic Systems",
+            "value": "47.968° N, 225.71° W vs 47.64° N, 134.29° E",
+            "notes": "Representation difference between west-positive planetographic and east-positive planetocentric coordinates. Touched down approximately 4,000 miles (6,460 km) northeast of Viking 1."
+          },
+          {
+            "source": "Mission Operations Log",
+            "value": "Primary candidate site Cydonia diverted to Utopia Planitia",
+            "notes": "Orbiter 2 imaging showed the Cydonia region was too rugged and heavily cratered, prompting a trajectory retargeting to smooth northern plains."
+          }
+        ]
+      },
+      "objectives": [
+        "Survey high northern Martian latitudes from orbit with a 55.6-degree orbital inclination to monitor polar cap condensation and water vapor cycles",
+        "Land a second sterilized surface laboratory near the northern polar ice cap where higher water content was suspected",
+        "Replicate and verify biological and organic chemistry experiments performed by Viking 1",
+        "Deploy and operate a functional surface seismometer to record Martian internal seismic tremors",
+        "Conduct close orbital reconnaissance and high-resolution imaging of the outer Martian moon Deimos"
+      ],
+      "source_refs": [
+        "src_viking2_science_nasa",
+        "src_viking_overview_science_nasa",
+        "src_viking_siddiqi_beyond_earth"
+      ]
+    },
+    "meet_the_technology": {
+      "topic_number": 3,
+      "title": "Meet the Technology",
+      "architecture_description": "Viking 2 shared an identical technical design with Viking 1, combining an octagonal solar-powered orbital bus with a three-legged, nuclear-powered surface lander. The entire lander was enclosed in an aeroshell and heat-sterilized at 111.7°C before launch. Unlike Viking 1, Viking 2's surface seismometer successfully uncaged upon landing, providing humanity's first functioning seismological station on another planet. The lander came to rest tilted 8.5 degrees to the west on a vesicular volcanic boulder.",
+      "physical_specifications": {
+        "launch_mass_kg": 2328.0,
+        "dry_mass_kg": 883.0,
+        "landed_mass_kg": 657.0,
+        "dimensions": {
+          "height_m": 2.1,
+          "width_or_diameter_m": 3.0,
+          "length_m": null,
+          "span_m": 9.75
+        },
+        "mass_discrepancies": [
+          {
+            "reported_value": "1,448 lb (657 kg) landed dry mass; 2,156 lb (978 kg) separated mass",
+            "source": "NASA NSSDCA Master Record",
+            "resolution_or_erratum": "Consistent with Viking 1; launch propellant mass on orbiter was 1,445 kg (3,185.7 lb)."
+          }
+        ]
+      },
+      "propulsion": {
+        "type": "Orbiter Liquid Bipropellant & Lander Monopropellant Hydrazine",
+        "engines_or_thrusters": "Orbiter: 1x gimballed 1,323 N bipropellant engine; Lander: 3x terminal descent hydrazine engines (each with 18 nozzles)",
+        "thrust_rating": "Orbiter: 1,323 N (300 lbf); Lander: three 18-nozzle engines throttling from 276 N to 2,847 N",
+        "specific_impulse_sec": 305.0,
+        "propellants": [
+          "Monomethylhydrazine (MMH)",
+          "Nitrogen Tetroxide (N2O4)",
+          "Monopropellant Hydrazine (N2H4)"
+        ]
+      },
+      "power_system": {
+        "primary_power_source": "Radioisotope Thermoelectric Generators (Lander) & Solar Photovoltaic Arrays (Orbiter)",
+        "solar_array_details": "Orbiter: Four solar array wings with 34,800 solar cells spanning 9.75 m across, generating 620 W at Mars; two 30-Ah nickel-cadmium batteries",
+        "battery_specifications": "Lander: Four 8-Ah rechargeable nickel-cadmium batteries charged by RTG output to buffer science power surges",
+        "nuclear_rtg_details": {
+          "model": "SNAP-19 (Systems for Nuclear Auxiliary Power)",
+          "fuel_isotope": "Plutonium-238 (PuO2)",
+          "launch_power_w": 70.0,
+          "power_decay_profile": "Two SNAP-19 RTGs delivered ~70 W continuous electrical output, powering the lander through 1,281 sols including harsh high-latitude winter darkness."
+        }
+      },
+      "communications": {
+        "antennas": [
+          "Lander: Steerable S-band high-gain parabolic reflector dish",
+          "Lander: Omnidirectional S-band low-gain whip antenna",
+          "Lander: 30 W UHF relay antenna (381 MHz)",
+          "Orbiter: 1.47-meter steerable parabolic high-gain dish",
+          "Orbiter: Low-gain omnidirectional antenna"
+        ],
+        "frequency_bands": [
+          "S-band (Direct to Earth)",
+          "X-band (Orbiter Radio Science)",
+          "UHF (Lander-to-Orbiter Relay, 381 MHz)"
+        ],
+        "relay_systems": "Orbiter 2 relayed lander telemetry at 16 kbit/s; lander also communicated directly with Earth Deep Space Network antennas at 250 to 1,000 bit/s."
+      },
+      "scientific_instruments": [
+        {
+          "name": "Visual Imaging Subsystem (Orbiter)",
+          "acronym": "VIS",
+          "instrument_id": "1975-083A-01",
+          "purpose": "Twin slow-scan vidicon television cameras capturing high-resolution imagery of Mars and Deimos",
+          "specifications": "475-mm focal length optics, 1056 x 1182 pixel vidicon sensor",
+          "operational_status": "Returned over 16,000 images, including closest flybys of Deimos"
+        },
+        {
+          "name": "Mars Atmospheric Water Detector (Orbiter)",
+          "acronym": "MAWD",
+          "instrument_id": "1975-083A-02",
+          "purpose": "Infrared grating spectrometer measuring water vapor concentration across northern latitudes",
+          "specifications": "Spectral grating spectrometer with 0.1 precipitable micrometer water sensitivity",
+          "operational_status": "Mapped polar humidity surges during northern midsummer"
+        },
+        {
+          "name": "Infrared Thermal Mapper (Orbiter)",
+          "acronym": "IRTM",
+          "instrument_id": "1975-083A-03",
+          "purpose": "Multi-channel radiometer mapping polar ice cap temperatures and thermal inertia",
+          "specifications": "Four Cassegrain telescopes with 28 channels from 6 to 30 micrometers",
+          "operational_status": "Measured temperatures across polar caps and volcanic regions"
+        },
+        {
+          "name": "Facsimile Surface Imaging Cameras (Lander)",
+          "acronym": "Cameras 1 & 2",
+          "instrument_id": "1975-083C-01",
+          "purpose": "Two scanning facsimile cameras for 360-degree color, infrared, and stereoscopic surface imaging",
+          "specifications": "Oscillating scan mirror and photodiode arrays with 12 angular elevation stops",
+          "operational_status": "Captured over 3,000 images showing flat, rock-strewn Utopia plains"
+        },
+        {
+          "name": "Viking Biology Suite (Lander)",
+          "acronym": "VBS",
+          "instrument_id": "1975-083C-02",
+          "purpose": "Three automated biological experiments: Pyrolytic Release (PR), Labeled Release (LR), and Gas Exchange (GEX)",
+          "specifications": "15.5 kg automated chemical suite with nutrient dispensers and scintillation counters",
+          "operational_status": "Confirmed identical non-biological oxidation responses as Viking 1"
+        },
+        {
+          "name": "Gas Chromatograph-Mass Spectrometer (Lander)",
+          "acronym": "GCMS",
+          "instrument_id": "1975-083C-03",
+          "purpose": "Pyrolyzed soil to vaporize and detect trace organic carbon compounds",
+          "specifications": "Dual-column gas chromatograph coupled to magnetic sector mass spectrometer",
+          "operational_status": "Detected zero organic compounds in Utopia Planitia soil samples"
+        },
+        {
+          "name": "Three-Axis Surface Seismometer (Lander)",
+          "acronym": "SEIS",
+          "instrument_id": "1975-083C-06",
+          "purpose": "Mounted on lander chassis leg assembly to record ground motions and internal Martian seismic events",
+          "specifications": "Three-axis moving-coil seismometer with deployable locking cage mechanism",
+          "operational_status": "Uncaged successfully; operated continuously throughout mission, recording wind coupling and one candidate Sol 80 event"
+        },
+        {
+          "name": "X-Ray Fluorescence Spectrometer (Lander)",
+          "acronym": "XRFS",
+          "instrument_id": "1975-083C-04",
+          "purpose": "Quantified inorganic elemental composition of soil scooped from Utopia Planitia",
+          "specifications": "Iron-55 and Cadmium-109 radioactive sources with gas proportional counters",
+          "operational_status": "Revealed soil composition virtually identical to Chryse Planitia"
+        },
+        {
+          "name": "Meteorology Sensor Assembly (Lander)",
+          "acronym": "MET",
+          "instrument_id": "1975-083C-05",
+          "purpose": "Monitored ambient temperature, atmospheric pressure, and wind speed/direction",
+          "specifications": "Hot-film anemometer, thermocouple array, and pressure transducer",
+          "operational_status": "Tracked high-latitude seasonal climate cycles, winter frosts, and pressure swings"
+        },
+        {
+          "name": "Robotic Surface Sampler Arm (Lander)",
+          "acronym": "SSA",
+          "instrument_id": "1975-083C-07",
+          "purpose": "Extendable 3-meter boom with motorized scoop to trench soil and push rocks aside",
+          "specifications": "Deployable tubular boom with scoop, internal sieve, and thermal sensors",
+          "operational_status": "Pushed aside surface rocks to collect shaded soil samples for biology and GCMS"
+        }
+      ],
+      "source_refs": [
+        "src_viking2_orbiter_nssdca",
+        "src_viking2_lander_nssdca",
+        "src_viking_siddiqi_beyond_earth"
+      ]
+    },
+    "the_journey": {
+      "topic_number": 4,
+      "title": "The Journey",
+      "journey_narrative": "Viking 2 launched from Cape Canaveral on September 9, 1975, aboard a Titan IIIE-Centaur rocket. After an 11-month interplanetary cruise, it entered Mars orbit on August 7, 1976. When orbiter images of the primary target site (Cydonia) revealed treacherous terrain, mission planners diverted the landing to Utopia Planitia. On September 3, 1976, Lander 2 separated from the orbiter, survived hypersonic entry protected by its aeroshell, deployed its parachute, and made a retro-rocket touchdown at 22:37:50 UT, coming to rest with an 8.5-degree tilt on a local rock. Its surface cameras quickly revealed a boulder-strewn plain extending to a flat horizon. The lander operated for 1,281 sols until battery failure in April 1980, while the orbiter completed 706 orbits and made close flybys of the moon Deimos before thruster leaks forced its shutdown in July 1978.",
+      "launch_event": {
+        "timestamp_utc": "1975-09-09T18:39:00Z",
+        "local_time": "14:39:00 EDT",
+        "launch_site": "Cape Canaveral Launch Complex 41, Florida, USA",
+        "launch_vehicle": "Titan IIIE-Centaur (E-3 / TC-3)"
+      },
+      "arrival_event": {
+        "event_type": "Landing",
+        "timestamp_utc": "1976-09-03T22:37:50Z",
+        "local_time": "09:49 Local Solar Time (Martian Sol 0)",
+        "touchdown_velocity_or_approach_speed": "2.4 m/s (7.9 ft/s)",
+        "arrival_notes": "Second successful soft landing on Mars. Touched down safely in Utopia Planitia, resting tilted 8.5 degrees to the west after a footpad contacted a surface boulder."
+      },
+      "mission_timeline": [
+        {
+          "date_or_sol": "1975-09-09",
+          "phase": "Launch",
+          "event_description": "Viking 2 launched successfully from Cape Canaveral Complex 41."
+        },
+        {
+          "date_or_sol": "1976-08-07",
+          "phase": "Mars Orbit Insertion",
+          "event_description": "Orbiter fired main propulsion to enter initial 1,502 x 35,728 km orbit inclined at 55.6 degrees."
+        },
+        {
+          "date_or_sol": "1976-09-03",
+          "phase": "Landing",
+          "event_description": "Lander 2 separated at 20:19 UT and touched down at 22:37:50 UT in Utopia Planitia, tilted 8.5 degrees."
+        },
+        {
+          "date_or_sol": "1976-09-12",
+          "phase": "Surface Sampling",
+          "event_description": "Robotic arm deployed to scoop regolith and push aside rock 'Bonneville' to retrieve protected soil."
+        },
+        {
+          "date_or_sol": "1976-11-23 (Sol 80)",
+          "phase": "Seismic Event",
+          "event_description": "Seismometer recorded candidate magnitude 3 Martian seismic tremor during a lull in local wind speed.",
+          "anomaly_or_record_flag": "Candidate Marsquake Event"
+        },
+        {
+          "date_or_sol": "1977-05-28",
+          "phase": "Deimos Flyby",
+          "event_description": "Orbiter 2 maneuvered within 28 km (17 miles) of moon Deimos, capturing historic high-resolution photography."
+        },
+        {
+          "date_or_sol": "1978-07-24",
+          "phase": "Orbiter Decommissioning",
+          "event_description": "Attitude-control gas leaks depleted thruster reserves; Orbiter 2 was commanded off after completing 706 orbits."
+        },
+        {
+          "date_or_sol": "1980-04-12",
+          "phase": "Lander Decommissioning",
+          "event_description": "Lander 2 ceased operations after 1,281 sols (over 3.5 Earth years) due to rechargeable battery failure."
+        }
+      ],
+      "operational_totals": {
+        "total_duration_days_or_sols": "1,281 sols (3 years, 221 days on surface)",
+        "distance_traversed_km": 0.0,
+        "flights_completed": null,
+        "orbits_completed": 706,
+        "images_returned": "16,000 orbiter images + 3,500 lander images",
+        "samples_collected_kg": null
+      },
+      "source_refs": [
+        "src_viking2_science_nasa",
+        "src_viking_overview_science_nasa",
+        "src_viking_siddiqi_beyond_earth"
+      ]
+    },
+    "scientific_discoveries": {
+      "topic_number": 5,
+      "title": "Scientific Discoveries",
+      "summary_narrative": "Viking 2 provided essential scientific verification of the findings from Viking 1 across a completely different hemisphere of Mars, demonstrating that Martian soil chemistry is globally uniform and dominated by inorganic oxidants. Viking 2 also returned the first in-situ seismological measurements from the surface of Mars, monitored high-latitude winter frost deposition, and conducted landmark close-range imaging of the Martian moon Deimos.",
+      "key_discoveries": [
+        {
+          "title": "First In-Situ Planetary Seismology Measurements on Mars",
+          "discovery_category": "Geophysics & Internal Structure",
+          "instruments_involved": [
+            "Three-Axis Surface Seismometer (SEIS)"
+          ],
+          "description": "Viking 2 operated the only functional seismometer of the Viking mission. It determined that Mars is seismically quieter than Earth, primarily recording surface wind-induced oscillations buffeting the lander chassis. On Sol 80, it recorded a candidate magnitude 3 seismic event during low wind conditions.",
+          "scientific_impact": "Established the first baseline of Martian ambient seismic background noise, serving as the benchmark until the NASA InSight mission landed in 2018.",
+          "claim_status": "Unconfirmed Candidate Event",
+          "notes_or_disputes": "Because the seismometer was mounted on the lander body rather than directly coupled to bedrock, cross-coupling with wind forces could not be entirely excluded, leaving the Sol 80 event unconfirmed."
+        },
+        {
+          "title": "Global Homogeneity of Martian Regolith & Soil Oxidants",
+          "discovery_category": "Astrobiology & Organic Chemistry",
+          "instruments_involved": [
+            "Viking Biology Suite (VBS)",
+            "Gas Chromatograph-Mass Spectrometer (GCMS)",
+            "X-Ray Fluorescence Spectrometer (XRFS)"
+          ],
+          "description": "Chemical and biological tests at Utopia Planitia duplicated the results from Chryse Planitia: rapid reactive gas release in LR and GEX experiments, accompanied by total absence of detectable organic carbon in the GCMS. XRFS confirmed nearly identical elemental ratios (Fe, Si, S, Ca).",
+          "scientific_impact": "Proved that Martian soil chemistry and oxidative reactivity are planet-wide phenomena driven by global dust transport and solar UV processing.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Observation of High-Latitude Winter Frost Deposition",
+          "discovery_category": "Atmospheric & Climate Science",
+          "instruments_involved": [
+            "Facsimile Surface Imaging Cameras",
+            "Meteorology Sensor Assembly (MET)"
+          ],
+          "description": "During the Martian winter, Lander 2 observed a thin layer of white frost coating the rocks and soil of Utopia Planitia for roughly 100 days. Thermal and imaging data confirmed this was a thin deposit of water ice condensed alongside frozen carbon dioxide.",
+          "scientific_impact": "Directly validated atmospheric models predicting active seasonal water vapor exchange between high-latitude regolith and the atmosphere.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Close-Range Morphology of Martian Moon Deimos",
+          "discovery_category": "Planetary Dynamics & Celestial Mechanics",
+          "instruments_involved": [
+            "Visual Imaging Subsystem (VIS)"
+          ],
+          "description": "Orbiter 2 approached within 28 km of Deimos in May 1977, revealing a heavily cratered, low-density irregular moon covered by a thick blanket of regolith that smoothed over small impact craters.",
+          "scientific_impact": "Provided foundational evidence that Phobos and Deimos resemble carbonaceous chondrite asteroids captured by Mars.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        }
+      ],
+      "source_refs": [
+        "src_viking2_science_nasa",
+        "src_viking_overview_science_nasa",
+        "src_viking_siddiqi_beyond_earth"
+      ]
+    },
+    "where_is_it_now": {
+      "topic_number": 6,
+      "title": "Where Is It Now?",
+      "operational_status": "Inactive on Surface",
+      "last_contact_date": "1980-04-12",
+      "is_still_communicating": false,
+      "location_summary": "Viking Lander 2 rests at the Gerald Soffen Memorial Station in Utopia Planitia on Mars, tilted 8.5 degrees against a volcanic boulder. Viking Orbiter 2 remains in high-altitude Mars orbit, slowly perturbed by gravitational solar resonances.",
+      "resting_coordinates": {
+        "latitude_deg": 47.968,
+        "longitude_deg": -225.71,
+        "body_or_frame": "Mars (Utopia Planitia)",
+        "distance_au": null,
+        "interstellar_heading": null
+      },
+      "why_left_behind": "Viking 2 was designed as a one-way planetary science platform with no return propulsion. Both spacecraft fulfilled and exceeded their mission lifetimes and remain preserved at their respective Martian operational sites.",
+      "hardware_elements_at_site": [
+        {
+          "element_name": "Gerald Soffen Memorial Station (Viking Lander 2)",
+          "condition": "Structurally intact on three legs, resting at an 8.5-degree westward tilt on a vesicular basalt rock"
+        },
+        {
+          "element_name": "SNAP-19 RTGs",
+          "condition": "Sealed RTG housings with decayed Plutonium-238 fuel pellets mounted inside wind screens"
+        },
+        {
+          "element_name": "Functioning Seismometer Assembly",
+          "condition": "Intact three-axis seismometer mounted atop the chassis leg structure"
+        },
+        {
+          "element_name": "Viking Orbiter 2",
+          "condition": "Derelict spacecraft in high-inclination orbit around Mars"
+        }
+      ],
+      "terrestrial_repositories": [],
+      "source_refs": [
+        "src_viking2_science_nasa",
+        "src_viking2_orbiter_nssdca",
+        "src_viking2_lander_nssdca"
+      ]
+    },
+    "its_legacy": {
+      "topic_number": 7,
+      "title": "Its Legacy",
+      "historical_significance": "Viking 2 validated and cemented the revolutionary findings of the Viking program by demonstrating that the surprising absence of organic molecules and the high soil oxidation reactivity observed at Chryse were global Martian characteristics rather than local anomalies. It delivered humanity's first working planetary seismology station on Mars, mapped the dynamics of high-latitude winter water frosts, and proved the resilience of robotic exploration hardware through harsh Martian winters.",
+      "key_contributions": [
+        "Provided essential independent verification of Viking 1 results 4,000 miles away in a different hemisphere",
+        "Conducted humanity's first operational surface seismology measurements on another planet",
+        "Captured the first in-situ imagery of winter water frost condensing on the Martian surface",
+        "Acquired the closest and highest-resolution photographs of Martian moon Deimos (28 km approach)",
+        "Demonstrated the operational durability of RTG-powered landers across 1,281 sols of high-latitude Martian conditions"
+      ],
+      "influence_on_future_missions": [
+        {
+          "mission_or_technology": "InSight Mars Lander (2018)",
+          "influence_description": "Viking 2's wind-noise challenges led InSight engineers to place their SEIS seismometer directly onto the ground with an aerodynamic Wind and Thermal Shield."
+        },
+        {
+          "mission_or_technology": "Phoenix Mars Lander (2008)",
+          "influence_description": "Viking 2's high-latitude winter frost observations motivated the selection of the Martian arctic plains for Phoenix's shallow sub-surface water ice excavation."
+        },
+        {
+          "mission_or_technology": "JAXA Martian Moons eXploration (MMX)",
+          "influence_description": "Orbiter 2's close-up imaging of Deimos established the foundational geological data for planning sample-return missions to Martian moons."
+        }
+      ],
+      "cultural_or_philosophical_impact": "Viking 2 confirmed that Mars was uniformly cold, dry, and oxidized across both hemispheres, cementing the modern paradigm of Mars as a hyper-arid desert and inspiring long-term strategies for deep subsurface exploration.",
+      "source_refs": [
+        "src_viking2_science_nasa",
+        "src_viking_overview_science_nasa",
+        "src_viking_siddiqi_beyond_earth"
+      ]
+    }
+  },
+  "images": [],
+  "model_3d": null,
+  "sources": [
+    {
+      "source_id": "src_viking2_science_nasa",
+      "title": "NASA Science Mission: Viking 2",
+      "url": "https://science.nasa.gov/mission/viking-2/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-08-15",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "the_journey",
+        "scientific_discoveries",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_viking_overview_science_nasa",
+      "title": "NASA Science Mission: Viking Overview",
+      "url": "https://science.nasa.gov/mission/viking/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-08-15",
+      "topics_supported": [
+        "mission_and_purpose",
+        "the_journey",
+        "scientific_discoveries",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_viking2_orbiter_nssdca",
+      "title": "Viking 2 Orbiter Master Catalog Spacecraft Record (1975-083A)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-083A",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2024-01-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "meet_the_technology",
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_viking2_lander_nssdca",
+      "title": "Viking 2 Lander Master Catalog Spacecraft Record (1975-083C)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-083C",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2024-01-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "meet_the_technology",
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_viking_siddiqi_beyond_earth",
+      "title": "Beyond Earth: A Chronicle of Deep Space Exploration, 1958-2016",
+      "url": "https://solarsystem.nasa.gov/resources/1060/beyond-earth-a-chronicle-of-deep-space-exploration/",
+      "publishing_organization": "NASA History Program Office",
+      "source_type": "Official Historical Monograph",
+      "publication_date": "2018-09-01",
+      "topics_supported": [
+        "mission_and_purpose",
+        "meet_the_technology",
+        "the_journey",
+        "scientific_discoveries",
+        "its_legacy"
+      ]
+    }
+  ],
+  "verification_status": {
+    "overall_status": "VERIFIED_WITH_ANNOTATIONS",
+    "step_verified": "Step 3.2",
+    "verified_date": "2026-11-14",
+    "unresolved_conflicts_count": 1,
+    "preservation_notes": "Preserves and annotates the Sol 80 candidate Marsquake as an unconfirmed candidate event due to wind coupling; notes coordinate standard conversions (225.71° W vs 134.29° E); documents 8.5° western tilt on surface rock."
+  },
+  "metadata": {
+    "created_at": "2026-11-14T15:30:00Z",
+    "updated_at": "2026-11-14T15:30:00Z",
+    "schema_version": "1.0.0"
+  }
+}

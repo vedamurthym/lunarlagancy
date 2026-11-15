@@ -1,0 +1,495 @@
+{
+  "id": "eq_deep_space_dawn",
+  "slug": "dawn",
+  "name": "Dawn Spacecraft",
+  "alternate_designations": [
+    "Discovery 9",
+    "COSPAR: 2007-043A",
+    "NORAD: 32249"
+  ],
+  "category": "Deep Space",
+  "equipment_type": "Interplanetary Ion-Propulsion Orbiter",
+  "target_body": "Main Asteroid Belt (Vesta & Ceres)",
+  "short_description": "NASA's Dawn mission traveled 4.3 billion miles to explore the two most massive protoplanets in the asteroid belt: rocky Vesta and icy dwarf planet Ceres. Powered by solar electric ion propulsion, it was the first spacecraft to orbit two different extraterrestrial destinations.",
+  "topics": {
+    "meet_the_explorer": {
+      "topic_number": 1,
+      "title": "Meet the Explorer",
+      "introduction": "NASA's Dawn mission was an extraordinary interplanetary journey to the asteroid belt and the first spacecraft to orbit two different extraterrestrial destinations. Powered by revolutionary solar electric ion propulsion, Dawn traveled over 4.3 billion miles to explore the two most massive protoplanets in the main asteroid belt between Mars and Jupiter: the dry, rocky, differentiated asteroid Vesta and the water- and ice-rich dwarf planet Ceres. By characterizing both bodies, Dawn functioned as a planetary time machine, peering back into the earliest epochs of solar system formation.",
+      "equipment_identity": {
+        "formal_name": "Dawn Spacecraft",
+        "call_sign_or_nickname": "Dawn",
+        "cospar_id": "2007-043A",
+        "norad_id": "32249",
+        "pds_id": null,
+        "memorial_station_name": null
+      },
+      "sub_components_represented": [
+        {
+          "name": "Dawn Spacecraft Bus & Avionics",
+          "role": "Hexagonal aluminum and graphite composite bus carrying science payload, star trackers, and redundant flight computers",
+          "status_at_site": "Decommissioned in stable high-altitude graveyard parking orbit around Ceres"
+        },
+        {
+          "name": "NSTAR Ion Propulsion Thruster Assembly",
+          "role": "Three 30-cm electrostatic xenon ion thrusters providing high specific impulse interplanetary velocity change",
+          "status_at_site": "Integral thrusters mounted on gimbal assemblies on spacecraft bus"
+        },
+        {
+          "name": "Deployable Solar Array Wings",
+          "role": "Twin 10-kW solar wings spanning 19.7 m tip-to-tip, powering ion engines and payload at 3 AU from the Sun",
+          "status_at_site": "Fully extended solar arrays attached to spacecraft bus"
+        }
+      ],
+      "source_refs": [
+        "src_dawn_science_nasa",
+        "src_dawn_jpl_archive",
+        "src_dawn_nssdca"
+      ]
+    },
+    "mission_and_purpose": {
+      "topic_number": 2,
+      "title": "Mission & Purpose",
+      "mission_name": "Dawn (NASA Discovery Program Mission 9)",
+      "program": "Discovery Program",
+      "sponsoring_agencies": [
+        "NASA Science Mission Directorate",
+        "Jet Propulsion Laboratory (JPL)",
+        "German Aerospace Center (DLR)",
+        "Italian Space Agency (ASI)"
+      ],
+      "disciplines": [
+        "Planetary Science",
+        "Asteroid and Dwarf Planet Geology",
+        "Cosmochemistry",
+        "Solar Electric Ion Propulsion",
+        "Planetary Geophysics"
+      ],
+      "destination": {
+        "body": "Main Asteroid Belt (Asteroid 4 Vesta & Dwarf Planet 1 Ceres)",
+        "region_name": "Main Asteroid Belt between Mars and Jupiter",
+        "targeted_feature": "Protoplanets 4 Vesta and 1 Ceres"
+      },
+      "landing_or_orbital_coordinates": null,
+      "objectives": [
+        "Investigate the role of water and protoplanet size in terrestrial planet formation and evolutionary divergence",
+        "Characterize the conditions and building blocks of the inner solar system at the dawn of its creation roughly 4.6 billion years ago",
+        "Determine the internal structure, density, core size, and differentiation of dry, rocky protoplanet Vesta",
+        "Determine the composition, presence of subsurface water/ice, and geologic cryovolcanism on volatile-rich dwarf planet Ceres",
+        "Demonstrate the operational maturity of solar electric ion propulsion for multi-target orbital deep-space exploration"
+      ],
+      "source_refs": [
+        "src_dawn_science_nasa",
+        "src_dawn_objectives_nasa",
+        "src_dawn_siddiqi_beyond_earth"
+      ]
+    },
+    "meet_the_technology": {
+      "topic_number": 3,
+      "title": "Meet the Technology",
+      "architecture_description": "Dawn featured a graphite and aluminum composite bus equipped with three 30-cm electrostatic xenon ion engines derived from the Deep Space 1 technology demonstration. Because Ceres orbits nearly 3 astronomical units from the Sun, Dawn required two massive 8.3-meter solar array wings spanning 19.7 m tip-to-tip. By accelerating xenon ions through high-voltage electrostatic grids at 30 km/s, the ion propulsion system delivered unprecedented cumulative delta-V with extraordinary fuel efficiency.",
+      "physical_specifications": {
+        "launch_mass_kg": 1218.0,
+        "dry_mass_kg": 747.1,
+        "landed_mass_kg": null,
+        "dimensions": {
+          "height_m": 1.77,
+          "width_or_diameter_m": 1.27,
+          "length_m": 1.64,
+          "span_m": 19.7
+        },
+        "mass_discrepancies": [
+          {
+            "reported_value": "Dry mass 747.1 kg (1,647.1 lb); launch mass 1,218 kg (2,685 lb)",
+            "source": "NASA/JPL Quick Facts",
+            "resolution_or_erratum": "Included 425 kg (937 lb) of xenon propellant and 45.6 kg (100 lb) of hydrazine attitude control fuel."
+          }
+        ]
+      },
+      "propulsion": {
+        "type": "Solar Electric Ion Propulsion (NSTAR System) & Hydrazine Reaction Control",
+        "engines_or_thrusters": "3x 30-cm electrostatic xenon ion thrusters; 12x 0.9 N monopropellant hydrazine thrusters",
+        "thrust_rating": "19 to 91 millinewtons per ion thruster (0.07 to 0.33 ounces of force)",
+        "specific_impulse_sec": 3100.0,
+        "propellants": [
+          "High-purity Xenon Gas (425 kg loaded)",
+          "Monopropellant Hydrazine (45.6 kg loaded)"
+        ]
+      },
+      "power_system": {
+        "primary_power_source": "Solar Photovoltaic Arrays",
+        "solar_array_details": "Two 8.3 m x 2.3 m deployable solar wings with 11,480 InGaP/InGaAs/Ge triple-junction cells spanning 19.7 m tip-to-tip; generated 10.3 kW at 1 AU and 1.3 kW at 3 AU (Ceres)",
+        "battery_specifications": "35-Ah rechargeable nickel-hydrogen (NiH2) battery for launch and eclipse operations",
+        "nuclear_rtg_details": null
+      },
+      "communications": {
+        "antennas": [
+          "Fixed 1.52-meter (5.0 ft) parabolic high-gain dish antenna",
+          "Three low-gain omnidirectional horn antennas"
+        ],
+        "frequency_bands": [
+          "X-band (Uplink and Downlink via Deep Space Network)"
+        ],
+        "relay_systems": null
+      },
+      "scientific_instruments": [
+        {
+          "name": "Framing Cameras (Dual Redundant)",
+          "acronym": "FC",
+          "instrument_id": "2007-043A-01",
+          "purpose": "Optical imaging for geomorphology, multispectral color mapping, topography, and optical navigation",
+          "specifications": "1024 x 1024 pixel CCD with clear filter and 7 narrow-band color filters (provided by Germany/DLR/MPS)",
+          "operational_status": "Returned over 100,000 images across Vesta and Ceres"
+        },
+        {
+          "name": "Visible and Infrared Mapping Spectrometer",
+          "acronym": "VIR",
+          "instrument_id": "2007-043A-02",
+          "purpose": "Mapped mineralogical composition and surface hydrated minerals/salts across 0.25 to 5.0 micrometers",
+          "specifications": "Imaging spectrometer derived from Rosetta VIRTIS (provided by Italian Space Agency/ASI)",
+          "operational_status": "Discovered sodium carbonate deposits and ammoniated clays on Ceres"
+        },
+        {
+          "name": "Gamma Ray and Neutron Detector",
+          "acronym": "GRaND",
+          "instrument_id": "2007-043A-03",
+          "purpose": "Quantified subsurface elemental abundances (H, Fe, Mg, Si, K, Th, U) to 1 meter depth via cosmic-ray interactions",
+          "specifications": "Bismuth germanate and cadmium zinc telluride scintillation sensors",
+          "operational_status": "Mapped subsurface hydrogen/water ice distribution on Vesta and Ceres"
+        },
+        {
+          "name": "Radio Science Gravity Investigation",
+          "acronym": "RS",
+          "instrument_id": "2007-043A-04",
+          "purpose": "Measured spacecraft orbital perturbations via X-band Doppler tracking to model gravity fields and internal mass distribution",
+          "specifications": "Sub-millimeter-per-second Doppler velocity tracking via DSN 34-m and 70-m dishes",
+          "operational_status": "Determined core size of Vesta and mantle/crust structure of Ceres"
+        }
+      ],
+      "source_refs": [
+        "src_dawn_jpl_archive",
+        "src_dawn_quick_facts_nasa",
+        "src_dawn_nssdca"
+      ]
+    },
+    "the_journey": {
+      "topic_number": 4,
+      "title": "The Journey",
+      "journey_narrative": "Dawn launched from Cape Canaveral on September 27, 2007, aboard a Delta II Heavy rocket. Embarking on a long spiral cruise powered by its gentle ion engines, Dawn swung past Mars in February 2009 for a gravity boost. On July 16, 2011, it was captured by the gravity of protoplanet Vesta, spending 14 months mapping its colossal impact basins and basaltic crust. On September 5, 2012, Dawn fired its ion engines to climb out of Vesta's orbit—becoming the first spacecraft ever to break orbit around one celestial body to voyage to another. Arriving at dwarf planet Ceres on March 6, 2015, Dawn investigated the brilliant bright faculae of Occator Crater and the cryovolcanic dome Ahuna Mons. Over 11 years, Dawn traveled 4.3 billion miles and thrust its ion engines for 51,385 hours until its attitude-control hydrazine was completely exhausted on October 31, 2018.",
+      "launch_event": {
+        "timestamp_utc": "2007-09-27T11:34:00Z",
+        "local_time": "07:34:00 EDT",
+        "launch_site": "Cape Canaveral Space Launch Complex 17B, Florida, USA",
+        "launch_vehicle": "Delta II 7925H-9.5 (Heavy)"
+      },
+      "arrival_event": {
+        "event_type": "Orbit Insertion",
+        "timestamp_utc": "2015-03-06T12:39:00Z",
+        "local_time": "Mission Control JPL (PST)",
+        "touchdown_velocity_or_approach_speed": "Ion-thrust spiral capture (relative velocity ~0.1 km/s)",
+        "arrival_notes": "First spacecraft to visit and orbit a dwarf planet (Ceres). Previously captured into Vesta orbit on July 16, 2011."
+      },
+      "mission_timeline": [
+        {
+          "date_or_sol": "2007-09-27",
+          "phase": "Launch",
+          "event_description": "Dawn launched successfully from Cape Canaveral SLC-17B."
+        },
+        {
+          "date_or_sol": "2009-02-17",
+          "phase": "Mars Gravity Assist",
+          "event_description": "Flew within 549 km of Mars, gaining orbital velocity toward the asteroid belt."
+        },
+        {
+          "date_or_sol": "2011-07-16",
+          "phase": "Vesta Orbit Insertion",
+          "event_description": "Captured into orbit around asteroid 4 Vesta; spent 14 months performing orbital mapping."
+        },
+        {
+          "date_or_sol": "2012-09-05",
+          "phase": "Vesta Departure",
+          "event_description": "Fired ion engines to depart Vesta orbit—humanity's first orbital departure from an extraterrestrial body.",
+          "anomaly_or_record_flag": "First Orbit-to-Orbit Interplanetary Transfer"
+        },
+        {
+          "date_or_sol": "2015-03-06",
+          "phase": "Ceres Orbit Insertion",
+          "event_description": "Captured into orbit around dwarf planet 1 Ceres, becoming the first probe to orbit two extraterrestrial destinations."
+        },
+        {
+          "date_or_sol": "2018-06-06",
+          "phase": "Low Elliptical Orbit",
+          "event_description": "Maneuvered into lowest-ever orbit around Ceres, skimming just 35 km (22 miles) above the surface."
+        },
+        {
+          "date_or_sol": "2018-10-31",
+          "phase": "Hydrazine Depletion",
+          "event_description": "Exhausted attitude-control hydrazine propellant, losing ability to point solar arrays or communications antenna."
+        },
+        {
+          "date_or_sol": "2018-11-01",
+          "phase": "Mission Conclusion",
+          "event_description": "NASA officially declared mission complete after missed communications sessions confirmed shutdown.",
+          "anomaly_or_record_flag": "Mission Conclusion"
+        }
+      ],
+      "operational_totals": {
+        "total_duration_days_or_sols": "11 years, 35 days in flight",
+        "distance_traversed_km": 6900000000.0,
+        "flights_completed": null,
+        "orbits_completed": 3052,
+        "images_returned": "100,000+ images returned across Vesta and Ceres",
+        "samples_collected_kg": null
+      },
+      "source_refs": [
+        "src_dawn_science_nasa",
+        "src_dawn_by_the_numbers_nasa",
+        "src_dawn_end_of_mission_nasa",
+        "src_dawn_siddiqi_beyond_earth"
+      ]
+    },
+    "scientific_discoveries": {
+      "topic_number": 5,
+      "title": "Scientific Discoveries",
+      "summary_narrative": "Dawn completely transformed human understanding of the asteroid belt, proving that Vesta and Ceres are not simple rocky debris, but surviving protoplanets from the dawn of the solar system. Dawn showed how the presence of water fundamentally dictated the evolutionary divergence of planet-sized bodies: Vesta evolved into a dry, melted terrestrial body with a metallic core, while Ceres evolved into a dynamic icy ocean world with active salt cryovolcanism.",
+      "key_discoveries": [
+        {
+          "title": "Vesta as a Differentiated Terrestrial Protoplanet",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Framing Cameras (FC)",
+            "Visible and Infrared Mapping Spectrometer (VIR)",
+            "Radio Science Gravity Investigation"
+          ],
+          "description": "Dawn proved that Vesta possesses an iron-nickel core (~110 km radius), a mantle, and a basaltic volcanic crust, confirming that it is a true differentiated protoplanet resembling Mars and Earth. Geochemical mapping conclusively tied Vesta as the parent source of the HED (howardite, eucrite, diogenite) meteorites found on Earth.",
+          "scientific_impact": "Confirmed planetary differentiation theories and provided the first ground truth for a differentiated protoplanet.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Colossal Rheasilvia Basin on Vesta",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Framing Cameras (FC)"
+          ],
+          "description": "Dawn mapped the 500-km-wide Rheasilvia impact basin at Vesta's south pole, featuring a central mound rising 22 km (14 miles) high—more than twice the height of Mount Everest—and equatorial tectonic troughs excavated by the catastrophic impact shockwave.",
+          "scientific_impact": "Documented one of the largest impact structures relative to body size in the solar system, revealing how massive collisions reshape asteroid interiors.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Recent Briny Cryovolcanism and Faculae in Occator Crater (Ceres)",
+          "discovery_category": "Astrobiology & Organic Chemistry",
+          "instruments_involved": [
+            "Visible and Infrared Mapping Spectrometer (VIR)",
+            "Framing Cameras (FC)"
+          ],
+          "description": "Dawn revealed that the mysterious bright spots inside Ceres' Occator Crater (Cerealia Facula and Vinalia Faculae) are bright deposits of sodium carbonate and ammonium salts. These deposits were extruded from deep subterranean brines via cryovolcanic vents within the last few million years.",
+          "scientific_impact": "Established that dwarf planet Ceres has an interior brine reservoir and represents an accessible, volatile-rich ocean world.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Cryovolcanic Mountain Ahuna Mons on Ceres",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Framing Cameras (FC)",
+            "Radio Science Gravity Investigation"
+          ],
+          "description": "Dawn discovered Ahuna Mons, a solitary, steep-sided 4-km-high (2.5 miles) dome mountain formed by cryovolcanism—the upward extrusion of salty, muddy icy slush from the interior.",
+          "scientific_impact": "Provided the first definitive visual and topographic evidence of a cryomagma dome in the asteroid belt.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        }
+      ],
+      "source_refs": [
+        "src_dawn_science_nasa",
+        "src_dawn_jpl_archive",
+        "src_dawn_siddiqi_beyond_earth"
+      ]
+    },
+    "where_is_it_now": {
+      "topic_number": 6,
+      "title": "Where Is It Now?",
+      "operational_status": "Inactive in Stable Orbit",
+      "last_contact_date": "2018-10-31",
+      "is_still_communicating": false,
+      "location_summary": "Dawn remains in an uncontrolled but extremely stable high-altitude graveyard orbit around the dwarf planet Ceres in the main asteroid belt.",
+      "resting_coordinates": {
+        "latitude_deg": null,
+        "longitude_deg": null,
+        "body_or_frame": "Dwarf Planet 1 Ceres (Graveyard Orbit)",
+        "distance_au": 2.77,
+        "interstellar_heading": null
+      },
+      "why_left_behind": "Dawn's mission architecture required it to remain at Ceres. To strictly adhere to NASA and COSPAR planetary protection guidelines, Dawn was placed into a stable graveyard orbit that guarantees it will not impact Ceres for at least 20 to 50+ years, preserving Ceres' icy crust and potential subsurface brine reservoirs from terrestrial biological contamination.",
+      "hardware_elements_at_site": [
+        {
+          "element_name": "Dawn Spacecraft Airframe & Instruments",
+          "condition": "Silent derelict spacecraft in stable Ceres orbit, intact with solar panels and parabolic dish deployed"
+        },
+        {
+          "element_name": "NSTAR Ion Engine Thrusters",
+          "condition": "Exhausted propulsion system with depleted hydrazine attitude control fuel"
+        }
+      ],
+      "terrestrial_repositories": [],
+      "source_refs": [
+        "src_dawn_end_of_mission_nasa",
+        "src_dawn_science_nasa",
+        "src_dawn_nssdca"
+      ]
+    },
+    "its_legacy": {
+      "topic_number": 7,
+      "title": "Its Legacy",
+      "historical_significance": "Dawn revolutionized planetary science and spacecraft engineering simultaneously. It proved the practical operational power of solar electric ion propulsion, demonstrating that small, economical Discovery-class missions could visit and orbit multiple planetary bodies. Scientifically, it revealed that the asteroid belt holds rich planetary embryos, establishing dwarf planet Ceres as an active, briny ocean world and fundamentally reshaping theories of solar system evolution.",
+      "key_contributions": [
+        "First spacecraft to orbit two separate extraterrestrial destinations (Vesta and Ceres)",
+        "First spacecraft to visit and orbit a dwarf planet",
+        "Demonstrated cumulative velocity change (delta-V > 11.2 km/s) exceeding any prior chemical or electric spacecraft",
+        "Operated solar electric ion thrusters continuously for 51,385 hours across 11 years",
+        "Achieved a multi-target orbital mission within the strict Discovery Program budget ($472M), which would have cost billions and required 10x more propellant using chemical rockets",
+        "Discovered that dwarf planet Ceres harbors recent cryovolcanism and vast subterranean brine reservoirs"
+      ],
+      "influence_on_future_missions": [
+        {
+          "mission_or_technology": "NASA Psyche Mission (2023)",
+          "influence_description": "Dawn's operational success with solar electric ion propulsion provided the technical blueprint and flight heritage for Psyche's journey to a metallic asteroid."
+        },
+        {
+          "mission_or_technology": "NASA OSIRIS-REx & Lucy Missions",
+          "influence_description": "Dawn's optical navigation techniques and asteroid proximity operations formed the operational foundation for subsequent small-body exploration missions."
+        },
+        {
+          "mission_or_technology": "Future Ceres Ocean World Exploration",
+          "influence_description": "Dawn's discovery of sodium carbonate faculae and subsurface brines established Ceres as a prime candidate for future astrobiology and lander missions."
+        }
+      ],
+      "cultural_or_philosophical_impact": "Dawn brought the asteroid belt from fuzzy astronomical specks into sharp focus as diverse worlds of deep geological complexity, showing that the ingredients for life and active geology are far more widespread across our solar system than previously imagined.",
+      "source_refs": [
+        "src_dawn_science_nasa",
+        "src_dawn_end_of_mission_nasa",
+        "src_dawn_siddiqi_beyond_earth"
+      ]
+    }
+  },
+  "images": [],
+  "model_3d": null,
+  "sources": [
+    {
+      "source_id": "src_dawn_science_nasa",
+      "title": "NASA Science Mission: Dawn",
+      "url": "https://science.nasa.gov/mission/dawn/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-08-15",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "the_journey",
+        "scientific_discoveries",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_dawn_jpl_archive",
+      "title": "Dawn Mission Archive & Overview",
+      "url": "https://www.jpl.nasa.gov/missions/dawn/",
+      "publishing_organization": "NASA Jet Propulsion Laboratory",
+      "source_type": "Institutional Laboratory Archive",
+      "publication_date": "2023-05-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "meet_the_technology",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_dawn_objectives_nasa",
+      "title": "NASA Dawn Objectives & Science Goals",
+      "url": "https://science.nasa.gov/mission/dawn/objectives/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-04-12",
+      "topics_supported": [
+        "mission_and_purpose"
+      ]
+    },
+    {
+      "source_id": "src_dawn_quick_facts_nasa",
+      "title": "NASA Dawn Quick Facts & Specifications",
+      "url": "https://science.nasa.gov/mission/dawn/toolkit/quick-facts/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-06-01",
+      "topics_supported": [
+        "meet_the_technology"
+      ]
+    },
+    {
+      "source_id": "src_dawn_by_the_numbers_nasa",
+      "title": "Dawn by the Numbers Resource",
+      "url": "https://science.nasa.gov/resource/dawn-by-the-numbers/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-07-20",
+      "topics_supported": [
+        "the_journey"
+      ]
+    },
+    {
+      "source_id": "src_dawn_end_of_mission_nasa",
+      "title": "NASA Dawn End of Mission Legacy",
+      "url": "https://science.nasa.gov/mission/dawn/toolkit/end-of-mission/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-08-01",
+      "topics_supported": [
+        "the_journey",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_dawn_nssdca",
+      "title": "Dawn Master Catalog Spacecraft Record (2007-043A)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-043A",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2024-01-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "meet_the_technology",
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_dawn_siddiqi_beyond_earth",
+      "title": "Beyond Earth: A Chronicle of Deep Space Exploration, 1958-2016",
+      "url": "https://solarsystem.nasa.gov/resources/1060/beyond-earth-a-chronicle-of-deep-space-exploration/",
+      "publishing_organization": "NASA History Program Office",
+      "source_type": "Official Historical Monograph",
+      "publication_date": "2018-09-01",
+      "topics_supported": [
+        "mission_and_purpose",
+        "the_journey",
+        "scientific_discoveries",
+        "its_legacy"
+      ]
+    }
+  ],
+  "verification_status": {
+    "overall_status": "VERIFIED_WITH_ANNOTATIONS",
+    "step_verified": "Step 3.2",
+    "verified_date": "2026-11-14",
+    "unresolved_conflicts_count": 0,
+    "preservation_notes": "Preserves verified spacecraft bus dimensions (1.64 x 1.27 x 1.77 m) from NASA/JPL engineering logs; details planetary protection graveyard orbit parameters around Ceres (20 to 50+ year orbital lifetime); includes economic delta-V comparative analysis."
+  },
+  "metadata": {
+    "created_at": "2026-11-14T15:30:00Z",
+    "updated_at": "2026-11-14T15:30:00Z",
+    "schema_version": "1.0.0"
+  }
+}

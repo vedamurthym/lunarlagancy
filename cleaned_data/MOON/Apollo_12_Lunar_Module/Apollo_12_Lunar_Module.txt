@@ -1,0 +1,121 @@
+# Equipment Data: Apollo 12 Lunar Module & ALSEP
+
+## 1. Meet the Explorer
+- **Equipment Name:** Apollo 12 Lunar Module (LM-6 / "Intrepid") & Apollo Lunar Surface Experiments Package (ALSEP)
+- **Alternate Designations:** Apollo 12 LM/ALSEP, LEM 12, Apollo 12C, Intrepid, COSPAR ID: 1969-099C, NORAD ID: 04246, PDS ID: urn:nasa:pds:context:instrument_host:spacecraft.a12c
+- **Image References:**
+  - Apollo 12 Lunar Module: https://nssdc.gsfc.nasa.gov/planetary/image/apollo12_lunar_module.jpg
+  - Apollo 12 astronaut Pete Conrad next to Surveyor 3: https://nssdc.gsfc.nasa.gov/planetary/news/image/conrad_19990709_c.jpg
+  - Lunar Module Diagram: https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif
+  - Passive Seismic Experiment: https://nssdc.gsfc.nasa.gov/image/spacecraft/alsep_passive_seismic.jpg
+  - Suprathermal Ion Detector Experiment (SIDE): https://nssdc.gsfc.nasa.gov/image/spacecraft/alsep_suprathermal_ion.gif
+  - Solar Wind Spectrometer: https://nssdc.gsfc.nasa.gov/planetary/image/sws.jpg
+  - Solar Wind Composition Foil: https://nssdc.gsfc.nasa.gov/planetary/image/solar_wind_comp_as11-40-5916.jpg
+  - Soil Mechanics Experiment: https://nssdc.gsfc.nasa.gov/image/spacecraft/alsep_soil_mech.jpg
+- **Introduction:**
+  The Apollo 12 Lunar Module "Intrepid" was the second crewed spacecraft to land on the Moon. Flown by Commander Charles P. "Pete" Conrad and Lunar Module Pilot Alan L. Bean, with Command Module Pilot Richard F. Gordon Jr. in lunar orbit, Intrepid executed the first pinpoint lunar landing, touching down within walking distance (~180 meters) of the robotic Surveyor 3 lander. Intrepid deployed the first complete, nuclear-powered Apollo Lunar Surface Experiments Package (ALSEP), which transmitted scientific data continuously to Earth for nearly eight years.
+
+## 2. Mission & Purpose
+- **Mission Name:** Apollo 12
+- **Program & Funding Agencies:** NASA - Office of Manned Space Flight & NASA - Office of Space Science (United States)
+- **Disciplines:** Human Spaceflight, Lunar Geology, Geophysics, Space Physics (Fields & Particles, Heliospheric Studies)
+- **Destination:** Oceanus Procellarum (Ocean of Storms), The Moon
+- **Landing Site Coordinates:**
+  - Lunar Module: 3.0128° S latitude, 23.4219° W longitude (LRO images, DE421 ephemeris frame; also recorded nominally as -3.0128°, -23.4219°)
+  - ALSEP Central Station: 3.0094° S, 23.4246° W (nominal); landing site table lists -3.0098° S, -23.4249° W
+- **Purpose & Objectives:**
+  - Demonstrate pinpoint landing capability on the lunar surface.
+  - Perform two extended surface EVAs totaling nearly 8 hours.
+  - Emplace and activate the first full ALSEP geophysical station powered by a SNAP-27 RTG.
+  - Investigate the Surveyor 3 robotic spacecraft and recover hardware components (TV camera, soil scoop, tubing) to analyze the effects of 2.5 years of lunar environmental exposure.
+  - Collect extensive rock, soil, and core tube samples across a 1.3 km geological traverse.
+
+## 3. Meet the Technology
+- **Spacecraft Architecture:** Two-stage lunar vehicle.
+  - **Total Spacecraft Mass:** 15,235 kg (ascent and descent stages combined with propellants).
+- **Descent Stage:**
+  - **Structure:** Octagonal prism, 4.2 m wide, 1.7 m thick, resting on four deployable landing legs with 9.4 m diagonal span, holding the base 1.5 m above the lunar soil.
+  - **Dry Mass:** 2,118 kg (including stowed surface equipment).
+  - **Propellant Mass:** 8,359 kg (Aerozine 50 and N2O4).
+  - **Descent Propulsion:** Gimballed, deep-throttling ablative rocket engine (~45,000 N max thrust).
+  - **Equipment Bay:** Housed the ALSEP package, SNAP-27 fuel cask, tool carrier, and lunar surface TV camera (vidicon tube unfortunately damaged when pointed at the Sun during setup).
+- **Ascent Stage:**
+  - **Structure:** Pressurized cabin (6.65 m³ volume, stand-up crew station), 2.8 m high, 4.0 m by 4.3 m wide.
+  - **Dry Mass:** 2,383 kg; Propellant Mass: 2,375 kg.
+  - **Ascent Propulsion:** Fixed constant-thrust engine (~15,000 N thrust).
+  - **Attitude Control:** Four 4-nozzle RCS quads (16 thrusters, 450 N each).
+  - **Avionics & Navigation:** Apollo Guidance Computer, IMU, rendezvous radar, landing radar.
+  - **Communications:** Steerable high-gain S-band parabolic dish, VHF antennas.
+  - **Power:** 6 silver-zinc batteries in cabin.
+- **ALSEP Central Station & Nuclear Power System (SNAP-27 RTG):**
+  - **Central Station:** 25 kg electronics enclosure (volume 34,800 cm³) with thermal insulation, dissipation resistors, and a 58 cm helical antenna pointed toward Earth.
+  - **Communications:** Uplink frequency: 2119 MHz; Downlink frequency: 2278.5 MHz.
+  - **SNAP-27 Radioisotope Thermoelectric Generator (RTG):**
+    - Mass: 17 kg total assembly.
+    - Central cylinder (46 cm high, 40 cm fin-to-fin diameter) with 8 radiating heat fins and 442 lead-telluride thermocouples.
+    - Fuel source: ~4 kg fuel capsule of Plutonium-238 (half-life 89.6 years), inserted by astronauts on the surface.
+    - Power output: ~70 W DC at 16 V initially (63.5 W after one year), powering all ALSEP experiments uninterrupted through the lunar day and night.
+
+## 4. The Journey
+- **Launch:** November 14, 1969, at 16:22:00 UT (11:22:00 EST) from Cape Canaveral atop a Saturn 5.
+- **Translunar Flight & Arrival:** Entered lunar orbit on November 18. The LM separated from Command Module "Yankee Clipper" at 04:16:03 UT on November 19.
+- **Descent & Touchdown:**
+  - Intrepid landed smoothly at 06:54:35 UT (01:54:35 EST) on November 19, 1969.
+  - Landed approximately 180 meters from Surveyor 3 in Oceanus Procellarum, confirming pinpoint guidance precision.
+- **Surface Operations (EVAs):**
+  - **EVA 1 (Nov 19, 11:32:35 to 15:28:38 UT - 3h 56m):** Deployed the ALSEP central station and SNAP-27 RTG, deployed the Solar Wind Composition foil, collected local regolith samples. Color surface TV camera was inadvertently pointed at the Sun and burnt out.
+  - **EVA 2 (Nov 20, 03:54:45 to 07:44:00 UT - 3h 49m):** Completed a 1.3 km geological traverse visiting several craters (Head, Bench, Sharp, Halo). Visited Surveyor 3, cut off and recovered ~10 kg of components including the television camera and robotic soil scoop.
+  - **Total Samples:** 34.35 kg of rocks, soil, and core tubes. Total surface stay: 31 hours, 31 minutes. Total EVA time: 7 hours, 45 minutes across 1.35 km.
+- **Liftoff, Docking & Artificial Moonquake:**
+  - Ascent stage launched from the Moon at 14:25:47 UT on November 20, 1969.
+  - Docked with Yankee Clipper at 17:58:22 UT.
+  - Jettisoned at 20:21:30 UT. Intentionally retro-fired to crash into the Moon at 22:17:17.7 UT (Earth-received time) at 3.94° S, 21.20° W (or 338.80° E), ~60 km from the newly emplaced seismometer.
+  - Impact velocity: 1.68 km/s; Impact energy: 3.36 x 10^16 ergs; Angle from horizontal: 3.7°.
+  - The impact generated seismic ringing that reverberated for over an hour, producing the first recorded artificial moonquake.
+
+## 5. Scientific Discoveries
+- **Passive Seismic Experiment (PSE - 1969-099C-03):**
+  - 11.5 kg triaxial orthogonal long-period and short-period seismometer housed in a beryllium drum.
+  - Recorded internal moonquakes, thermal expansion cracking, meteoroid strikes, and rocket stage impacts.
+  - Established that the Moon's interior has an intensely dry, rigid, highly scattering crust that transmits seismic waves with minimal attenuation (causing the Moon to "ring like a bell").
+- **Suprathermal Ion Detector Experiment (SIDE) & Cold Cathode Ion Gauge (CCIG - 1969-099C-05):**
+  - Measured positive ion fluxes, energies (up to 3500 eV), mass spectra (10–1000 amu), and lunar surface electric potential.
+  - Detected accelerated lunar atmosphere ions, bow-shock protons from Earth's magnetosphere, gas clouds from meteoroid impacts, and ionization effects of the LM ascent engine exhaust plume.
+- **Solar Wind Spectrometer (1969-099C-02):**
+  - Array of seven modulated Faraday cups measuring positive ions and electrons.
+  - Documented direct interaction of the solar wind with the unshielded lunar surface and detected plasma variations inside Earth's geomagnetic tail.
+- **Solar Wind Composition Foil (1969-099C-08):**
+  - Aluminum foil sheet exposed for 18 hours 42 minutes, capturing solar noble gas isotopes (He, Ne, Ar) to resolve solar system primordial abundances.
+- **Soil Mechanics Experiment (1969-099C-10):**
+  - Analyzed cohesion, packing, porosity, and bearing strength of Oceanus Procellarum regolith through astronaut bootprints, trenching, and core tube driving.
+- **Surveyor 3 Materials Analysis:**
+  - Returned camera optics, polished surfaces, and structural alloys showed micrometeoroid pitting rates, solar radiation darkening, and confirmed that optical glass degrades in the lunar radiation environment.
+
+## 6. Where Is It Now?
+- **Descent Stage:**
+  - Remains in Oceanus Procellarum at 3.0128° S, 23.4219° W, near the rim of Surveyor Crater.
+- **ALSEP Central Station & Instruments:**
+  - Located at ~3.0094° S, 23.4246° W. Deployed November 19, 1969; operated continuously until commanded into permanent standby on September 30, 1977, when NASA shut down the Apollo ALSEP network due to budget constraints.
+- **Ascent Stage:**
+  - Destroyed upon commanded lunar impact on November 20, 1969, at 3.94° S, 21.20° W (crater impact site).
+- **Surveyor 3 Artifacts:**
+  - Recovered components (camera, scoop, aluminum tubing) returned to Earth; now preserved in NASA curatorial facilities and the Smithsonian National Air and Space Museum.
+
+## 7. Its Legacy
+- Verified that precision navigation and targeting on an extraterrestrial surface were possible, paving the way for targeted exploration of complex lunar highlands and rilles on later missions.
+- Established the longevity and reliability of nuclear RTG power on other planetary bodies, providing 8 years of continuous lunar science data.
+- Returned the first engineered materials ever retrieved after extended exposure on another world, creating the foundation for long-duration planetary materials science and space weathering studies.
+- The deliberate impact of Intrepid's ascent stage created the foundation for active controlled lunar seismology.
+
+---
+### Source References
+- NASA NSSDCA Spacecraft Details: `1969-099C` (https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C)
+- NASA Apollo 12 Mission Overview: https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo12info.html
+- Apollo 12 Passive Seismic Experiment: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-099C-03
+- Apollo 12 SIDE / CCIG Experiment: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-099C-05
+- Apollo 12 Solar Wind Spectrometer: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-099C-02
+- Apollo 12 Solar Wind Composition: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-099C-08
+- Apollo 12 Soil Mechanics: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-099C-10
+- Apollo Impact Sites Table: https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_impact.html
+- Apollo Landing Site Coordinates: https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html
+- Analysis of Surveyor 3 Material (NASA SP-284): http://nssdcftp.gsfc.nasa.gov/miscellaneous/documents/b16023.pdf

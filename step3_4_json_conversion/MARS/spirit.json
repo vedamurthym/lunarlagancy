@@ -1,0 +1,466 @@
+{
+  "id": "eq_mars_spirit",
+  "slug": "spirit",
+  "name": "Mars Exploration Rover Spirit (MER-A)",
+  "alternate_designations": [
+    "MER-A",
+    "MER-2",
+    "Columbia Memorial Station",
+    "COSPAR: 2003-027A"
+  ],
+  "category": "Mars",
+  "equipment_type": "Robotic Geologic Rover",
+  "target_body": "Mars",
+  "short_description": "Spirit (MER-A) touched down in Gusev Crater on January 4, 2004, operating for over 6 years (2,210 sols)—25 times its designed lifespan. By dragging a locked right-front wheel, it unearthed brilliant white 90% pure silica deposits, proving ancient hot spring activity on Mars.",
+  "topics": {
+    "meet_the_explorer": {
+      "topic_number": 1,
+      "title": "Meet the Explorer",
+      "introduction": "Spirit (MER-A) was the first of NASA's twin Mars Exploration Rovers sent to explore the Red Planet in search of clues to past water and environmental habitability. Landing inside the vast impact basin of Gusev Crater on January 4, 2004 UTC (January 3 PST), Spirit was designed for a 90-sol (three-month) prime mission. Nicknamed a 'wonderful workhorse,' Spirit operated on Mars for 6 years, 2 months, and 19 days—more than 25 times its intended lifespan. Despite losing the use of its right-front wheel in 2006, Spirit turned this mechanical failure into a major scientific discovery by dragging the locked wheel to unearth deposits of nearly pure silica, proving the existence of ancient volcanic hot springs or hydrothermal steam vents.",
+      "equipment_identity": {
+        "formal_name": "Mars Exploration Rover Spirit (MER-A)",
+        "call_sign_or_nickname": "Spirit",
+        "cospar_id": "2003-027A",
+        "norad_id": null,
+        "pds_id": null,
+        "memorial_station_name": "Columbia Memorial Station"
+      },
+      "sub_components_represented": [
+        {
+          "name": "Spirit Six-Wheeled Geologic Rover",
+          "role": "Solar-powered mobile field geologist with rocker-bogie suspension and Athena science arm",
+          "status_at_site": "Resting at Home Plate, Gusev Crater (inactive since March 22, 2010)"
+        },
+        {
+          "name": "Lander Petal Platform & Airbag System",
+          "role": "Deflated multi-lobed airbags and triangular lander petals used for direct landing cushioning",
+          "status_at_site": "Resting at Columbia Memorial Station touchdown site inside Gusev Crater"
+        }
+      ],
+      "source_refs": [
+        "src_spirit_science_nasa",
+        "src_spirit_nssdca_master"
+      ]
+    },
+    "mission_and_purpose": {
+      "topic_number": 2,
+      "title": "Mission & Purpose",
+      "mission_name": "Mars Exploration Rover (MER) Mission",
+      "program": "Mars Exploration Program",
+      "sponsoring_agencies": [
+        "NASA Science Mission Directorate",
+        "Jet Propulsion Laboratory (JPL)"
+      ],
+      "disciplines": [
+        "Planetary Geology & Mineralogy",
+        "Paleoclimatology",
+        "Sedimentary Petrology",
+        "Astrobiology"
+      ],
+      "destination": {
+        "body": "Mars",
+        "region_name": "Gusev Crater (Columbia Hills / Home Plate)",
+        "targeted_feature": "Hypothesized ancient lake basin fed by Ma'adim Vallis"
+      },
+      "landing_or_orbital_coordinates": {
+        "latitude_deg": -14.5692,
+        "longitude_deg": 175.4729,
+        "coordinate_standard": "IAU Planetocentric Standard (Columbia Memorial Station)",
+        "coordinate_discrepancies": []
+      },
+      "objectives": [
+        "Investigate Gusev Crater, an ancient crater basin hypothesized to have once held a giant lake fed by Ma'adim Vallis.",
+        "Search for and characterize rocks and soils bearing mineralogical evidence of past liquid water (carbonates, sulfates, silica, iron oxides).",
+        "Determine the geologic processes that shaped the local terrain (volcanism, impact cratering, sedimentary deposition, hydrothermal action).",
+        "Provide 'ground truth' calibration for Mars orbital observations (Mars Global Surveyor, 2001 Mars Odyssey).",
+        "Assess whether the past Martian environment in Gusev Crater was ever hospitable to microbial life."
+      ],
+      "source_refs": [
+        "src_spirit_science_nasa",
+        "src_mer_science_highlights"
+      ]
+    },
+    "meet_the_technology": {
+      "topic_number": 3,
+      "title": "Meet the Technology",
+      "architecture_description": "Solar-powered six-wheeled robotic rover built on a rocker-bogie mobility chassis, carrying a mast-mounted stereo color imaging suite and a 5-degree-of-freedom robotic arm with rock grinding and mineral analysis spectrometers.",
+      "physical_specifications": {
+        "launch_mass_kg": 1062.0,
+        "dry_mass_kg": 185.0,
+        "landed_mass_kg": 185.0,
+        "dimensions": {
+          "height_m": 1.5,
+          "width_or_diameter_m": 2.3,
+          "length_m": 1.6,
+          "span_m": null
+        },
+        "mass_discrepancies": [
+          {
+            "reported_value": "Rover mass 405 pounds (Spirit overview) vs 408 pounds (Opportunity overview)",
+            "source": "NASA Science Mission Portals",
+            "resolution_or_erratum": "Both spacecraft had an identical canonical metric mass of 185.0 kg; imperial conversions represent slight table rounding differences (407.9 lb)."
+          }
+        ]
+      },
+      "propulsion": {
+        "type": "Six-Wheel Independent Electric Drive with Front and Rear Steering",
+        "engines_or_thrusters": "Six brushed DC electric drive motors inside wheel hubs; four steering actuators",
+        "thrust_rating": "Not applicable (surface mobile rover driven by six brushed DC electric wheel-hub motors with torque of up to 40 N·m per wheel)",
+        "specific_impulse_sec": null,
+        "propellants": []
+      },
+      "power_system": {
+        "primary_power_source": "Gallium Arsenide Solar Array with Rechargeable Lithium-Ion Batteries",
+        "solar_array_details": "Multi-panel solar array generating up to 700 to 900 Watt-hours per sol under clear skies.",
+        "battery_specifications": "Two rechargeable lithium-ion batteries (16 Ah total capacity).",
+        "nuclear_rtg_details": {
+          "model": "Radioisotope Heater Units (RHU)",
+          "fuel_isotope": "Plutonium-238",
+          "launch_power_w": 8.0,
+          "power_decay_profile": "Eight 1-Watt thermal pellets positioned inside electronics bay to protect electronics against -100°C night temperatures."
+        }
+      },
+      "communications": {
+        "antennas": [
+          "Steerable parabolic High-Gain Antenna (HGA - X-band)",
+          "Low-Gain omnidirectional Antenna (LGA - X-band)",
+          "UHF dipole antenna"
+        ],
+        "frequency_bands": [
+          "X-band (direct to Earth via DSN)",
+          "UHF (relay through Mars Global Surveyor and 2001 Mars Odyssey)"
+        ],
+        "relay_systems": "UHF relay via orbiters provided over 90% of the mission science data downlink."
+      },
+      "scientific_instruments": [
+        {
+          "name": "Panoramic Camera",
+          "acronym": "Pancam",
+          "instrument_id": null,
+          "purpose": "Multispectral, stereoscopic, high-resolution color imaging of Mars topography and minerals.",
+          "specifications": "Mast-mounted stereo cameras with 16-position filter wheels.",
+          "operational_status": "Operated continuously throughout mission."
+        },
+        {
+          "name": "Miniature Thermal Emission Spectrometer",
+          "acronym": "Mini-TES",
+          "instrument_id": null,
+          "purpose": "Identify minerals, carbonates, silicates, and clays from thermal infrared spectra at long distances.",
+          "specifications": "Fourier transform infrared spectrometer.",
+          "operational_status": "Operated until dust obscuration in 2007."
+        },
+        {
+          "name": "Microscopic Imager",
+          "acronym": "MI",
+          "instrument_id": null,
+          "purpose": "Examine fine-scale geological textures and grain morphologies of rocks and soils.",
+          "specifications": "Arm-mounted macro camera (30-micron resolution).",
+          "operational_status": "Operated through 2010."
+        },
+        {
+          "name": "Mössbauer Spectrometer",
+          "acronym": "MB",
+          "instrument_id": null,
+          "purpose": "Determine iron oxidation states and iron-bearing mineralogy (hematite, goethite, jarosite).",
+          "specifications": "Arm-mounted backscatter spectrometer using cobalt-57 source.",
+          "operational_status": "Operated through 2010."
+        },
+        {
+          "name": "Alpha Particle X-ray Spectrometer",
+          "acronym": "APXS",
+          "instrument_id": null,
+          "purpose": "Quantify elemental rock chemistry and abundances of major elements.",
+          "specifications": "Arm-mounted curium-244 alpha and X-ray source.",
+          "operational_status": "Operated through 2010."
+        },
+        {
+          "name": "Rock Abrasion Tool",
+          "acronym": "RAT",
+          "instrument_id": null,
+          "purpose": "Grind through outer weathered rock rinds to expose fresh interior rock.",
+          "specifications": "Motorized diamond-impregnated grinding wheels.",
+          "operational_status": "Executed first rock grinding on Mars; ground dozens of targets."
+        }
+      ],
+      "associated_surface_vehicles_or_stations": [],
+      "source_refs": [
+        "src_spirit_science_nasa",
+        "src_spirit_nssdca_master"
+      ]
+    },
+    "the_journey": {
+      "topic_number": 4,
+      "title": "The Journey",
+      "journey_narrative": "Spirit launched on June 10, 2003, and landed on Mars on January 4, 2004 UTC, cushioned by airbags inside Gusev Crater. After recovering from a critical flash memory crisis on Sol 18, Spirit drove across the basalt plains toward the Columbia Hills. In 2005, it summited Husband Hill, discovering volcanic bomb sags. In 2006, its right-front wheel failed; driving in reverse while dragging the wheel excavated deposits of 90% pure silica at Home Plate. In May 2009, Spirit became embedded in soft sand at 'Troy.' Transformed into a stationary science platform, it communicated until March 22, 2010.",
+      "launch_event": {
+        "timestamp_utc": "2003-06-10T17:58:47Z",
+        "local_time": "13:58:47 EDT",
+        "launch_site": "Cape Canaveral SLC-17A, Florida",
+        "launch_vehicle": "Delta II 7925-9.5"
+      },
+      "arrival_event": {
+        "event_type": "Landing",
+        "timestamp_utc": "2004-01-04T04:35:00Z",
+        "local_time": "January 3, 20:35:00 PST",
+        "touchdown_velocity_or_approach_speed": "Touchdown impact speed 14 m/s (bounced 28 times inside airbags)",
+        "arrival_notes": "Landed inside Gusev Crater at Columbia Memorial Station."
+      },
+      "mission_timeline": [
+        {
+          "date_or_sol": "2004-01-04",
+          "phase": "Landing & Egress",
+          "event_description": "Airbags deflated; rover rolled down egress ramp onto Gusev Crater plains.",
+          "anomaly_or_record_flag": null,
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "2004-01-21",
+          "phase": "Flash Memory Anomaly",
+          "event_description": "Flash memory overload prevented sleep cycles; ground controllers reformatted flash memory and restored operations by Feb 5.",
+          "anomaly_or_record_flag": "In-Flight Software Recovery",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "2004-02-06",
+          "phase": "First Rock Grinding",
+          "event_description": "Used the RAT to grind rock 'Adirondack'—the first mechanical rock grinding on another planet.",
+          "anomaly_or_record_flag": "First Off-World Rock Grinding",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "2005-09-29",
+          "phase": "Husband Hill Summit",
+          "event_description": "Summited Husband Hill, rising 106 meters above the plains, returning a 360-degree color vista.",
+          "anomaly_or_record_flag": "First Mountain Summit on another World",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "2006-03-13",
+          "phase": "Wheel Failure & Silica Discovery",
+          "event_description": "Right-front wheel motor failed permanently; dragging the dead wheel excavated brilliant white 90% pure silica at Home Plate.",
+          "anomaly_or_record_flag": "Serendipitous Scientific Breakthrough",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "2009-05-01",
+          "phase": "Trapped at Troy",
+          "event_description": "Broke through crust into hidden loose sand at 'Troy'; right-rear wheel subsequently failed in Nov 2009.",
+          "anomaly_or_record_flag": "Permanent Immobility",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "2010-03-22",
+          "phase": "Final Transmission",
+          "event_description": "Facing severe winter with unfavorable solar panel tilt, Spirit sent its final transmission on Sol 2,210.",
+          "anomaly_or_record_flag": "Mission Conclusion",
+          "discrepancy_note": null
+        }
+      ],
+      "operational_totals": {
+        "total_duration_days_or_sols": "2,210 sols (6 years, 2 months, 19 days)",
+        "distance_traversed_km": 7.73,
+        "flights_completed": null,
+        "orbits_completed": null,
+        "images_returned": "Over 124,000 raw images",
+        "samples_collected_kg": null
+      },
+      "source_refs": [
+        "src_spirit_science_nasa",
+        "src_spirit_siddiqi_beyond_earth"
+      ]
+    },
+    "scientific_discoveries": {
+      "topic_number": 5,
+      "title": "Scientific Discoveries",
+      "summary_narrative": "Spirit uncovered conclusive evidence of ancient volcanic hot springs, neutral-pH water interactions, and explosive steam-driven volcanism inside Gusev Crater.",
+      "key_discoveries": [
+        {
+          "title": "Hydrothermal Hot Springs & Pure Silica Deposits",
+          "discovery_category": "Astrobiology & Organic Chemistry",
+          "instruments_involved": [
+            "Alpha Particle X-ray Spectrometer",
+            "Mini-TES",
+            "Microscopic Imager"
+          ],
+          "description": "Dragging the failed right-front wheel excavated bright soils containing 90% pure amorphous silica at Gertrude Weise near Home Plate. On Earth, such pure silica forms only in volcanic fumaroles or hot springs.",
+          "scientific_impact": "Proved that ancient Mars possessed heated water systems capable of sustaining extremophile microbial ecosystems.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Comanche Carbonate Outcrops (Neutral-pH Waters)",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Mössbauer Spectrometer",
+            "Mini-TES",
+            "APXS"
+          ],
+          "description": "Analysis of the Comanche outcrop in the Columbia Hills revealed rocks rich in magnesium-iron carbonates (10 times more concentrated than any prior Martian rock).",
+          "scientific_impact": "Demonstrated that ancient Martian waters were near-neutral (non-acidic) and that early Mars had a thick CO2 atmosphere.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Explosive Phreatomagmatic Volcanism at Home Plate",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Pancam",
+            "Microscopic Imager"
+          ],
+          "description": "Discovered volcanic 'bomb sags' in layered tephra deposits at Home Plate, where volcanic projectiles deformed soft, wet ash beds upon impact.",
+          "scientific_impact": "Confirmed that explosive interactions between rising magma and groundwater occurred in Mars' past.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        }
+      ],
+      "source_refs": [
+        "src_mer_science_highlights",
+        "src_spirit_comanche_jpl",
+        "src_spirit_steamy_past_jpl"
+      ]
+    },
+    "where_is_it_now": {
+      "topic_number": 6,
+      "title": "Where Is It Now?",
+      "operational_status": "Inactive on Surface",
+      "last_contact_date": "2010-03-22",
+      "is_still_communicating": false,
+      "location_summary": "Rests on the western edge of the Home Plate volcanic plateau, Columbia Hills, inside Gusev Crater, Mars (14.5692° S, 175.4729° E).",
+      "resting_coordinates": {
+        "latitude_deg": -14.5692,
+        "longitude_deg": 175.4729,
+        "body_or_frame": "Mars (IAU Planetocentric Standard)",
+        "distance_au": null,
+        "interstellar_heading": null
+      },
+      "why_left_behind": "Designed as an in-situ robotic surface rover with no ascent or return capability. Succumbed to cold winter conditions after becoming trapped in soft sand.",
+      "hardware_elements_at_site": [
+        {
+          "element_name": "Spirit Rover Chassis",
+          "condition": "Resting immobilized in soft sand at 'Troy' with solar panels tilted slightly southward"
+        },
+        {
+          "element_name": "Columbia Memorial Station Lander Base",
+          "condition": "Resting ~7.7 km away at the original touchdown site in Gusev Crater"
+        }
+      ],
+      "terrestrial_repositories": [],
+      "source_refs": [
+        "src_spirit_science_nasa",
+        "src_spirit_nssdca_master"
+      ]
+    },
+    "its_legacy": {
+      "topic_number": 7,
+      "title": "Its Legacy",
+      "historical_significance": "Spirit proved that long-duration overland field geology was possible on Mars, turning mechanical adversity into epochal hydrothermal discoveries and setting the engineering standard for Curiosity and Perseverance.",
+      "key_contributions": [
+        "Demonstrated that solar-powered rovers could survive multi-year Martian missions aided by natural wind-cleaning events.",
+        "Discovered the first confirmed hydrothermal hot spring environments on Mars.",
+        "Demonstrated the longevity of the rocker-bogie mobility system over 7.7 km of rocky planetary terrain.",
+        "Provided the ground truth calibration for Martian orbital mineralogy."
+      ],
+      "influence_on_future_missions": [
+        {
+          "mission_or_technology": "Curiosity and Perseverance Mars Rovers",
+          "influence_description": "The success of Spirit's Athena instrument payload directly informed the robotic arm and mast camera designs on MSL Curiosity and Mars 2020 Perseverance."
+        }
+      ],
+      "cultural_or_philosophical_impact": "Named Columbia Memorial Station in honor of the STS-107 crew, Spirit carried the spirit of human exploration into the sands of Gusev Crater.",
+      "source_refs": [
+        "src_spirit_science_nasa",
+        "src_spirit_siddiqi_beyond_earth"
+      ]
+    }
+  },
+  "images": [],
+  "model_3d": null,
+  "sources": [
+    {
+      "source_id": "src_spirit_science_nasa",
+      "title": "NASA Science Mission: Spirit",
+      "url": "https://science.nasa.gov/mission/mer-spirit/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-08-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "the_journey",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_spirit_nssdca_master",
+      "title": "Spirit Master Catalog Spacecraft Record (2003-027A)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2024-01-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "meet_the_technology",
+        "where_is_it_now"
+      ]
+    },
+    {
+      "source_id": "src_mer_science_highlights",
+      "title": "Mars Exploration Rovers Science Highlights",
+      "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-05-15",
+      "topics_supported": [
+        "mission_and_purpose",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_spirit_comanche_jpl",
+      "title": "NASA Rover Finds Clue to Mars' Past and Environment for Life (Comanche)",
+      "url": "https://www.jpl.nasa.gov/news/nasa-rover-finds-clue-to-mars-past-and-environment-for-life",
+      "publishing_organization": "NASA Jet Propulsion Laboratory",
+      "source_type": "NASA Mission Archive / Press Kit",
+      "publication_date": "2010-06-03",
+      "topics_supported": [
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_spirit_steamy_past_jpl",
+      "title": "Mars Rover Investigates Signs of Steamy Martian Past",
+      "url": "https://www.jpl.nasa.gov/news/mars-rover-investigates-signs-of-steamy-martian-past",
+      "publishing_organization": "NASA Jet Propulsion Laboratory",
+      "source_type": "NASA Mission Archive / Press Kit",
+      "publication_date": "2007-12-10",
+      "topics_supported": [
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_spirit_siddiqi_beyond_earth",
+      "title": "Beyond Earth: A Chronicle of Deep Space Exploration, 1958-2016",
+      "url": "https://solarsystem.nasa.gov/resources/1060/beyond-earth-a-chronicle-of-deep-space-exploration/",
+      "publishing_organization": "NASA History Program Office",
+      "source_type": "Official Historical Monograph",
+      "publication_date": "2018-09-01",
+      "topics_supported": [
+        "the_journey",
+        "its_legacy"
+      ]
+    }
+  ],
+  "verification_status": {
+    "overall_status": "VERIFIED_WITH_ANNOTATIONS",
+    "step_verified": "Step 3.2",
+    "verified_date": "2026-11-14",
+    "unresolved_conflicts_count": 1,
+    "preservation_notes": "Preserves imperial mass conversion rounding differences (405 lb vs 408 lb), harmonizing to canonical 185.0 kg metric standard."
+  },
+  "metadata": {
+    "created_at": "2026-11-14T15:30:00Z",
+    "updated_at": "2026-11-14T15:30:00Z",
+    "schema_version": "1.0.0"
+  }
+}

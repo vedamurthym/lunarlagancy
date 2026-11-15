@@ -1,0 +1,442 @@
+{
+  "id": "eq_mars_sojourner_pathfinder",
+  "slug": "sojourner-mars-pathfinder",
+  "name": "Sojourner Rover & Mars Pathfinder Lander",
+  "alternate_designations": [
+    "Mars Pathfinder",
+    "Carl Sagan Memorial Station",
+    "Discovery 2",
+    "MESUR Pathfinder",
+    "COSPAR: 1996-068A",
+    "NORAD: 24680"
+  ],
+  "category": "Mars",
+  "equipment_type": "Robotic Surface Lander & Rover",
+  "target_body": "Mars",
+  "short_description": "NASA's Mars Pathfinder delivered humanity's first successful mobile rover, Sojourner, to Mars on July 4, 1997. Using an innovative airbag landing system, the mission explored Ares Vallis, returning 16,500+ lander images, 550 rover images, and proving semi-autonomous planetary rover mobility.",
+  "topics": {
+    "meet_the_explorer": {
+      "topic_number": 1,
+      "title": "Meet the Explorer",
+      "introduction": "NASA's Mars Pathfinder mission delivered humanity's first successful robotic wheeled rover, Sojourner, to the surface of Mars on July 4, 1997. Conceived as a low-cost technology demonstration under NASA's 'faster, better, cheaper' Discovery Program, the mission consisted of a stationary three-petaled lander (the Carl Sagan Memorial Station) and a compact, 23-pound (10.6 kg) microrover named Sojourner. Using a daring direct atmospheric entry cushioned by a cluster of giant airbags, Mars Pathfinder successfully proved that mobile robotic rovers could navigate and perform in-situ geochemical science on another world.",
+      "equipment_identity": {
+        "formal_name": "Sojourner Microrover & Mars Pathfinder Lander",
+        "call_sign_or_nickname": "Sojourner",
+        "cospar_id": "1996-068A",
+        "norad_id": "24680",
+        "pds_id": null,
+        "memorial_station_name": "Carl Sagan Memorial Station"
+      },
+      "sub_components_represented": [
+        {
+          "name": "Carl Sagan Memorial Station (Lander Base)",
+          "role": "Tetrahedral lander platform with deployable solar petals, IMP camera mast, meteorology mast, and Earth telecommunications",
+          "status_at_site": "Rests with petals deployed on Ares Vallis flood plain (inactive since Sept 27, 1997)"
+        },
+        {
+          "name": "Sojourner Microrover",
+          "role": "Six-wheeled rocker-bogie mobile exploration vehicle carrying laser hazard avoidance and APXS spectrometer",
+          "status_at_site": "Rests on regolith near the lander (last reported examining rock 'Chimp')"
+        },
+        {
+          "name": "Airbag Deceleration Clusters",
+          "role": "Four multi-lobed Kevlar airbag assemblies that cushioned initial high-speed surface impacts",
+          "status_at_site": "Deflated and retracted onto base petals beneath lander structure"
+        }
+      ],
+      "source_refs": [
+        "src_pathfinder_science_nasa",
+        "src_pathfinder_nssdca_master"
+      ]
+    },
+    "mission_and_purpose": {
+      "topic_number": 2,
+      "title": "Mission & Purpose",
+      "mission_name": "Mars Pathfinder (NASA Discovery Program Mission 2)",
+      "program": "Discovery Program",
+      "sponsoring_agencies": [
+        "NASA Science Mission Directorate",
+        "Jet Propulsion Laboratory (JPL)"
+      ],
+      "disciplines": [
+        "Planetary Surface Robotics",
+        "Entry Descent & Landing Engineering",
+        "Sedimentary Geomorphology",
+        "Atmospheric Meteorology"
+      ],
+      "destination": {
+        "body": "Mars",
+        "region_name": "Ares Vallis (Chryse Planitia)",
+        "targeted_feature": "Catastrophic ancient flood plain containing rock debris transported from diverse highlands"
+      },
+      "landing_or_orbital_coordinates": {
+        "latitude_deg": 19.33,
+        "longitude_deg": -33.55,
+        "coordinate_standard": "IAU Planetocentric / West Longitude Standard (Carl Sagan Memorial Station)",
+        "coordinate_discrepancies": []
+      },
+      "objectives": [
+        "Demonstrate an innovative, low-cost method of direct atmospheric entry, parachute deceleration, and airbag cushioning to deliver payloads to the Martian surface.",
+        "Deploy the first mobile robotic planetary rover to evaluate off-world semi-autonomous locomotion, obstacle negotiation, and remote operations.",
+        "Characterize the elemental composition of Martian rocks and soils using an Alpha Proton X-ray Spectrometer (APXS).",
+        "Investigate the geology, petrology, and geomorphology of Ares Vallis, a catastrophic flood channel chosen for its wide assortment of rocks transported from diverse highlands.",
+        "Acquire extensive meteorology data, atmospheric pressure/temperature profiles, and atmospheric dust opacity."
+      ],
+      "source_refs": [
+        "src_pathfinder_science_nasa",
+        "src_pathfinder_lands_release"
+      ]
+    },
+    "meet_the_technology": {
+      "topic_number": 3,
+      "title": "Meet the Technology",
+      "architecture_description": "Integrated two-element surface system consisting of a tetrahedral lander with three unfolding solar petals and a 10.6 kg microrover connected via a UHF radio modem. Cushioned during terminal descent by 24 interconnected spherical airbags.",
+      "physical_specifications": {
+        "launch_mass_kg": 895.0,
+        "dry_mass_kg": 280.6,
+        "landed_mass_kg": 280.6,
+        "dimensions": {
+          "height_m": 0.9,
+          "width_or_diameter_m": 1.5,
+          "length_m": 1.5,
+          "span_m": null
+        },
+        "mass_discrepancies": [
+          {
+            "reported_value": "Lander dry mass ~270 kg (595 lb); Rover mass 10.6 kg (23.0 lb)",
+            "source": "NASA Technical Summary",
+            "resolution_or_erratum": "Combined landed dry mass is 280.6 kg; launch mass including cruise stage and aeroshell was 895 kg."
+          }
+        ]
+      },
+      "propulsion": {
+        "type": "Solid Deceleration Rockets (RAD) + Six-Wheel Rover Electric Drive",
+        "engines_or_thrusters": "Three Thiokol solid Rocket Assisted Deceleration (RAD) motors mounted in backshell (fired at 70 m altitude to halt vertical speed); rover powered by six individual wheel motors",
+        "thrust_rating": "Three Thiokol RAD motors (~34 kN each during 2.2-second deceleration burn); rover propelled by six DC brushed wheel motors",
+        "specific_impulse_sec": null,
+        "propellants": []
+      },
+      "power_system": {
+        "primary_power_source": "Solar Panels with Non-Rechargeable Primary Batteries",
+        "solar_array_details": "Lander equipped with 3.3 m² gallium arsenide cells across three unfolding petals generating ~1,200 Wh/day. Sojourner equipped with 0.22 m² solar array generating ~16 W peak at noon.",
+        "battery_specifications": "Lander powered by a non-rechargeable silver-zinc primary battery (40 Ah capacity); Sojourner powered by lithium thionyl chloride (LiSOCl2) primary D-cell batteries.",
+        "nuclear_rtg_details": {
+          "model": "Radioisotope Heater Units (RHU)",
+          "fuel_isotope": "Plutonium-238",
+          "launch_power_w": 3.0,
+          "power_decay_profile": "Three 1-Watt thermal pellets inside Sojourner chassis to keep electronics above -40°C during the night."
+        }
+      },
+      "communications": {
+        "antennas": [
+          "Lander steerable high-gain parabolic X-band dish",
+          "Lander low-gain omnidirectional antenna",
+          "Lander and Rover UHF radio whip antennas"
+        ],
+        "frequency_bands": [
+          "X-band (direct to Earth via DSN)",
+          "UHF (9600 baud wireless link between lander and rover)"
+        ],
+        "relay_systems": "Sojourner communicated exclusively with the lander station via UHF radio modem (range up to 500 meters); the lander transmitted all data directly to Earth."
+      },
+      "scientific_instruments": [
+        {
+          "name": "Imager for Mars Pathfinder",
+          "acronym": "IMP",
+          "instrument_id": null,
+          "purpose": "Capture stereoscopic, multi-spectral panoramic photographs of Ares Vallis and monitor rover driving.",
+          "specifications": "Stereo color camera on 0.8-meter deployable mast with 12 filters per eye, magnetic targets, and wind socks.",
+          "operational_status": "Returned 16,500+ images."
+        },
+        {
+          "name": "Atmospheric Structure Instrument / Meteorology",
+          "acronym": "ASI/MET",
+          "instrument_id": null,
+          "purpose": "Measure atmospheric temperature, pressure, wind velocity, and dust opacity at different mast elevations.",
+          "specifications": "Mast with three platinum resistance temperature sensors (0.25m, 0.5m, 1.0m) and pressure transducer.",
+          "operational_status": "Returned continuous weather records for 83 sols."
+        },
+        {
+          "name": "Alpha Proton X-ray Spectrometer",
+          "acronym": "APXS",
+          "instrument_id": null,
+          "purpose": "Analyze elemental rock and soil chemistry on targets in contact with the rover.",
+          "specifications": "Mounted on Sojourner rear deployment mechanism; curium-244 radioactive source.",
+          "operational_status": "Completed 16 geochemical analyses of rocks and soils."
+        }
+      ],
+      "associated_surface_vehicles_or_stations": [
+        {
+          "entity_name": "Sojourner Microrover",
+          "category": "Planetary Microrover",
+          "technical_summary": "First robotic rover on Mars; 10.6 kg mass, 6-wheel rocker-bogie mobility, 8-bit Intel 80C85 processor, structured laser hazard avoidance.",
+          "specifications": {
+            "mass_kg": 10.6,
+            "dimensions_cm": "65 length x 48 width x 30 height",
+            "top_speed_cms": 1.0,
+            "processor": "Intel 80C85 (100 kHz, 512 kB RAM)"
+          }
+        },
+        {
+          "entity_name": "Carl Sagan Memorial Station",
+          "category": "Surface Lander Station",
+          "technical_summary": "Tetrahedral lander platform carrying IMP camera, meteorology mast, and primary Earth telecommunications dish.",
+          "specifications": {
+            "mass_kg": 270.0,
+            "power_wh_per_day": 1200.0,
+            "downlink": "X-band via 0.3-meter dish"
+          }
+        }
+      ],
+      "source_refs": [
+        "src_pathfinder_science_nasa",
+        "src_pathfinder_nssdca_master"
+      ]
+    },
+    "the_journey": {
+      "topic_number": 4,
+      "title": "The Journey",
+      "journey_narrative": "Pathfinder launched on December 4, 1996, and plunged directly into the Martian atmosphere on July 4, 1997. After parachute deceleration and airbag inflation, the lander bounced 15+ times across Ares Vallis before rolling to a stop. On Sol 2, Sojourner drove down the deployment ramp, becoming the first rover to traverse Mars. The lander operated for 83 sols (nearly 3 times its 30-sol design goal), and Sojourner operated for 83 sols (12 times its 7-sol goal), until the lander's primary battery depleted on September 27, 1997.",
+      "launch_event": {
+        "timestamp_utc": "1996-12-04T06:58:07Z",
+        "local_time": "01:58:07 EST",
+        "launch_site": "Cape Canaveral Air Force Station LC-17B, Florida",
+        "launch_vehicle": "Delta II 7925"
+      },
+      "arrival_event": {
+        "event_type": "Landing",
+        "timestamp_utc": "1997-07-04T16:57:25Z",
+        "local_time": "10:07:25 PDT",
+        "touchdown_velocity_or_approach_speed": "Touchdown velocity 14 m/s (31 mph); bounced up to 15 meters high across 1 km distance",
+        "arrival_notes": "First airbag-cushioned planetary landing; direct atmospheric entry from interplanetary trajectory at 7.5 km/s."
+      },
+      "mission_timeline": [
+        {
+          "date_or_sol": "1997-07-04",
+          "phase": "Touchdown & Airbag Retraction",
+          "event_description": "Landed at 16:57:25 UTC; petals opened, righting lander; IMP camera deployed and transmitted first color panoramas.",
+          "anomaly_or_record_flag": "First Airbag Landing on Mars",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1997-07-05",
+          "phase": "Sojourner Ramping Down",
+          "event_description": "Late on Sol 2, Sojourner drove down the rear ramp (20-degree tilt) and rolled onto Martian soil.",
+          "anomaly_or_record_flag": "First Rover Wheels on Mars",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1997-07-08 to 1997-09-20",
+          "phase": "Surface Exploration",
+          "event_description": "Investigated rocks Barnacle Bill, Yogi, and Casper; conducted 16 APXS rock and soil analyses; recorded daily weather profiles.",
+          "anomaly_or_record_flag": null,
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1997-09-27",
+          "phase": "Final Data Transmission",
+          "event_description": "Completed last successful data transmission at 03:23 AM PDT on Sol 83. Mission concluded November 4, 1997.",
+          "anomaly_or_record_flag": "Primary Battery Depletion",
+          "discrepancy_note": null
+        }
+      ],
+      "operational_totals": {
+        "total_duration_days_or_sols": "83 sols (over 12 times Sojourner's 7-sol design life)",
+        "distance_traversed_km": 0.1,
+        "flights_completed": null,
+        "orbits_completed": null,
+        "images_returned": "16,500+ lander images, 550 rover images",
+        "samples_collected_kg": null
+      },
+      "source_refs": [
+        "src_pathfinder_winds_down",
+        "src_pathfinder_lands_release",
+        "src_pathfinder_science_nasa"
+      ]
+    },
+    "scientific_discoveries": {
+      "topic_number": 5,
+      "title": "Scientific Discoveries",
+      "summary_narrative": "Pathfinder confirmed catastrophic catastrophic megafloods at Ares Vallis, discovered silica-rich differentiated volcanic rocks (andesites), and placed the first radio Doppler constraints on Mars' dense metallic core.",
+      "key_discoveries": [
+        {
+          "title": "Catastrophic Megaflooding at Ares Vallis",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Imager for Mars Pathfinder"
+          ],
+          "description": "High-resolution imaging revealed rounded cobbles, fluting, and imbricated boulders stacked in the direction of downstream flow, proving Ares Vallis was carved by torrential megafloods comparable to the North American Great Lakes.",
+          "scientific_impact": "Proved that immense liquid water flows occurred on ancient Mars.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Silica-Rich Differentiated Volcanism ('Barnacle Bill')",
+          "discovery_category": "Geology & Mineralogy",
+          "instruments_involved": [
+            "Alpha Proton X-ray Spectrometer"
+          ],
+          "description": "APXS analysis of rock 'Barnacle Bill' revealed high silica content (~58% SiO2), indicating differentiated volcanic rock (andesite) rather than primitive basalt.",
+          "scientific_impact": "Demonstrated that Mars underwent complex crustal melting and evolutionary magma differentiation.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Martian Metallic Core Radius Constraints",
+          "discovery_category": "Geophysics & Internal Structure",
+          "instruments_involved": [
+            "Lander Radio Science Doppler Tracking"
+          ],
+          "description": "Radio tracking of the lander over 83 sols measured precession and moment of inertia, determining that Mars possesses a dense metallic core with radius between 1,300 and 2,000 km.",
+          "scientific_impact": "First direct geophysical constraint on Mars' interior metallic core.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Surface Temperature Telemetry Erratum Annotation",
+          "discovery_category": "Atmospheric & Climate Science",
+          "instruments_involved": [
+            "ASI/MET Atmospheric Mast"
+          ],
+          "description": "Verbatim 1997 NASA status report quote cited surface temperature as 'minus 220 degrees Kelvin (-64°F)'.",
+          "scientific_impact": "Absolute temperature cannot be negative; 220 Kelvin corresponds physically to -53.15°C (-63.67°F). The negative sign was a typographical press release error for 220 K.",
+          "claim_status": "Historical Erratum",
+          "notes_or_disputes": "Annotated in Step 3 pipeline: true temperature stored as 220 K."
+        }
+      ],
+      "source_refs": [
+        "src_pathfinder_science_nasa",
+        "src_pathfinder_winds_down"
+      ]
+    },
+    "where_is_it_now": {
+      "topic_number": 6,
+      "title": "Where Is It Now?",
+      "operational_status": "Inactive on Surface",
+      "last_contact_date": "1997-09-27",
+      "is_still_communicating": false,
+      "location_summary": "Rests on the rocky flood plain of Ares Vallis, Chryse Planitia, Mars (19.33° N, 33.55° W). Carl Sagan Memorial Station rests with petals open; Sojourner microrover rests a short distance away near rock 'Chimp'.",
+      "resting_coordinates": {
+        "latitude_deg": 19.33,
+        "longitude_deg": -33.55,
+        "body_or_frame": "Mars (IAU Planetocentric / West Longitude Standard)",
+        "distance_au": null,
+        "interstellar_heading": null
+      },
+      "why_left_behind": "Designed as an in-situ robotic surface technology demonstration with no launch or sample-return vehicle.",
+      "hardware_elements_at_site": [
+        {
+          "element_name": "Carl Sagan Memorial Station Lander Base",
+          "condition": "Resting upright with three solar petals deployed"
+        },
+        {
+          "element_name": "Sojourner Microrover",
+          "condition": "Resting on wheels adjacent to rock 'Chimp' in the Rock Garden"
+        }
+      ],
+      "terrestrial_repositories": [],
+      "source_refs": [
+        "src_pathfinder_science_nasa",
+        "src_pathfinder_winds_down"
+      ]
+    },
+    "its_legacy": {
+      "topic_number": 7,
+      "title": "Its Legacy",
+      "historical_significance": "Mars Pathfinder pioneered the modern era of Mars surface robotics, breaking a 21-year hiatus after Viking and proving that low-cost semi-autonomous rovers and airbag landing systems were viable on other worlds.",
+      "key_contributions": [
+        "Delivered humanity's first successful robotic wheeled rover to the surface of Mars.",
+        "Pioneered the airbag landing deceleration method, which successfully landed Spirit and Opportunity in 2004.",
+        "Demonstrated the rocker-bogie passive suspension architecture for off-world mobile locomotion.",
+        "Demonstrated semi-autonomous hazard detection using structured laser projection."
+      ],
+      "influence_on_future_missions": [
+        {
+          "mission_or_technology": "Mars Exploration Rovers (Spirit and Opportunity)",
+          "influence_description": "Pathfinder's airbag landing system and rocker-bogie chassis served as the direct engineering blueprint for the twin MER rovers."
+        },
+        {
+          "mission_or_technology": "Curiosity and Perseverance Mars Rovers",
+          "influence_description": "Proved the operational concept of mobile robotic field geology that culminated in the nuclear-powered Mars Science Laboratory and Mars 2020 missions."
+        }
+      ],
+      "cultural_or_philosophical_impact": "Pathfinder's landing on July 4, 1997, became one of the first viral internet events in history, logging hundreds of millions of web hits as the public watched live color images from Mars.",
+      "source_refs": [
+        "src_pathfinder_science_nasa",
+        "src_pathfinder_winds_down"
+      ]
+    }
+  },
+  "images": [],
+  "model_3d": null,
+  "sources": [
+    {
+      "source_id": "src_pathfinder_science_nasa",
+      "title": "NASA Science Mission: Mars Pathfinder",
+      "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2024-01-24",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "meet_the_technology",
+        "the_journey",
+        "scientific_discoveries",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_pathfinder_winds_down",
+      "title": "Mars Pathfinder Winds Down After Phenomenal Mission",
+      "url": "https://science.nasa.gov/solar-system/mars-pathfinder-winds-down-after-phenomenal-mission/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2024-01-24",
+      "topics_supported": [
+        "the_journey",
+        "scientific_discoveries",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_pathfinder_lands_release",
+      "title": "Mars Pathfinder Lands on Mars (Status Release)",
+      "url": "https://science.nasa.gov/solar-system/mars-pathfinder-lands-on-mars/",
+      "publishing_organization": "NASA Jet Propulsion Laboratory",
+      "source_type": "NASA Mission Archive / Press Kit",
+      "publication_date": "1997-07-04",
+      "topics_supported": [
+        "mission_and_purpose",
+        "the_journey"
+      ]
+    },
+    {
+      "source_id": "src_pathfinder_nssdca_master",
+      "title": "Mars Pathfinder Spacecraft Details (1996-068A)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A",
+      "publishing_organization": "NASA NSSDCA",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2024-01-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "meet_the_technology",
+        "where_is_it_now"
+      ]
+    }
+  ],
+  "verification_status": {
+    "overall_status": "VERIFIED_WITH_ANNOTATIONS",
+    "step_verified": "Step 3.2",
+    "verified_date": "2026-11-14",
+    "unresolved_conflicts_count": 1,
+    "preservation_notes": "Preserves both Carl Sagan Memorial Station and Sojourner microrover in a combined compound structure; annotates 1997 press release temperature erratum ('minus 220 degrees Kelvin' translated to physical 220 K)."
+  },
+  "metadata": {
+    "created_at": "2026-11-14T15:30:00Z",
+    "updated_at": "2026-11-14T15:30:00Z",
+    "schema_version": "1.0.0"
+  }
+}

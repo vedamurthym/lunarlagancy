@@ -1,0 +1,123 @@
+# Equipment Data: Apollo 11 Lunar Module & EASEP
+
+## 1. Meet the Explorer
+- **Equipment Name:** Apollo 11 Lunar Module (LM-5 / "Eagle") & Early Apollo Scientific Experiment Package (EASEP)
+- **Alternate Designations:** Apollo 11 LM/EASEP, LM-5, COSPAR ID: 1969-059C, NORAD ID: 04041, PDS ID: urn:nasa:pds:context:instrument_host:spacecraft.a11e
+- **Image References:**
+  - Lunar Module Diagram: https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif (Courtesy of NASA History Office)
+  - Apollo 11 LM on the Moon: https://nssdc.gsfc.nasa.gov/planetary/image/ap11_lm_as11_40_5927.jpg
+  - Laser Ranging Retroreflector (LRRR): https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_laser_reflector.jpg
+  - EASEP Central Station & Dust Detector: https://nssdc.gsfc.nasa.gov/planetary/image/alsep_11_dust_detector.jpg
+  - Dust Detector Diagram: https://nssdc.gsfc.nasa.gov/planetary/image/ap11_dust_detector_diagram.jpg
+- **Introduction:**
+  The Apollo 11 Lunar Module "Eagle" was the historic first crewed space vehicle to land on the Moon. Piloted by Commander Neil A. Armstrong and Lunar Module Pilot Edwin E. "Buzz" Aldrin, Jr., with Command Module Pilot Michael Collins in lunar orbit, Eagle carried the first humans to the lunar surface. Mounted to the descent stage was the Early Apollo Scientific Experiment Package (EASEP), the precursor to the later ALSEP stations, consisting of self-contained surface experiments designed to be deployed and left on the Moon.
+
+## 2. Mission & Purpose
+- **Mission Name:** Apollo 11
+- **Program & Funding Agency:** NASA - Office of Manned Space Flight (United States)
+- **Disciplines:** Human Spaceflight, Planetary Science, Geophysics, Celestial Mechanics
+- **Destination:** The Moon (Mare Tranquillitatis / Sea of Tranquility)
+- **Landing Site Coordinates:**
+  - 0.67416° N latitude, 23.47314° E longitude (LRO images, DE421 ephemeris reference frame; also recorded nominally as 0.67° N, 23.47° E)
+- **Purpose & Objectives:**
+  - Achieve national goal of landing astronauts on the lunar surface and returning them safely to Earth.
+  - Perform the first extravehicular activity (EVA) on the lunar surface.
+  - Emplace scientific instruments to record seismic events, solar wind flux, and lunar dust accumulation.
+  - Emplace a passive retroreflector array to measure the exact Earth-Moon distance over decades via laser ranging.
+  - Gather geological rock and core tube soil samples from the lunar surface.
+
+## 3. Meet the Technology
+- **Spacecraft Architecture:** Two-stage vehicle designed solely for space and lunar operations (cannot fly in an atmosphere).
+  - **Total Spacecraft Mass:** 15,103 kg (including propellants).
+- **Descent Stage:**
+  - **Structure:** Octagonal prism, 4.2 m across, 1.7 m thick, supported by four landing legs with round footpads spanning 9.4 m diagonally. Footpads held the stage 1.5 m above the lunar ground.
+  - **Dry Mass:** 2,034 kg (including stowed surface equipment).
+  - **Propellant Mass:** 8,248 kg of aerozine 50 fuel and nitrogen tetroxide (N2O4) oxidizer.
+  - **Descent Engine:** Deep-throttling ablative rocket engine with maximum thrust of ~45,000 N, mounted on a gimbal ring. Included a 1-meter conical engine skirt.
+  - **Storage:** Contained water, oxygen, helium tanks, scientific equipment bay (Modular Equipment Stowage Assembly - MESA), egress platform, and ladder. Served as the launch platform for the ascent stage.
+- **Ascent Stage:**
+  - **Structure:** Irregularly shaped crew cabin, 2.8 m high, 4.0 m by 4.3 m wide, pressurized crew compartment volume of 6.65 m³ (no seats; astronauts stood during flight).
+  - **Dry Mass:** 2,445 kg; Propellant Mass: 2,376 kg.
+  - **Ascent Engine:** Fixed, constant-thrust rocket engine delivering ~15,000 N of thrust.
+  - **Reaction Control System (RCS):** Four thrust modules, each featuring four 450 N thrust chambers pointing in orthogonal directions (16 RCS thrusters total).
+  - **Guidance & Navigation:** Apollo Guidance Computer (AGC), Inertial Measurement Unit (IMU with gyroscopes and accelerometers), and radar ranging systems (rendezvous radar and landing radar).
+  - **Communications:** Steerable parabolic S-band antenna, parabolic rendezvous radar antenna, two in-flight VHF antennas. VHF handled astronaut-to-LM and LM-to-CSM communications; S-band handled telemetry, voice, television, and ranging to Earth.
+  - **Environmental Control & Power:** Oxygen recycling and temperature control systems; electrical power supplied by 6 silver-zinc batteries.
+- **Scientific Instrument Package (EASEP / PSEP):**
+  - **Physical Specifications:** Total package mass 48 kg (stowed mass 47.7 kg / 105 lb; stowed volume approximately 113,300 cm³).
+  - **Power Architecture:** Powered by two canted rectangular solar panels containing 2,520 silicon solar cells generating 31 to 46 Watts nominal (daytime operation only; no long-duration radioisotope generator).
+  - **Thermal Management:** Equipped with two 15-Watt Radioisotope Heater Units (RHUs) containing Plutonium/Polonium-238 to maintain electronics temperatures during the lunar night, wrapped in an aluminized Mylar thermal shroud.
+  - **Telemetry & Communications:** Uplink frequency: 2119 MHz; Telemetry downlink frequency: 2276.5 MHz; cylindrical antenna mast.
+  - **Seismic Sensor Specifications:** Triaxial long-period and vertical short-period seismometers housed in a sealed beryllium drum enclosure (23 cm diameter × 29 cm high) resting on a leveling stool.
+  - **Included Instruments:** Passive Seismic Experiment (PSE) and Lunar Dust Detector (DTREM).
+
+## 4. The Journey
+- **Launch:** July 16, 1969, at 13:32:00 UT (09:32:00 EDT) from Cape Canaveral Pad 39A atop a Saturn 5 launch vehicle.
+- **Translunar Flight & Separation:** Reached lunar orbit on July 20, 1969. The LM separated from Command Module "Columbia" at 17:44:00 UT. Separation burn commenced at 18:11:53 UT.
+- **Descent & Landing:**
+  - Descent orbit insertion fired for 30 seconds at 19:08 UT, lowering pericynthion to 14.5 km.
+  - Powered descent engine initiated at 20:05 UT, firing for 756.3 seconds.
+  - Touchdown occurred at 20:17:40 UT (4:17:40 PM EDT [note: 25th anniversary overview rounds to 4:18 PM EDT]) on July 20, 1969, in Mare Tranquillitatis. Armstrong announced: *"Houston, Tranquility Base here - the Eagle has landed."*
+- **Surface Operations (EVA):**
+  - At 02:56:15 UT on July 21 (10:56:15 PM EDT July 20), Armstrong set foot on the Moon: *"That's one small step for man, one giant leap for mankind."*
+  - Contingency sample collected immediately; Aldrin stepped onto the surface 19 minutes later (*"Magnificent desolation"*).
+  - Unveiled the leg strut plaque: *"Here men from the planet Earth first set foot on the Moon July 1969, A.D. We came in peace for all mankind."*
+  - Deployed the US flag, conducted a radiotelephone call with President Richard Nixon.
+  - Deployed EASEP (activated at 04:40:39 UT July 21) and the Laser Ranging Retroreflector (~17 m south and ~5 m NNW of EASEP respectively).
+  - Traversed approximately 250 meters total, ranging up to 100 meters from the LM.
+  - Collected 21.55 kg of lunar rock and soil, including two core tube samples.
+  - **EVA Duration Documentation:** Cabin depressurization hatch-open to hatch-closed duration was 2 hours, 31 minutes, 40 seconds; boots-on-the-surface EVA duration was 2 hours 10 minutes for Armstrong and 1 hour 33 minutes for Aldrin. (Note: NSSDCA summary profiles record 1h 41m for Aldrin / +12 min for Armstrong; NASA 25th Anniversary summary records 2h 32m total).
+  - EVA hatch closed at 05:11:13 UT July 21. Total surface stay: 21 hours, 36 minutes.
+- **Lunar Liftoff & Docking:**
+  - Ascent stage launched from the Moon at 17:54:01 UT on July 21, 1969.
+  - Docked with Command Module Columbia at 21:34:00 UT.
+  - **Ascent Stage Jettison Timestamp Discrepancy:**
+    - Primary NSSDCA Master Record (1969-059C): July 22, 1969, at 00:01:01 UT.
+    - NSSDCA "Where Are They Now?" Record: July 21, 1969, at 23:41 UT (7:41 PM EDT).
+    - Both figures preserved; discrepancy represents differences between nominal uncoupling and final separation retro-firing in orbital telemetry logs.
+
+## 5. Scientific Discoveries
+- **Laser Ranging Retroreflector (LRRR - 1969-059C-04):**
+  - 77 kg array composed of 100 corner cubes of high-purity fused silica in a folding aluminum support structure.
+  - Reflected terrestrial laser pulses back to originating stations (e.g. McDonald Observatory).
+  - Enabled measurement of Earth-Moon distance to centimeter accuracy, measurement of lunar orbital motions, lunar physical librations, and geophysical tracking of Earth's continental drift. Continues passive operation today.
+- **Lunar Dust Detector (DTREM - 1969-059C-05):**
+  - 0.27 kg sensor assembly with three 1 x 2 cm n-on-p silicon solar cells (one bare, one with 0.15 mm fused silica cover, one with 0.51 mm cover) and three high-precision nickel resistance thermometers (range 84 to 408 K).
+  - Measured power degradation caused by high-energy cosmic radiation, ultraviolet damage, and dust deposition from the ascent engine liftoff.
+  - Operating temperatures exceeded the planned design maximum by 30°C, yet the unit operated until commands ceased on August 27, 1969.
+- **Passive Seismic Experiment:**
+  - Detected background lunar vibrations and established that the lunar crust was far more seismically quiet and structurally distinct than Earth's.
+- **Geological Samples:**
+  - 21.55 kg of basaltic mare rocks and breccias proved the volcanic origin of the lunar maria, absence of surface water, and extreme antiquity of lunar surface rocks (>3.6 billion years old).
+- **Solar Wind Composition Experiment:**
+  - Deployed an aluminum foil sheet to capture noble gas ions (helium, neon, argon) directly from the solar wind for Earth laboratory spectrometry.
+
+## 6. Where Is It Now?
+- **Descent Stage:**
+  - Remains on the lunar surface at Tranquility Base, Mare Tranquillitatis (0.67416° N, 23.47314° E). Left behind permanently because it served as the launch pad for the ascent stage.
+- **EASEP & Retroreflector Array:**
+  - The EASEP central station and dust detector remain at 0.6735° N, 23.4730° E (inactive since August 27, 1969).
+  - The Laser Ranging Retroreflector (LRRR) remains at 0.67345° N, 23.47307° E, resting passively on the surface and still capable of reflecting Earth-based laser pulses.
+- **Ascent Stage:**
+  - Jettisoned into lunar orbit. Its exact fate and impact site are officially unknown; NASA orbital trajectory models presume it lost orbital altitude and impacted the lunar surface within 1 to 4 months following jettison.
+- **Commemorative Artifacts Left on Surface:**
+  - Descent stage ladder plaque inscription: *"Here men from the planet Earth first set foot on the Moon July 1969, A.D. We came in peace for all mankind."*
+  - American flag (knocked over during ascent engine exhaust blast).
+  - Memorial packet containing an Apollo 1 patch honoring Grissom, White, and Chaffee, Soviet medals honoring Yuri Gagarin and Vladimir Komarov, and a silicon disk with goodwill messages from 73 world leaders.
+
+## 7. Its Legacy
+- Proved that human beings can travel across interplanetary space, navigate to another world, land safely, work on its surface, and return.
+- Provided baseline geotechnical data proving the lunar regolith could support heavy spacecraft footpads and human foot traffic.
+- Initiated planetary sample return science, providing the first pristine extraterrestrial geologic samples.
+- The passive Laser Ranging Retroreflector became the only Apollo 11 experiment to continue operating for decades after the mission, supplying continuous celestial mechanics and gravitational physics data.
+
+---
+### Source References & Enrichment Provenance
+- NASA NSSDCA Spacecraft Details: `1969-059C` (https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C)
+- NASA Apollo 11 Mission Overview: https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11info.html
+- NASA Lunar Landing Site Coordinates (DE421 Ephemeris): https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html
+- Apollo 11 LRRR Experiment: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-059C-04
+- Apollo 11 Lunar Dust Detector Experiment: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-059C-05
+- Apollo Lunar Module Locations: https://nssdc.gsfc.nasa.gov/planetary/lunar/apolloloc.html
+- **Enrichment Addition (Topic 3):** EASEP/PSEP mass (47.7 kg), stowed volume (113,300 cm³), drum sensor dimensions (23 cm × 29 cm), and power output (31–46 W solar, 15 W RHU) retrieved from NASA NTRS Report *Apollo 11 Preliminary Science Report* (NASA SP-214) and NSSDCA PSEP catalog.
+- **Enrichment Addition (Topic 4):** Dual-format EVA duration breakdown (hatch-to-hatch vs. boots-on-the-ground) and ascent stage jettison conflict provenance mapped from Apollo 11 Mission Operations Log (NASA MSC-00171).

@@ -1,0 +1,14 @@
+equipment_id,equipment_name,model_id,model_name,storage_path,is_shared,status
+eq_moon_apollo11_lm,Apollo 11 Lunar Module & EASEP,model_moon_apollo_lm,Apollo Lunar Module (LM),moon/apollo.glb,True,LINKED
+eq_moon_apollo12_lm,Apollo 12 Lunar Module & ALSEP,model_moon_apollo_lm,Apollo Lunar Module (LM),moon/apollo.glb,True,LINKED
+eq_moon_apollo15_lm,"Apollo 15 Lunar Module, ALSEP & Lunar Roving Vehicle",model_moon_apollo_lm,Apollo Lunar Module (LM),moon/apollo.glb,True,LINKED
+eq_moon_surveyor3,Surveyor 3,model_moon_surveyor3,Surveyor 3 Lunar Lander,moon/surveyor_3.glb,False,LINKED
+eq_mars_ingenuity,Ingenuity Mars Helicopter,model_mars_ingenuity,Ingenuity Mars Helicopter,mars/ingenuity.glb,False,LINKED
+eq_mars_spirit,Mars Exploration Rover Spirit (MER-A),model_mars_spirit,Mars Exploration Rover Spirit (MER-A),mars/spirit.glb,False,LINKED
+eq_mars_opportunity,Mars Exploration Rover Opportunity (MER-B),model_mars_opportunity,Mars Exploration Rover Opportunity (MER-B),mars/opportunity.glb,False,LINKED
+eq_mars_sojourner_pathfinder,Sojourner Rover & Mars Pathfinder Lander,model_mars_sojourner,Sojourner Rover & Mars Pathfinder Lander,mars/sojourner_pathfinder.glb,False,LINKED
+eq_mars_viking1,Viking 1 (Orbiter & Lander),model_mars_viking_lander,Viking Mars Lander,mars/viking.glb,True,LINKED
+eq_mars_viking2,Viking 2 (Orbiter & Lander),model_mars_viking_lander,Viking Mars Lander,mars/viking.glb,True,LINKED
+eq_deep_space_dawn,Dawn Spacecraft,model_deep_space_dawn,Dawn Spacecraft,deep-space/dawn.glb,False,LINKED
+eq_deep_space_near_shoemaker,NEAR Shoemaker Spacecraft,model_deep_space_near_shoemaker,NEAR Shoemaker Spacecraft,deep-space/near_shoemaker.glb,False,LINKED
+eq_deep_space_pioneer10,Pioneer 10 Spacecraft,model_deep_space_pioneer10,Pioneer 10 Spacecraft,deep-space/pioneer_10.glb,False,LINKED

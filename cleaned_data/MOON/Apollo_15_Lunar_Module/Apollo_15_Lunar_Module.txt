@@ -1,0 +1,123 @@
+# Equipment Data: Apollo 15 Lunar Module, ALSEP & Lunar Roving Vehicle
+
+## 1. Meet the Explorer
+- **Equipment Name:** Apollo 15 Lunar Module (LM-10 / "Falcon"), Apollo Lunar Surface Experiments Package (ALSEP) & Lunar Roving Vehicle (LRV-1)
+- **Alternate Designations:** Apollo 15 LM/ALSEP, Falcon, LM-10, LEM 15, Rover 15, COSPAR ID: 1971-063C, NORAD ID: 05366, PDS ID: urn:nasa:pds:context:instrument_host:spacecraft.a15a
+- **Image References:**
+  - Apollo 15 Lunar Module Diagram: https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif
+  - Apollo 15 ALSEP / Central Station: https://nssdc.gsfc.nasa.gov/planetary/image/ap15_alsep.jpg
+- **Introduction:**
+  The Apollo 15 Lunar Module "Falcon" was the fourth crewed spacecraft to land on the Moon and the premier "J-series" extended exploration mission. Commanded by David R. Scott with Lunar Module Pilot James B. Irwin, and Command Module Pilot Alfred M. Worden in orbit, Falcon touched down in the dramatic Hadley-Apennine region. Apollo 15 introduced the Lunar Roving Vehicle (LRV), allowing the crew to travel tens of kilometers across the lunar surface, and deployed the most comprehensive ALSEP geophysical station to date, operating with eight science instruments powered by a nuclear SNAP-27 RTG.
+
+## 2. Mission & Purpose
+- **Mission Name:** Apollo 15
+- **Program & Funding Agencies:** NASA - Office of Manned Space Flight & NASA - Office of Space Science (United States)
+- **Disciplines:** Human Spaceflight, Lunar Geology, Heat Flow Geophysics, Planetary Atmospheres, Space Physics
+- **Destination:** Hadley-Apennine Region (Foot of the Apennine Mountains along Hadley Rille, Mare Imbrium), The Moon
+- **Landing Site Coordinates:**
+  - Lunar Module: 26.13239° N latitude, 3.63330° E longitude (LRO images, DE421 ephemeris reference frame; also recorded as 26.132° N, 3.634° E)
+  - ALSEP Central Station: 26.1341° N latitude, 3.6298° E longitude
+- **Purpose & Objectives:**
+  - Conduct extended scientific exploration of a diverse geological landing site containing both high lunar mountains and a deep volcanic sinuous rille (Hadley Rille).
+  - Deploy and test the first crewed Lunar Roving Vehicle on extraterrestrial terrain.
+  - Drill deep boreholes with the Apollo Lunar Surface Drill (ALSD) to emplace the Heat Flow Experiment.
+  - Emplace an expanded ALSEP suite for long-duration seismic, atmospheric, dust, magnetic, and thermal monitoring.
+  - Conduct three major EVAs totaling over 18 hours, covering distances up to 5 km from the lander.
+
+## 3. Meet the Technology
+- **Spacecraft Architecture:** Heavily modified extended-stay "J-mission" Lunar Module.
+  - **Total Spacecraft Mass:** 16,430 kg (higher mass than Apollo 11 and 12 due to expanded scientific payload, consumables, and the LRV).
+- **Descent Stage:**
+  - **Structure:** Octagonal prism, 4.2 m wide, 1.7 m thick, with four landing legs (9.4 m diagonal span).
+  - **Dry Mass:** 2,797 kg (including stowed surface equipment, ALSEP, and LRV).
+  - **Propellant Mass:** 8,873 kg of aerozine 50 and nitrogen tetroxide (extended propellant tanks).
+  - **Descent Rocket Engine:** Deep-throttling ablative engine (~45,000 N max thrust) with extended 10-inch nozzle skirt extension for enhanced specific impulse.
+  - **Quadrant 1 Bay:** Housed the folded Lunar Roving Vehicle on a deployable hinge mechanism.
+- **Ascent Stage:**
+  - **Structure:** Pressurized cabin, 2.8 m high, 4.0 m by 4.3 m wide, 6.65 m³ crew compartment.
+  - **Dry Mass:** 2,385 kg; Propellant Mass: 2,375 kg.
+  - **Ascent Engine:** Fixed rocket engine delivering ~15,000 N thrust.
+  - **RCS:** Four 4-nozzle attitude control thruster quads (450 N each).
+  - **Avionics & Systems:** Apollo Guidance Computer, IMU, rendezvous/landing radar, S-band steerable dish, VHF antennas, 6 silver-zinc batteries.
+- **Lunar Roving Vehicle (LRV-1):**
+  - Foldable four-wheeled electric vehicle powered by two 36-volt silver-zinc non-rechargeable batteries.
+  - Four 1/4-horsepower DC electric motors (one in each wheel hub), harmonic drive gear reduction, independent four-wheel steering.
+  - Wire-mesh wheels with chevron-shaped titanium treads.
+  - Equipped with a T-handle hand controller, directional gyro navigation unit, color TV camera controlled remotely from Houston, and high-gain antenna.
+- **ALSEP Central Station & Nuclear RTG:**
+  - 25 kg central station enclosure with thermal control louvers and modified axial-helical antenna.
+  - Uplink: 2119 MHz; Downlink: 2278.0 MHz.
+  - **SNAP-27 RTG:** 17 kg total assembly, powered by ~4 kg Plutonium-238 fuel rod in beryllium thermal shield. Produced ~70 W DC at 16 V (63.5 W after 1 year) via 442 lead-telluride thermocouples.
+
+## 4. The Journey
+- **Launch:** July 26, 1971, at 13:34:00 UT from Cape Canaveral Pad 39A atop a Saturn 5.
+- **Lunar Arrival & Descent:**
+  - Separated from Command Module "Endeavour" at 18:13:30 UT on July 30.
+  - Landed at 22:16:29 UT (6:16:29 PM EDT) on July 30, 1971, in Hadley-Apennine.
+  - Two hours after landing, Scott depressurized the cabin and performed a 33-minute "Stand-up EVA" (SEVA) through the top docking hatch, capturing telephoto panoramic surveys of the surrounding mountain peaks.
+- **Surface Operations (3 Moonwalk EVAs):**
+  - **EVA 1 (July 31, 13:13:10 to 19:45:59 UT - 6h 32m):** Deployed the LRV, traversed 10.3 km along the edge of Hadley Rille to Elbow Crater and St. George Crater. Deployed the ALSEP package.
+  - **EVA 2 (August 1, 11:48:48 to 19:01:02 UT - 7h 12m):** Drove 12.5 km southeast along the base of the Apennine Mountains (Mount Hadley Delta), visiting Index, Arbeit, Crescent, Dune, and Spur craters. Discovered the famous "Genesis Rock" (anorthosite ancient crust sample). Completed deep core tube drilling.
+  - **EVA 3 (August 2, 08:52:14 to 13:42:04 UT - 4h 50m):** Traversed 5.1 km west to Scarp Crater and northwest along Hadley Rille. Demonstrated Galileo's equivalence principle by dropping a 1.32 kg geological hammer and a 0.03 kg falcon feather simultaneously in the lunar vacuum; both hit the ground at the same moment.
+  - Commemorated fallen astronauts and cosmonauts by placing a memorial plaque and a small aluminum statuette ("Fallen Astronaut") on the regolith.
+  - **Totals:** 3 EVAs totaling 18 hours 35 minutes; traversed 27.9 km on the LRV; collected 77.31 kg of rock and soil samples; spent 66 hours 55 minutes on the Moon.
+- **Ascent, Jettison & Lunar Impact:**
+  - Ascent stage lifted off at 17:11:22 UT on August 2, 1971.
+  - Docked with Endeavour at 19:09:47 UT.
+  - Jettisoned at 01:04:14 UT on August 3. Intentionally targeted to crash into the Moon at 03:03:37.0 UT on August 3, 1971, impacting at 26.36° N, 0.25° E to calibrate the ALSEP seismometer network.
+
+## 5. Scientific Discoveries
+- **Heat Flow Experiment (HFE - 1971-063C-06):**
+  - Two probes inserted into holes drilled with the Apollo Lunar Surface Drill (ALSD). Probe 1 reached 162 cm; Probe 2 encountered resistant regolith at 160 cm and an internal obstruction at ~1 m.
+  - Measured temperature gradients, thermal conductivities (using 0.002 W and 0.5 W heaters), and absolute temperatures (precision ±0.001 K).
+  - Provided the first direct measurement of the heat leaking outward from the lunar interior, establishing the Moon's internal thermal balance and radioactive isotope concentration.
+- **Cold Cathode Ion Gauge (CCGE / CCIG - 1971-063C-07):**
+  - Townsend discharge ionization gauge measuring neutral gas densities from 2x10^5 to 1x10^11 particles/cm³.
+  - Proved that the lunar ambient atmosphere is an extreme exosphere (<10^-12 torr), and measured transient gas venting from astronaut spacesuits and LM venting.
+- **Laser Ranging Retroreflector (LRRR - 1971-063C-08):**
+  - 300 corner-cube fused-silica array (three times larger than Apollo 11's array), transported to the surface via the LRV.
+  - Allowed smaller ground telescopes to conduct laser ranging; provided permanent reference data for lunar orbit eccentricity and rotational dynamics.
+- **Lunar Dust Detector (DTREM - 1971-063C-09):**
+  - Three silicon solar cells (one bare, one covered with 0.15 mm glass, one pre-irradiated with 10^15 1-MeV electrons) and nickel resistance thermistors.
+  - Quantified long-term solar cell output degradation: non-irradiated cells lost ~3.5% power/year; an August 1972 solar particle event caused an immediate 7% output drop.
+- **Passive Seismic Experiment (PSE - 1971-063C-01):**
+  - Recorded thousands of moonquakes; localized deep moonquake nests at depths of 800 to 1,000 km, correlating them with monthly Earth-Moon tidal cycles.
+- **Suprathermal Ion Detector Experiment (SIDE - 1971-063C-11) & Solar Wind Composition (1971-063C-12):**
+  - Mapped magnetotail plasma flow, detected water vapor events, and captured noble gas ions.
+- **Genesis Rock & Sample Discoveries:**
+  - Sample 15415 ("Genesis Rock"), a pristine ferroan anorthosite dating to approximately 4.1 billion years ago, verified that the early Moon was covered by an ancient global "magma ocean" where light plagioclase feldspar floated to form the crust.
+
+## 6. Where Is It Now?
+- **Descent Stage:**
+  - Remains in Hadley-Apennine at 26.13239° N, 3.63330° E.
+- **Lunar Roving Vehicle (LRV-1):**
+  - Parked permanently on the lunar plains approximately 100 meters east of the descent stage (where its TV camera broadcasted the ascent stage liftoff).
+- **ALSEP Central Station & Instruments:**
+  - Located at 26.1341° N, 3.6298° E. Central station and instruments operated until NASA shut down all Apollo surface ALSEP operations on September 30, 1977.
+  - The passive Laser Ranging Retroreflector (LRRR) remains on the surface and continues to reflect laser pulses from Earth.
+- **Ascent Stage:**
+  - Impacted the lunar surface on August 3, 1971, at 03:03:37.0 UT at coordinates 26.36° N, 0.25° E.
+- **Commemorative Artifacts Left Behind:**
+  - "Fallen Astronaut" aluminum sculpture and memorial plaque listing 14 fallen US astronauts and Soviet cosmonauts.
+  - Apollo 15 mission plaque on the descent stage ladder.
+  - Galileo hammer and falcon feather.
+
+## 7. Its Legacy
+- Transformed lunar exploration from short-range surface sorties into wide-ranging field geology expeditions through the introduction of the Lunar Roving Vehicle.
+- Discovered the Genesis Rock, which provided the foundational empirical evidence for the Lunar Magma Ocean hypothesis.
+- Successfully gathered the first quantitative heat flow measurements from within the body of another celestial world.
+- The Apollo 15 LRRR array remains one of humanity's longest-serving optical retroreflectors on the Moon, continuing to aid tests of Einstein's general relativity and lunar orbital evolution.
+
+---
+### Source References
+- NASA NSSDCA Spacecraft Details: `1971-063C` (https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C)
+- Apollo 15 Mission Overview: https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo15.html
+- Apollo 15 Heat Flow Experiment: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-06
+- Apollo 15 Cold Cathode Ion Gauge: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-07
+- Apollo 15 Laser Ranging Retroreflector: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-08
+- Apollo 15 Lunar Dust Detector: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-09
+- Apollo 15 Passive Seismic Experiment: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-01
+- Apollo 15 S-Band Transponder: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-12
+- Apollo 15 Solar Wind Composition: https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-11
+- Apollo Landing Site Coordinates: https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html
+- Apollo Impact Sites Table: https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_impact.html

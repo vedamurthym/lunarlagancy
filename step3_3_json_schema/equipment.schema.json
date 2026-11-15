@@ -1,0 +1,565 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://spaceheritage.org/schemas/v1/equipment.schema.json",
+  "title": "SpaceHeritageEquipmentRecord",
+  "description": "Standardized schema for Space Heritage Explorer equipment records, supporting 13 celestial artifacts across Moon, Mars, and Deep Space for Supabase PostgreSQL and React + TypeScript frontend integration.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "category",
+    "equipment_type",
+    "target_body",
+    "short_description",
+    "topics",
+    "sources",
+    "verification_status",
+    "metadata"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Canonical project unique identifier (e.g., 'eq_moon_apollo11_lm', 'eq_mars_sojourner_pathfinder').",
+      "pattern": "^eq_(moon|mars|deep_space)_[a-z0-9_]+$"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly slug for frontend routing (e.g., 'apollo-11-lunar-module', 'sojourner-mars-pathfinder').",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full formal display name of the equipment.",
+      "minLength": 3
+    },
+    "alternate_designations": {
+      "type": "array",
+      "description": "List of alternate names, flight designations, call signs, or NASA mission codes.",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "category": {
+      "type": "string",
+      "description": "Celestial domain category for filtering and navigation.",
+      "enum": ["Moon", "Mars", "Deep Space"]
+    },
+    "equipment_type": {
+      "type": "string",
+      "description": "Physical classification of the primary equipment.",
+      "enum": [
+        "Lunar Module & Science Package",
+        "Robotic Lunar Soft-Lander",
+        "Autonomous Aerial Rotorcraft",
+        "Robotic Geologic Rover",
+        "Robotic Surface Lander & Rover",
+        "Interplanetary Orbiter & Lander",
+        "Interplanetary Ion-Propulsion Orbiter",
+        "Asteroid Orbiter & Surface Lander",
+        "Interstellar Probe / Flyby Spacecraft"
+      ]
+    },
+    "target_body": {
+      "type": "string",
+      "description": "Primary celestial body or destination (e.g., 'The Moon', 'Mars', 'Main Asteroid Belt (Vesta & Ceres)', 'Asteroid 433 Eros', 'Jupiter & Interstellar Space')."
+    },
+    "short_description": {
+      "type": "string",
+      "description": "Concise summary introduction suitable for UI overview cards and search indexing.",
+      "minLength": 30,
+      "maxLength": 600
+    },
+    "topics": {
+      "type": "object",
+      "description": "Mandatory seven-topic structure containing rich historical, technical, and scientific content.",
+      "required": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "meet_the_technology",
+        "the_journey",
+        "scientific_discoveries",
+        "where_is_it_now",
+        "its_legacy"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "meet_the_explorer": {
+          "type": "object",
+          "required": ["topic_number", "title", "introduction"],
+          "properties": {
+            "topic_number": { "type": "integer", "const": 1 },
+            "title": { "type": "string", "const": "Meet the Explorer" },
+            "introduction": { "type": "string", "minLength": 20 },
+            "equipment_identity": {
+              "type": "object",
+              "properties": {
+                "formal_name": { "type": "string" },
+                "call_sign_or_nickname": { "type": ["string", "null"] },
+                "cospar_id": { "type": ["string", "null"] },
+                "norad_id": { "type": ["string", "null"] },
+                "pds_id": { "type": ["string", "null"] },
+                "memorial_station_name": { "type": ["string", "null"] }
+              }
+            },
+            "sub_components_represented": {
+              "type": "array",
+              "description": "Individual physical flight/surface hardware entities represented in this record.",
+              "items": {
+                "type": "object",
+                "required": ["name", "role"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "role": { "type": "string" },
+                  "status_at_site": { "type": "string" }
+                }
+              }
+            },
+            "source_refs": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "mission_and_purpose": {
+          "type": "object",
+          "required": ["topic_number", "title", "mission_name", "program", "destination", "objectives"],
+          "properties": {
+            "topic_number": { "type": "integer", "const": 2 },
+            "title": { "type": "string", "const": "Mission & Purpose" },
+            "mission_name": { "type": "string" },
+            "program": { "type": "string" },
+            "sponsoring_agencies": { "type": "array", "items": { "type": "string" } },
+            "disciplines": { "type": "array", "items": { "type": "string" } },
+            "destination": {
+              "type": "object",
+              "required": ["body", "region_name"],
+              "properties": {
+                "body": { "type": "string" },
+                "region_name": { "type": "string" },
+                "targeted_feature": { "type": "string" }
+              }
+            },
+            "landing_or_orbital_coordinates": {
+              "type": ["object", "null"],
+              "properties": {
+                "latitude_deg": { "type": "number" },
+                "longitude_deg": { "type": "number" },
+                "coordinate_standard": { "type": "string" },
+                "coordinate_discrepancies": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["source", "value", "notes"],
+                    "properties": {
+                      "source": { "type": "string" },
+                      "value": { "type": "string" },
+                      "notes": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            },
+            "objectives": {
+              "type": "array",
+              "items": { "type": "string" },
+              "minItems": 1
+            },
+            "source_refs": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "meet_the_technology": {
+          "type": "object",
+          "required": ["topic_number", "title", "architecture_description", "physical_specifications", "power_system", "communications"],
+          "properties": {
+            "topic_number": { "type": "integer", "const": 3 },
+            "title": { "type": "string", "const": "Meet the Technology" },
+            "architecture_description": { "type": "string" },
+            "physical_specifications": {
+              "type": "object",
+              "properties": {
+                "launch_mass_kg": { "type": ["number", "null"] },
+                "dry_mass_kg": { "type": ["number", "null"] },
+                "landed_mass_kg": { "type": ["number", "null"] },
+                "dimensions": {
+                  "type": "object",
+                  "properties": {
+                    "height_m": { "type": ["number", "null"] },
+                    "width_or_diameter_m": { "type": ["number", "null"] },
+                    "length_m": { "type": ["number", "null"] },
+                    "span_m": { "type": ["number", "null"] }
+                  }
+                },
+                "mass_discrepancies": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "reported_value": { "type": "string" },
+                      "source": { "type": "string" },
+                      "resolution_or_erratum": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            },
+            "propulsion": {
+              "type": ["object", "null"],
+              "properties": {
+                "type": { "type": "string" },
+                "engines_or_thrusters": { "type": "string" },
+                "thrust_rating": { "type": "string" },
+                "specific_impulse_sec": { "type": ["number", "null"] },
+                "propellants": { "type": "array", "items": { "type": "string" } }
+              }
+            },
+            "power_system": {
+              "type": "object",
+              "required": ["primary_power_source"],
+              "properties": {
+                "primary_power_source": { "type": "string" },
+                "solar_array_details": { "type": ["string", "null"] },
+                "battery_specifications": { "type": ["string", "null"] },
+                "nuclear_rtg_details": {
+                  "type": ["object", "null"],
+                  "properties": {
+                    "model": { "type": "string" },
+                    "fuel_isotope": { "type": "string" },
+                    "launch_power_w": { "type": ["number", "null"] },
+                    "power_decay_profile": { "type": "string" }
+                  }
+                }
+              }
+            },
+            "communications": {
+              "type": "object",
+              "properties": {
+                "antennas": { "type": "array", "items": { "type": "string" } },
+                "frequency_bands": { "type": "array", "items": { "type": "string" } },
+                "relay_systems": { "type": ["string", "null"] }
+              }
+            },
+            "scientific_instruments": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "purpose"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "acronym": { "type": ["string", "null"] },
+                  "instrument_id": { "type": ["string", "null"] },
+                  "purpose": { "type": "string" },
+                  "specifications": { "type": ["string", "null"] },
+                  "operational_status": { "type": ["string", "null"] }
+                }
+              }
+            },
+            "associated_surface_vehicles_or_stations": {
+              "type": "array",
+              "description": "Detailed specs for distinct associated vehicles (e.g., LRV-1 on Apollo 15) or stations (Carl Sagan Memorial Station on Pathfinder).",
+              "items": {
+                "type": "object",
+                "required": ["entity_name", "category"],
+                "properties": {
+                  "entity_name": { "type": "string" },
+                  "category": { "type": "string" },
+                  "technical_summary": { "type": "string" },
+                  "specifications": { "type": "object" }
+                }
+              }
+            },
+            "source_refs": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "the_journey": {
+          "type": "object",
+          "required": ["topic_number", "title", "mission_timeline", "journey_narrative"],
+          "properties": {
+            "topic_number": { "type": "integer", "const": 4 },
+            "title": { "type": "string", "const": "The Journey" },
+            "journey_narrative": { "type": "string" },
+            "launch_event": {
+              "type": "object",
+              "properties": {
+                "timestamp_utc": { "type": ["string", "null"] },
+                "local_time": { "type": ["string", "null"] },
+                "launch_site": { "type": "string" },
+                "launch_vehicle": { "type": "string" }
+              }
+            },
+            "arrival_event": {
+              "type": "object",
+              "properties": {
+                "event_type": { "type": "string", "enum": ["Landing", "Orbit Insertion", "Flyby", "Terminal Touchdown"] },
+                "timestamp_utc": { "type": ["string", "null"] },
+                "local_time": { "type": ["string", "null"] },
+                "touchdown_velocity_or_approach_speed": { "type": ["string", "null"] },
+                "arrival_notes": { "type": "string" }
+              }
+            },
+            "mission_timeline": {
+              "type": "array",
+              "description": "Chronological list of key operational events, milestones, anomalies, and records.",
+              "items": {
+                "type": "object",
+                "required": ["phase", "event_description"],
+                "properties": {
+                  "date_or_sol": { "type": "string" },
+                  "phase": { "type": "string" },
+                  "event_description": { "type": "string" },
+                  "anomaly_or_record_flag": { "type": ["string", "null"] },
+                  "discrepancy_note": { "type": ["string", "null"] }
+                }
+              }
+            },
+            "operational_totals": {
+              "type": "object",
+              "properties": {
+                "total_duration_days_or_sols": { "type": ["string", "null"] },
+                "distance_traversed_km": { "type": ["number", "null"] },
+                "flights_completed": { "type": ["integer", "null"] },
+                "orbits_completed": { "type": ["integer", "null"] },
+                "images_returned": { "type": ["string", "null"] },
+                "samples_collected_kg": { "type": ["number", "null"] }
+              }
+            },
+            "source_refs": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "scientific_discoveries": {
+          "type": "object",
+          "required": ["topic_number", "title", "key_discoveries"],
+          "properties": {
+            "topic_number": { "type": "integer", "const": 5 },
+            "title": { "type": "string", "const": "Scientific Discoveries" },
+            "summary_narrative": { "type": "string" },
+            "key_discoveries": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["title", "discovery_category", "description"],
+                "properties": {
+                  "title": { "type": "string" },
+                  "discovery_category": {
+                    "type": "string",
+                    "enum": [
+                      "Geology & Mineralogy",
+                      "Astrobiology & Organic Chemistry",
+                      "Atmospheric & Climate Science",
+                      "Geophysics & Internal Structure",
+                      "Space Weather & Heliospheric Physics",
+                      "Engineering & Materials Science",
+                      "Planetary Dynamics & Celestial Mechanics"
+                    ]
+                  },
+                  "instruments_involved": { "type": "array", "items": { "type": "string" } },
+                  "description": { "type": "string" },
+                  "scientific_impact": { "type": "string" },
+                  "claim_status": {
+                    "type": "string",
+                    "enum": ["Verified Consensus", "Disputed Claim", "Unconfirmed Candidate Event", "Historical Erratum"],
+                    "default": "Verified Consensus"
+                  },
+                  "notes_or_disputes": { "type": ["string", "null"] }
+                }
+              }
+            },
+            "source_refs": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "where_is_it_now": {
+          "type": "object",
+          "required": ["topic_number", "title", "operational_status", "location_summary", "why_left_behind"],
+          "properties": {
+            "topic_number": { "type": "integer", "const": 6 },
+            "title": { "type": "string", "const": "Where Is It Now?" },
+            "operational_status": {
+              "type": "string",
+              "enum": [
+                "Inactive on Surface",
+                "Inactive in Stable Orbit",
+                "Inactive in Interstellar Space",
+                "Destroyed by Intentional Surface Impact",
+                "Presumed Impact on Surface (Unknown Exact Site)",
+                "Partially Retrieved to Earth (Remaining Airframe on Surface)"
+              ]
+            },
+            "last_contact_date": { "type": ["string", "null"] },
+            "is_still_communicating": { "type": "boolean", "const": false },
+            "location_summary": { "type": "string" },
+            "resting_coordinates": {
+              "type": ["object", "null"],
+              "properties": {
+                "latitude_deg": { "type": ["number", "null"] },
+                "longitude_deg": { "type": ["number", "null"] },
+                "body_or_frame": { "type": "string" },
+                "distance_au": { "type": ["number", "null"] },
+                "interstellar_heading": { "type": ["string", "null"] }
+              }
+            },
+            "why_left_behind": { "type": "string" },
+            "hardware_elements_at_site": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["element_name", "condition"],
+                "properties": {
+                  "element_name": { "type": "string" },
+                  "condition": { "type": "string" }
+                }
+              }
+            },
+            "terrestrial_repositories": {
+              "type": "array",
+              "description": "For hardware retrieved and returned to Earth (e.g., Surveyor 3 parts returned by Apollo 12).",
+              "items": {
+                "type": "object",
+                "required": ["artifact_name", "repository_facility", "city_and_country"],
+                "properties": {
+                  "artifact_name": { "type": "string" },
+                  "repository_facility": { "type": "string" },
+                  "city_and_country": { "type": "string" },
+                  "exhibition_status": { "type": "string" }
+                }
+              }
+            },
+            "source_refs": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "its_legacy": {
+          "type": "object",
+          "required": ["topic_number", "title", "historical_significance", "key_contributions"],
+          "properties": {
+            "topic_number": { "type": "integer", "const": 7 },
+            "title": { "type": "string", "const": "Its Legacy" },
+            "historical_significance": { "type": "string" },
+            "key_contributions": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string" }
+            },
+            "influence_on_future_missions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["mission_or_technology", "influence_description"],
+                "properties": {
+                  "mission_or_technology": { "type": "string" },
+                  "influence_description": { "type": "string" }
+                }
+              }
+            },
+            "cultural_or_philosophical_impact": { "type": ["string", "null"] },
+            "source_refs": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "images": {
+      "type": "array",
+      "description": "Historical photographs and diagrams. Empty array ([]) until media collection in later steps.",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "storage_path", "caption"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "storage_path": { "type": "string" },
+          "caption": { "type": "string" },
+          "description": { "type": ["string", "null"] },
+          "source_url": { "type": ["string", "null"] },
+          "nasa_photo_id": { "type": ["string", "null"] },
+          "purpose": {
+            "type": "string",
+            "enum": ["hero", "technical_diagram", "surface_view", "science_sample", "memorial"]
+          }
+        }
+      },
+      "default": []
+    },
+    "model_3d": {
+      "type": ["object", "null"],
+      "description": "3D visual asset reference for interactive rendering. Set to null until 3D assets are collected.",
+      "properties": {
+        "model_id": {
+          "type": "string",
+          "description": "Unique identifier for the 3D model asset. May be shared across multiple equipment records (e.g., 'model_mars_mer_rover' shared by Spirit and Opportunity)."
+        },
+        "model_name": { "type": "string" },
+        "storage_path": { "type": "string" },
+        "format": { "type": "string", "enum": ["glb", "gltf"] },
+        "description": { "type": "string" },
+        "source_attribution": { "type": "string" },
+        "is_shared_asset": {
+          "type": "boolean",
+          "description": "True if this asset is shared across multiple equipment records (e.g., Spirit/Opportunity, Viking 1/2)."
+        },
+        "shared_with_equipment_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "default": null
+    },
+    "sources": {
+      "type": "array",
+      "description": "Comprehensive list of authoritative sources supporting the record.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["source_id", "title", "url", "publishing_organization", "source_type"],
+        "properties": {
+          "source_id": { "type": "string" },
+          "title": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "publishing_organization": { "type": "string" },
+          "source_type": {
+            "type": "string",
+            "enum": [
+              "NASA Official Mission Page",
+              "NASA NSSDCA Master Record",
+              "NASA Technical Report (NTRS)",
+              "NASA Mission Archive / Press Kit",
+              "Institutional Laboratory Archive",
+              "Peer-Reviewed Journal Publication",
+              "Official Historical Monograph"
+            ]
+          },
+          "publication_date": { "type": ["string", "null"] },
+          "topics_supported": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "meet_the_explorer",
+                "mission_and_purpose",
+                "meet_the_technology",
+                "the_journey",
+                "scientific_discoveries",
+                "where_is_it_now",
+                "its_legacy"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "verification_status": {
+      "type": "object",
+      "required": ["overall_status", "step_verified", "verified_date", "unresolved_conflicts_count"],
+      "properties": {
+        "overall_status": { "type": "string", "enum": ["VERIFIED", "VERIFIED_WITH_ANNOTATIONS", "NEEDS_REVIEW"] },
+        "step_verified": { "type": "string", "const": "Step 3.2" },
+        "verified_date": { "type": "string", "format": "date" },
+        "unresolved_conflicts_count": { "type": "integer", "minimum": 0 },
+        "preservation_notes": { "type": ["string", "null"] }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["created_at", "updated_at", "schema_version"],
+      "properties": {
+        "created_at": { "type": "string", "format": "date-time" },
+        "updated_at": { "type": "string", "format": "date-time" },
+        "schema_version": { "type": "string", "const": "1.0.0" }
+      }
+    }
+  }
+}

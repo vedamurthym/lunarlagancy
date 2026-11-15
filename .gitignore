@@ -1,0 +1,23 @@
+# Environment Variables
+.env
+.env*.local
+.env.production
+.env.staging
+
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+LunarLagancy/
+__pycache__/
+*.pyc
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

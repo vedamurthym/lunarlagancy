@@ -1,0 +1,88 @@
+# Equipment Data: Ingenuity Mars Helicopter
+
+## 1. Meet the Explorer
+- **Equipment Name:** Ingenuity Mars Helicopter
+- **Alternate Designations:** Mars Helicopter, Technology Demonstration / Operations Demonstration, "Ginny"
+- **Image References:**
+  - Ingenuity deploying from Perseverance rover belly (WATSON/SHERLOC camera): Caption in source file (credit: NASA/JPL-Caltech/MSSS)
+  - Navigation camera depiction of 6th flight: Caption in source file (credit: NASA/JPL-Caltech)
+  - Interactive 3D Model: Available via NASA Spacecraft AR mobile app
+- **Introduction:**
+  NASA's Ingenuity Mars Helicopter was a pioneering robotic rotorcraft that achieved the first powered, controlled flight on another planet—an aviation milestone widely celebrated as a "Wright Brothers moment." Carried to Mars attached beneath the belly of the Perseverance rover, Ingenuity was designed as a high-risk, high-reward technology demonstration to prove whether aerodynamic flight was possible in Mars' ultra-thin atmosphere. Originally slated for up to five test flights across 30 days, it vastly exceeded all expectations, completing 72 flights over nearly three years and transforming into an operational aerial scout.
+
+## 2. Mission & Purpose
+- **Mission Name:** Mars 2020 (Perseverance Rover Mission)
+- **Program & Management:** NASA Science Mission Directorate / Jet Propulsion Laboratory (JPL)
+- **Type:** Autonomous Aerial Rotorcraft / Technology & Operations Demonstration
+- **Destination:** Jezero Crater, Mars
+- **Purpose & Objectives:**
+  - Demonstrate powered, controlled aerodynamic flight in the extremely thin Martian atmosphere (less than 1% of Earth's atmospheric density).
+  - Test miniaturized autonomous flight-control algorithms, sensors, and avionics without real-time human intervention from Earth.
+  - Evaluate the feasibility of using aerial rotorcraft as scouts to preview terrain, investigate steep slopes and hazards, and assist rover route planning.
+  - Assess aerodynamic limits, high-speed rotor dynamics, and landing performance on unpredictable Martian sands and boulder fields.
+
+## 3. Meet the Technology
+- **Physical Dimensions & Mass:**
+  - **Mass:** 3.97 pounds (1.8 kilograms).
+  - **Earth Weight:** 4.0 pounds; **Mars Weight:** ~1.5 pounds (0.68 kg).
+  - **Height:** ~1.6 feet (0.49 meters).
+  - **Rotor System Span:** Counter-rotating coaxial blades spanning just under 4.0 feet (1.2 meters) tip-to-tip.
+- **Rotor & Aerodynamics:**
+  - Two counter-rotating coaxial rotors spinning at ~2,400 to 2,700 RPM to generate sufficient lift in Mars' thin carbon dioxide atmosphere.
+  - Blades constructed from custom carbon-fiber foam cores designed for high stiffness and minimal mass.
+- **Power & Thermal Systems:**
+  - **Solar Panel:** Top-mounted solar array above the rotor hub to recharge onboard batteries.
+  - **Batteries:** Six Sony lithium-ion cells providing ~350 Watts of average power during flight (~90 seconds of flight per sol).
+  - **Thermal Control:** Internal fuselage packed with aerogel insulation and autonomous resistance heaters to survive frigid Martian nights (-90°C / -130°F).
+- **Avionics, Sensors & Navigation:**
+  - Consumer-grade, radiation-tolerant Qualcomm Snapdragon processor running Linux for real-time visual odometry and autonomous flight control.
+  - Downward-facing black-and-white navigation camera (tracking surface texture features at 30 frames/sec), laser altimeter, and inertial measurement unit (IMU).
+  - Horizon-facing color terrain camera for scouting science targets and imaging rover hardware.
+- **Communications:**
+  - Short-range Zigbee radio module communicating with the helicopter base station mounted on the Perseverance rover, which relayed data to Mars orbiters and Earth.
+- **Landing Gear:**
+  - Four ultra-lightweight composite legs made of carbon-fiber tubes with flexible footpads to absorb landing shock on uneven terrain.
+
+## 4. The Journey
+- **Launch:** July 30, 2020, from Cape Canaveral Air Force Station, Florida, aboard an Atlas V 541 rocket.
+- **Landing:** February 18, 2021, touching down inside Jezero Crater, Mars, stowed beneath Perseverance.
+- **Deployment & First Sol Alone:**
+  - On March 29, 2021, the rover dropped the debris shield and rotated Ingenuity into a vertical orientation.
+  - On April 3, 2021, Ingenuity was dropped the final 4 inches onto the Martian surface.
+  - On April 4, 2021, it successfully survived its first freezing night relying solely on its internal battery.
+- **Flight Milestones:**
+  - **Flight 1 (April 19, 2021):** First historic powered flight on Mars; climbed to 10 feet (3 meters), hovered for 30 seconds, and landed (39.1 seconds total duration).
+  - **Transition to Operational Scout:** After completing its 5 initial tech-demo flights, NASA transitioned Ingenuity into an operational demonstration role, scouting terrain ahead of Perseverance across the Jezero delta.
+  - **Flight 6:** Overcame an in-flight navigation camera timing glitch, demonstrating resilient autonomous control.
+  - **Cumulative Records:** Completed 72 flights, spending 128.8 minutes in the air, traversing 10.5 miles (17.0 km), reaching maximum altitudes of 78.7 feet (24.0 meters), and ground speeds up to 22.4 mph (10 m/s).
+- **Final Flight & Mission End:**
+  - **Flight 72 (January 18, 2024):** During a planned vertical test flight over featureless sandy terrain, the navigation system experienced tracking difficulties. The helicopter made an emergency landing during which one or more rotor blade tips struck the ground and suffered fatal aerodynamic damage.
+  - Mission officially concluded on January 25, 2024.
+
+## 5. Scientific Discoveries
+- **Aerodynamic Validation:**
+  - Empirically proved that controlled aerodynamic lift and stable hover/forward flight are practical in an atmosphere less than 1% as dense as Earth's.
+- **Aerial Scouting & Geologic Reconnaissance:**
+  - Provided high-resolution bird's-eye images of the ancient Jezero river delta, sand ripples, fracture patterns, and boulder fields inaccessible to ground rovers.
+  - Discovered safe drive corridors for Perseverance, substantially accelerating the rover's transit across challenging sand fields.
+- **Hardware Forensics:**
+  - Flew over and imaged the jettisoned Mars 2020 entry backshell and supersonic parachute, providing engineers with rare high-resolution performance forensics on EDL hardware.
+- **Atmospheric Modeling:**
+  - In-flight telemetry provided direct measurements of Martian wind gusts, air density variations across seasons, and rotor-induced dust lifting.
+
+## 6. Where Is It Now?
+- **Status:** Inactive on the Martian surface; flight mission concluded on January 25, 2024.
+- **Location:** "Valinor Hills" region, Jezero Crater, Mars.
+- **Condition:** Fuselage, avionics, solar panels, and communications remain functional and able to collect temperature and sensor data, but damaged rotor blade tips prevent further flight.
+- **Why Left Behind:** Ingenuity was designed as a one-way planetary aerial explorer with no sample-return or retrieval capability.
+
+## 7. Its Legacy
+- Achieved humanity's first powered, heavier-than-air flight on another world, opening the era of planetary aerial exploration.
+- Proved that low-cost commercial off-the-shelf (COTS) electronics and autonomous visual navigation algorithms can thrive in deep-space environments.
+- Directly inspired NASA's upcoming planetary rotorcraft missions, including the Dragonfly mission to Saturn's moon Titan and proposed next-generation Mars rotorcraft (e.g. SkyFall concept and Mars Sample Recovery Helicopters).
+
+---
+### Source References
+- NASA Science Mission: Ingenuity Mars Helicopter: https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/
+- NASA Jet Propulsion Laboratory Mars Helicopter Updates & Flight Logs (June 21, 2024)
+- NASA Mars 2020 Mission Archive: https://science.nasa.gov/mission/mars-2020-perseverance/

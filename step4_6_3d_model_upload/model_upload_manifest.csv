@@ -1,0 +1,11 @@
+model_id,model_name,storage_path,file_size_bytes,upload_status,cdn_status,db_status,is_shared,linked_equipment
+model_moon_apollo_lm,Apollo Lunar Module (LM),moon/apollo.glb,716840,SUCCESS,VERIFIED_200_OR_206,RECORD_UPSERTED,True,eq_moon_apollo11_lm;eq_moon_apollo12_lm;eq_moon_apollo15_lm
+model_moon_surveyor3,Surveyor 3 Lunar Lander,moon/surveyor_3.glb,461256,SUCCESS,VERIFIED_200_OR_206,RECORD_UPSERTED,False,eq_moon_surveyor3
+model_mars_ingenuity,Ingenuity Mars Helicopter,mars/ingenuity.glb,2019408,SUCCESS,VERIFIED_200_OR_206,RECORD_UPSERTED,False,eq_mars_ingenuity
+model_mars_spirit,Mars Exploration Rover Spirit (MER-A),mars/spirit.glb,11910084,SUCCESS,VERIFIED_200_OR_206,RECORD_UPSERTED,False,eq_mars_spirit
+model_mars_opportunity,Mars Exploration Rover Opportunity (MER-B),mars/opportunity.glb,11910084,SUCCESS,VERIFIED_200_OR_206,RECORD_UPSERTED,False,eq_mars_opportunity
+model_mars_sojourner,Sojourner Rover & Mars Pathfinder Lander,mars/sojourner_pathfinder.glb,723788,SUCCESS,VERIFIED_200_OR_206,RECORD_UPSERTED,False,eq_mars_sojourner_pathfinder
+model_mars_viking_lander,Viking Mars Lander,mars/viking.glb,1849384,SUCCESS,VERIFIED_200_OR_206,RECORD_UPSERTED,True,eq_mars_viking1;eq_mars_viking2
+model_deep_space_dawn,Dawn Spacecraft,deep-space/dawn.glb,927020,SUCCESS,VERIFIED_200_OR_206,RECORD_UPSERTED,False,eq_deep_space_dawn
+model_deep_space_near_shoemaker,NEAR Shoemaker Spacecraft,deep-space/near_shoemaker.glb,701808,SUCCESS,VERIFIED_200_OR_206,RECORD_UPSERTED,False,eq_deep_space_near_shoemaker
+model_deep_space_pioneer10,Pioneer 10 Spacecraft,deep-space/pioneer_10.glb,2049840,SUCCESS,VERIFIED_200_OR_206,RECORD_UPSERTED,False,eq_deep_space_pioneer10

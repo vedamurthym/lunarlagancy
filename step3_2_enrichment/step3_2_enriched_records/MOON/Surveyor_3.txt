@@ -1,0 +1,111 @@
+# Equipment Data: Surveyor 3
+
+## 1. Meet the Explorer
+- **Equipment Name:** Surveyor 3
+- **Spacecraft Designation:** Surveyor-C
+- **Alternate Designations:** COSPAR ID: 1967-035A, NORAD ID: 02756
+- **Image References:**
+  - Surveyor 3 on the Moon with Apollo 12 LM in background: https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/as12-48-7134_1280.jpg
+  - Apollo 12 astronaut Pete Conrad examining Surveyor 3: https://nssdc.gsfc.nasa.gov/planetary/news/image/conrad_19990709_c.jpg
+- **Introduction:**
+  Surveyor 3 was the second American robotic spacecraft to achieve a soft landing on the Moon, touching down inside a crater in Oceanus Procellarum on April 20, 1967. Designed and managed by NASA and the Jet Propulsion Laboratory (JPL), Surveyor 3 was the first lunar probe equipped with an active robotic surface-sampling arm. Its physical and mechanical tests of the lunar soil provided crucial engineering data verifying that the Moon's surface could support the weight of an Apollo Lunar Module. Thirty-one months after landing, it became the only robotic probe visited on another celestial body by human explorers when Apollo 12 landed nearby and retrieved its parts.
+
+## 2. Mission & Purpose
+- **Mission Name:** Surveyor 3 (Surveyor Program, Flight C)
+- **Program & Management:** NASA / Jet Propulsion Laboratory (JPL)
+- **Mission Type:** Robotic Lunar Soft-Lander
+- **Destination:** Oceanus Procellarum (Ocean of Storms), The Moon
+- **Landing Site Coordinates:**
+  - 3.01° S latitude, 23.41° W longitude (nominal / science.nasa.gov: 3° S, 23.41° W; crater later named Surveyor Crater)
+- **Purpose & Objectives:**
+  - Perform a controlled soft landing on the lunar surface to validate terminal descent radar and landing propulsion systems.
+  - Obtain high-resolution television pictures of the lunar terrain and surface features.
+  - Use a motorized surface-sampler scoop to dig trenches, manipulate regolith, and conduct bearing strength tests.
+  - Assess whether the lunar surface possessed sufficient mechanical bearing capacity to support the planned Apollo crewed lunar module footpads.
+
+## 3. Meet the Technology
+- **Spacecraft Mass:** 2,200 pounds (997.9 kg) at launch; landed dry mass approximately 625 pounds (283 kg).
+- **Structure & Configuration:**
+  - Open tubular aluminum tripod structure with three fold-out landing legs fitted with crushable honeycomb aluminum footpads.
+  - Mast holding a planar solar array and steerable high-gain planar array antenna.
+  - **Power System Architecture (Recovered Specification):**
+    - Powered by a mast-mounted solar panel array comprising 792 solar cells generating up to **85 Watts** of electrical power.
+    - Energy storage provided by a main rechargeable **silver-zinc (Ag-Zn) battery** containing 14 series-connected cells in a sealed magnesium canister (mass 20.9 kg / 46.1 lb).
+    - Battery rated capacity: **3,375 watt-hours** (at 0.5 A discharge rate).
+- **Communications Subsystem (Recovered Specification):**
+  - Dual identical S-band radio transmitters operating at 2295 MHz.
+  - Operated in two modes: Low-power mode (consuming ~35 W DC) and High-power mode transmitting at nominal RF output of **10 Watts (40 dBm)** consuming ~70 W DC.
+- **Terminal Descent Propulsion & Radar:**
+  - Solid-propellant main retro rocket for initial deceleration from lunar approach velocity.
+  - Three throttleable liquid-propellant vernier engines (fueled by monomethylhydrazine and nitrogen tetroxide) providing attitude control and final descent velocity throttling down to 14 feet (4.3 m) altitude.
+  - Doppler velocity and altitude sensing radar (RADVS) pointing downward to control vernier engine cutoff.
+- **Scientific Payload:**
+  1. **Surveyor Television Camera System:**
+     - Mounted under a motorized azimuth/elevation mirror that could rotate horizontally and vertically.
+     - Fitted with two interchangeable lenses: 25 mm (wide angle) and 100 mm (narrow angle / telephoto) focal length.
+     - Operable in 200-line scan mode (transmitted in ~20 seconds over low-power antenna) and 600-line digital transmission mode over high-gain antenna.
+     - Filter wheel equipped with color and polarizing filters.
+  2. **Surface Sampler Mechanism (Soil Mechanics Surface Sampler):**
+     - Articulated pantograph arm driven by electric motors, extending up to 5 feet (1.5 meters) from the lander space frame.
+     - Fitted with a small motorized scoop/bucket that could dig trenches up to 7 inches (18 cm) deep.
+     - Designed to drop onto the surface to perform dynamic impact tests, bearing pressure tests, and deposit soil into full view of the television camera.
+
+## 4. The Journey
+- **Launch:** April 17, 1967, at 07:05:01 UT from Cape Canaveral Launch Complex 36B aboard an Atlas-Centaur rocket (AC-12).
+- **Trajectory Innovation:** Unlike earlier Surveyors, Surveyor 3 used a parking orbit around Earth with a restartable Centaur upper stage burn to inject into translunar trajectory.
+- **Descent & Dual-Bounce Touchdown:**
+  - Arrived at the Moon on April 20, 1967.
+  - During terminal descent, highly reflective lunar rocks confused the radar altimeter (RADVS), preventing the computer from sensing touchdown.
+  - Consequently, the vernier engines failed to shut off at the planned 14-foot (4.3 m) altitude cutoff point.
+  - The lander bounced off the lunar surface twice while its vernier engines were still firing:
+    - First bounce reached a height of 33 feet (10 meters).
+    - Second bounce reached 10 feet (3 meters).
+  - Ground controllers manually commanded engine cutoff from Earth. On its third touchdown, Surveyor 3 settled safely into a soft landing at 00:04:17 UT on April 20, 1967, on an inside slope of a gentle crater in southeastern Oceanus Procellarum.
+- **Surface Operations:**
+  - Within an hour of landing, the TV camera was activated and began transmitting pictures.
+  - Transmitted a total of 6,326 television pictures over its operational life.
+  - Surface sampler arm was commanded from Earth to dig four trenches, perform four bearing strength tests, and conduct thirteen dynamic impact tests.
+  - Manipulated rocks, picked up regolith, and sieved soil particles while under direct TV observation.
+- **End of Primary Mission:**
+  - Operations continued until May 4, 1967, two days after local lunar sunset, when the spacecraft succumbed to the extreme cold of the 14-day lunar night and communications ceased.
+
+## 5. Scientific Discoveries
+- **Soil Bearing Strength (Apollo Go/No-Go Decision):**
+  - The sampler tests demonstrated that the lunar regolith has a cohesive consistency and mechanical behavior comparable to damp terrestrial sand.
+  - Measured a surface bearing capacity of approximately 10 pounds per square inch (0.7 kg/cm², or 98 kilopascals).
+  - This single finding provided NASA engineers and Apollo program managers with empirical proof that the lunar surface was solid and would not swallow the Apollo Lunar Module or cause catastrophic tipping upon touchdown.
+- **Photographic Imaging & Geomorphology:**
+  - 6,326 high-resolution television frames provided the first close-up visual characterization of crater interior slopes, pebble distributions, rock morphology, and solar illumination dynamics across a complete lunar day.
+- **Materials Weathering & Space Exposure (The Apollo 12 Retrieval):**
+  - On November 19, 1969, Apollo 12 astronauts Charles Conrad and Alan Bean visited Surveyor 3, inspecting the craft and clipping off ~10 kg of hardware (including the TV camera, soil scoop, and polished aluminum tubing).
+  - Earth laboratory analysis of the recovered parts provided unprecedented insights into space weathering: micrometeoroid cratering rates, solar wind sputtering, ultraviolet radiation browning of optical coatings, and vacuum thermal degradation over 31 months of continuous space exposure.
+  - **The *Streptococcus mitis* Biological Contamination Debate:**
+    - A widely publicized microbiologic investigation in 1970 reported isolating viable *Streptococcus mitis* bacteria from foam insulation inside the retrieved camera housing.
+    - *Scientific Status (Disputed Finding):* Subsequent comprehensive NASA and independent scientific reviews concluded that the detected bacterial culture was almost certainly caused by post-return laboratory contamination during clean-room analysis rather than genuine multi-year bacterial survival in the lunar vacuum.
+
+## 6. Where Is It Now?
+- **Status:** Inactive robotic lander; historic lunar heritage site.
+- **Location on Moon:** In Oceanus Procellarum, on the interior slope of Surveyor Crater at coordinates 3.0128° S, 23.4219° W (approximately 180 meters southeast of Apollo 12's Intrepid descent stage).
+- **Why Was It Left Behind:** Surveyor 3 was designed as a one-way robotic test vehicle with no ascent or return capability. It completed its scientific mission in May 1967.
+- **Retrieved Hardware Repositories:**
+  - **Surveyor 3 Television Camera:** Exhibited at the Smithsonian National Air and Space Museum in Washington, D.C.
+  - **Surveyor 3 Soil Sampler Scoop:** Exhibited at the NASA Jet Propulsion Laboratory (JPL) Visitor Center in Pasadena, California.
+  - **Aluminum Tubing & Cable Samples:** Preserved in the Lunar Curatorial Facility at NASA Johnson Space Center (JSC), Houston, Texas.
+  - The remainder of the airframe, landing legs, vernier engine nozzles, and planar solar array remain intact on the Moon.
+
+## 7. Its Legacy
+- Provided the critical empirical engineering verification of lunar soil bearing capacity that made the Apollo 11 and later human landings possible.
+- Pioneered robotic manipulation and digging on another planetary body, serving as the technological ancestor to the robotic arms of Viking, Phoenix, Curiosity, and Perseverance on Mars.
+- Enabled the first and only multi-spacecraft rendezvous and retrieval mission between human explorers and a previously landed robotic probe on another world.
+- Serves as the premier planetary science testbed for understanding the long-term effects of the space environment on engineered hardware.
+
+---
+### Source References & Enrichment Provenance
+- NASA Science Mission: Surveyor 3: https://science.nasa.gov/mission/surveyor-3/
+- NASA NSSDCA Spacecraft ID: `1967-035A` (https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A)
+- Siddiqi, Asif A. *Beyond Earth: A Chronicle of Deep Space Exploration, 1958-2016.* NASA History Program Office, 2018.
+- Analysis of Surveyor 3 Material and Photographs Returned by Apollo 12 (NASA SP-284, 1972): http://nssdcftp.gsfc.nasa.gov/miscellaneous/documents/b16023.pdf
+- LRO Imagery of Apollo 12 and Surveyor 3: https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html
+- **Enrichment Addition (Topic 3):** Main battery capacity (silver-zinc 14-cell 3,375 Wh, 20.9 kg) and transmitter power (10 W RF output high power, 35 W DC low power) recovered from NASA Technical Reports Server (NTRS document *Surveyor Project Final Report*, NASA-CR-105658 / JPL-TR-32-1265).
+- **Enrichment Addition (Topic 5):** Disputed nature of *Streptococcus mitis* bacteria survival finding annotated with peer-reviewed consensus conclusions from NASA Astrobiology Institute re-examinations.
+- **Enrichment Addition (Topic 6):** Soil sampler scoop location at NASA JPL Visitor Center verified and added.

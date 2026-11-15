@@ -1,0 +1,448 @@
+{
+  "id": "eq_moon_surveyor3",
+  "slug": "surveyor-3",
+  "name": "Surveyor 3",
+  "alternate_designations": [
+    "Surveyor-C",
+    "COSPAR: 1967-035A",
+    "NORAD: 02756"
+  ],
+  "category": "Moon",
+  "equipment_type": "Robotic Lunar Soft-Lander",
+  "target_body": "The Moon",
+  "short_description": "Surveyor 3 was the second American robotic spacecraft to achieve a soft landing on the Moon, equipped with the first robotic surface-sampling scoop. Thirty-one months after landing, it was visited by Apollo 12 astronauts Pete Conrad and Alan Bean, who retrieved its television camera and scoop to analyze the long-term effects of lunar environmental exposure.",
+  "topics": {
+    "meet_the_explorer": {
+      "topic_number": 1,
+      "title": "Meet the Explorer",
+      "introduction": "Surveyor 3 was the second American robotic spacecraft to achieve a soft landing on the Moon, touching down inside a crater in Oceanus Procellarum on April 20, 1967. Designed and managed by NASA and the Jet Propulsion Laboratory (JPL), Surveyor 3 was the first lunar probe equipped with an active robotic surface-sampling arm. Its physical and mechanical tests of the lunar soil provided crucial engineering data verifying that the Moon's surface could support the weight of an Apollo Lunar Module. Thirty-one months after landing, it became the only robotic probe visited on another celestial body by human explorers when Apollo 12 landed nearby and retrieved its parts.",
+      "equipment_identity": {
+        "formal_name": "Surveyor 3",
+        "call_sign_or_nickname": "Surveyor-C",
+        "cospar_id": "1967-035A",
+        "norad_id": "02756",
+        "pds_id": null,
+        "memorial_station_name": null
+      },
+      "sub_components_represented": [
+        {
+          "name": "Surveyor 3 Main Airframe & Landing Legs",
+          "role": "Triangular aluminum tubular spaceframe with crushable footpads",
+          "status_at_site": "Intact on the slope of Surveyor Crater"
+        },
+        {
+          "name": "Soil Mechanics Surface Sampler",
+          "role": "Articulated motorized pantograph arm and digging scoop",
+          "status_at_site": "Scoop retrieved by Apollo 12 (exhibited at NASA JPL); pantograph scissors remain on lander"
+        },
+        {
+          "name": "Surveyor Television Camera System",
+          "role": "Slow-scan optical video camera with rotating mirror and filter wheel",
+          "status_at_site": "Retrieved by Apollo 12 (exhibited at Smithsonian National Air and Space Museum)"
+        }
+      ],
+      "source_refs": [
+        "src_surveyor3_science_nasa",
+        "src_surveyor3_nssdca_master"
+      ]
+    },
+    "mission_and_purpose": {
+      "topic_number": 2,
+      "title": "Mission & Purpose",
+      "mission_name": "Surveyor 3 (Surveyor Program, Flight C)",
+      "program": "Surveyor Program",
+      "sponsoring_agencies": [
+        "NASA - Office of Space Science and Applications",
+        "Jet Propulsion Laboratory (JPL)"
+      ],
+      "disciplines": [
+        "Robotic Lunar Exploration",
+        "Soil Mechanics",
+        "Terminal Descent Radar & Propulsion",
+        "Lunar Surface Photography"
+      ],
+      "destination": {
+        "body": "The Moon",
+        "region_name": "Oceanus Procellarum (Ocean of Storms)",
+        "targeted_feature": "Gentle sloping interior of a 200-meter crater (subsequently named Surveyor Crater)"
+      },
+      "landing_or_orbital_coordinates": {
+        "latitude_deg": -3.0128,
+        "longitude_deg": -23.4219,
+        "coordinate_standard": "LRO DE421 Ephemeris Standard (Nominal flight log recorded as 3.01° S, 23.41° W)",
+        "coordinate_discrepancies": [
+          {
+            "source": "NASA Science Mission Overview",
+            "value": "3.01° S, 23.41° W",
+            "notes": "Historical nominal landing coordinates derived from spacecraft radar and radio tracking in 1967."
+          },
+          {
+            "source": "LRO Photogrammetric Site Catalog",
+            "value": "3.0128° S, 23.4219° W",
+            "notes": "High-precision modern coordinates determined via Lunar Reconnaissance Orbiter Camera (LROC) imaging."
+          }
+        ]
+      },
+      "objectives": [
+        "Perform a controlled soft landing on the lunar surface to validate terminal descent radar and landing propulsion systems.",
+        "Obtain high-resolution television pictures of the lunar terrain and surface features.",
+        "Use a motorized surface-sampler scoop to dig trenches, manipulate regolith, and conduct bearing strength tests.",
+        "Assess whether the lunar surface possessed sufficient mechanical bearing capacity to support the planned Apollo crewed lunar module footpads."
+      ],
+      "source_refs": [
+        "src_surveyor3_science_nasa",
+        "src_surveyor3_ntrs_final_report"
+      ]
+    },
+    "meet_the_technology": {
+      "topic_number": 3,
+      "title": "Meet the Technology",
+      "architecture_description": "Robotic soft-landing tripod constructed from tubular aluminum alloy, featuring three hinged landing legs with crushable honeycomb aluminum footpads, a mast supporting a steerable solar array and high-gain planar antenna, and terminal propulsion combining a solid retro rocket with three throttleable liquid vernier engines.",
+      "physical_specifications": {
+        "launch_mass_kg": 997.9,
+        "dry_mass_kg": 283.0,
+        "landed_mass_kg": 283.0,
+        "dimensions": {
+          "height_m": 3.0,
+          "width_or_diameter_m": 4.2,
+          "length_m": 4.2,
+          "span_m": 4.2
+        },
+        "mass_discrepancies": []
+      },
+      "propulsion": {
+        "type": "Solid Retro Rocket + Throttleable Liquid Vernier Engines",
+        "engines_or_thrusters": "One Thiokol solid-propellant main retro rocket (38 to 44 kN thrust); three throttleable liquid vernier engines (fueled by MMH and N2O4, 130 to 460 N thrust each)",
+        "thrust_rating": "Main retro ~40,000 N; Verniers variable 130 to 460 N each",
+        "specific_impulse_sec": 287.0,
+        "propellants": [
+          "Monomethylhydrazine (MMH)",
+          "Nitrogen Tetroxide (N2O4)",
+          "Solid Hydrocarbon Propellant"
+        ]
+      },
+      "power_system": {
+        "primary_power_source": "Solar Array with Rechargeable Silver-Zinc Battery Storage",
+        "solar_array_details": "Single planar mast-mounted solar panel array comprising 792 solar cells, generating up to 85 Watts of DC power.",
+        "battery_specifications": "Main rechargeable 14-cell silver-zinc (Ag-Zn) battery housed in a sealed magnesium canister, weighing 20.9 kg (46.1 lb), delivering a rated energy capacity of 3,375 watt-hours at 0.5 A discharge.",
+        "nuclear_rtg_details": null
+      },
+      "communications": {
+        "antennas": [
+          "Steerable high-gain planar array antenna (directional)",
+          "Two omnidirectional low-gain whip antennas mounted on landing leg tips"
+        ],
+        "frequency_bands": [
+          "S-band (2295 MHz uplink/downlink)"
+        ],
+        "relay_systems": "Dual S-band transmitters operable in Low-power mode (35 W DC input) and High-power mode (10 W RF output / 40 dBm, 70 W DC input) communicating directly with Earth via the Deep Space Network."
+      },
+      "scientific_instruments": [
+        {
+          "name": "Surveyor Television Camera System",
+          "acronym": "TV",
+          "instrument_id": "1967-035A-01",
+          "purpose": "Acquire 360-degree panoramic and close-up images of the lunar surface, crater walls, footpad impressions, and soil mechanics experiments.",
+          "specifications": "Vidicon tube with motorized azimuth/elevation mirror; interchangeable 25mm wide-angle and 100mm narrow-angle lenses; 200-line and 600-line scan modes; 4-position color/polarizing filter wheel.",
+          "operational_status": "Transmitted 6,326 television frames between landing and sunset."
+        },
+        {
+          "name": "Soil Mechanics Surface Sampler",
+          "acronym": "SMSS",
+          "instrument_id": "1967-035A-02",
+          "purpose": "Excavate trenches, manipulate regolith, conduct dynamic impact tests, and test lunar bearing capacity within view of the television camera.",
+          "specifications": "Motorized pantograph arm extending up to 1.5 meters from spaceframe; small motorized scoop bucket capable of digging up to 18 cm deep.",
+          "operational_status": "Completed four trenches, four bearing strength tests, and thirteen dynamic impact tests."
+        }
+      ],
+      "associated_surface_vehicles_or_stations": [],
+      "source_refs": [
+        "src_surveyor3_ntrs_final_report",
+        "src_surveyor3_nssdca_master"
+      ]
+    },
+    "the_journey": {
+      "topic_number": 4,
+      "title": "The Journey",
+      "journey_narrative": "Surveyor 3 launched on April 17, 1967, aboard an Atlas-Centaur rocket, demonstrating the first parking-orbit restart trajectory for a lunar probe. Upon arriving at the Moon on April 20, highly reflective surface rocks confused the terminal descent radar, preventing automatic engine shutoff at the planned 4.3-meter altitude. The spacecraft bounced twice across the crater slope before ground controllers commanded manual engine cutoff. Once settled, it conducted an active 14-day surface campaign before entering the permanent freeze of the lunar night.",
+      "launch_event": {
+        "timestamp_utc": "1967-04-17T07:05:01Z",
+        "local_time": "02:05:01 EST",
+        "launch_site": "Cape Canaveral Launch Complex 36B, Florida",
+        "launch_vehicle": "Atlas-Centaur (AC-12)"
+      },
+      "arrival_event": {
+        "event_type": "Landing",
+        "timestamp_utc": "1967-04-20T00:04:17Z",
+        "local_time": "April 19, 19:04:17 EST",
+        "touchdown_velocity_or_approach_speed": "Touchdown velocity ~2.1 m/s (following two engine-assisted bounces to 10 m and 3 m altitude)",
+        "arrival_notes": "Terminal descent radar anomaly prevented automatic cutoff; bounced twice for 33 ft and 10 ft before manual Earth command shut down the vernier engines."
+      },
+      "mission_timeline": [
+        {
+          "date_or_sol": "1967-04-17",
+          "phase": "Launch & Translunar Injection",
+          "event_description": "Launched from Cape Canaveral into an Earth parking orbit; Centaur stage restarted successfully to inject spacecraft into translunar trajectory.",
+          "anomaly_or_record_flag": null,
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1967-04-20",
+          "phase": "Terminal Descent & Dual-Bounce Touchdown",
+          "event_description": "RADVS radar altimeter lost lock due to reflective boulders; verniers continued firing through touchdown, causing two bounces (10 m and 3 m high) before manual shutdown command was received at 00:04:17 UT.",
+          "anomaly_or_record_flag": "Descent Radar Anomaly / Dual-Bounce Landing",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1967-04-20 to 1967-05-04",
+          "phase": "Surface Operations",
+          "event_description": "TV camera returned 6,326 images. Surface sampler dug four trenches up to 18 cm deep and completed 13 dynamic impact bearing tests.",
+          "anomaly_or_record_flag": "First Robotic Digging on another Celestial Body",
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1967-05-04",
+          "phase": "Mission Termination",
+          "event_description": "Communications ceased shortly after local lunar sunset due to battery depletion in the -150°C cold of the lunar night.",
+          "anomaly_or_record_flag": null,
+          "discrepancy_note": null
+        },
+        {
+          "date_or_sol": "1969-11-19",
+          "phase": "Apollo 12 Human Visitation & Retrieval",
+          "event_description": "Apollo 12 Lunar Module Intrepid touched down 180 meters away; astronauts Pete Conrad and Alan Bean visited the lander and retrieved ~10 kg of hardware for Earth laboratory analysis.",
+          "anomaly_or_record_flag": "First and Only Human Retrieval of Robotic Craft on another World",
+          "discrepancy_note": null
+        }
+      ],
+      "operational_totals": {
+        "total_duration_days_or_sols": "14 days of surface operations (April 20 to May 4, 1967)",
+        "distance_traversed_km": 0.0,
+        "flights_completed": null,
+        "orbits_completed": null,
+        "images_returned": "6,326 television pictures",
+        "samples_collected_kg": null
+      },
+      "source_refs": [
+        "src_surveyor3_siddiqi_beyond_earth",
+        "src_surveyor3_ntrs_final_report"
+      ]
+    },
+    "scientific_discoveries": {
+      "topic_number": 5,
+      "title": "Scientific Discoveries",
+      "summary_narrative": "Surveyor 3 conducted critical mechanical and photographic characterizations of lunar regolith that directly enabled Apollo landing clearances, and subsequently provided foundational space weathering materials science following the Apollo 12 retrieval.",
+      "key_discoveries": [
+        {
+          "title": "Lunar Regolith Bearing Strength (Apollo Go/No-Go Decision)",
+          "discovery_category": "Engineering & Materials Science",
+          "instruments_involved": [
+            "Soil Mechanics Surface Sampler",
+            "Surveyor Television Camera System"
+          ],
+          "description": "Sampler digging and dynamic impact tests demonstrated that lunar soil has a cohesive, fine-grained consistency similar to damp terrestrial sand, measuring a static bearing strength of roughly 0.7 kg/cm² (10 psi / 98 kPa).",
+          "scientific_impact": "Provided empirical proof that the lunar surface was firm and structurally stable, disproving catastrophic dust hypotheses and clearing the Apollo Lunar Module footpads for human landings.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Long-Term Space Weathering of Engineered Materials",
+          "discovery_category": "Engineering & Materials Science",
+          "instruments_involved": [
+            "Retrieved TV Camera Optics",
+            "Polished Aluminum Tubes",
+            "Cables and Connectors"
+          ],
+          "description": "Earth laboratory examination of parts returned by Apollo 12 measured micrometeoroid impact pitting frequencies, solar wind sputtering rates, and ultraviolet browning of optical glass coatings over 31 months of continuous space exposure.",
+          "scientific_impact": "Established the scientific foundation for long-duration planetary materials selection, thermal paint degradation models, and optical coating designs for future spacecraft.",
+          "claim_status": "Verified Consensus",
+          "notes_or_disputes": null
+        },
+        {
+          "title": "Streptococcus mitis Bacterial Survival Controversy",
+          "discovery_category": "Astrobiology & Organic Chemistry",
+          "instruments_involved": [
+            "Retrieved TV Camera Internal Foam Insulation"
+          ],
+          "description": "A 1970 microbiologic study reported isolating viable Streptococcus mitis bacteria from polyurethane foam retrieved from inside the camera housing, claiming microbes had survived 2.5 years in the lunar vacuum.",
+          "scientific_impact": "Heavily stimulated planetary protection standards, but subsequent rigorous reviews concluded the culture resulted from clean-room contamination during post-return laboratory sampling.",
+          "claim_status": "Disputed Claim",
+          "notes_or_disputes": "NASA Astrobiology Institute and independent researchers (e.g. Rummel et al., 2011) re-examined the protocols and found documented clean-room violations, demonstrating the detection was a terrestrial laboratory artifact."
+        }
+      ],
+      "source_refs": [
+        "src_surveyor3_nasa_sp284",
+        "src_surveyor3_ntrs_final_report"
+      ]
+    },
+    "where_is_it_now": {
+      "topic_number": 6,
+      "title": "Where Is It Now?",
+      "operational_status": "Partially Retrieved to Earth (Remaining Airframe on Surface)",
+      "last_contact_date": "1967-05-04",
+      "is_still_communicating": false,
+      "location_summary": "Rests on the gentle interior slope of Surveyor Crater in Oceanus Procellarum, the Moon, approximately 180 meters southeast of Apollo 12's Intrepid descent stage. Key sub-assemblies (camera, scoop, and tubing) are preserved in museums on Earth.",
+      "resting_coordinates": {
+        "latitude_deg": -3.0128,
+        "longitude_deg": -23.4219,
+        "body_or_frame": "The Moon (LRO DE421 Ephemeris Standard)",
+        "distance_au": null,
+        "interstellar_heading": null
+      },
+      "why_left_behind": "Designed strictly as a one-way robotic engineering test vehicle with no ascent stage or return capability. Completed its primary scientific mission in May 1967.",
+      "hardware_elements_at_site": [
+        {
+          "element_name": "Surveyor 3 Tubular Aluminum Spaceframe",
+          "condition": "Intact on crater slope, covered in a thin mantle of fine lunar dust"
+        },
+        {
+          "element_name": "Three Fold-out Landing Legs and Honeycomb Footpads",
+          "condition": "Firmly settled in regolith; footpad impressions visible in Apollo and LRO imagery"
+        },
+        {
+          "element_name": "Planar Solar Array and High-Gain Antenna Mast",
+          "condition": "Intact on upper mast structure"
+        },
+        {
+          "element_name": "Vernier Liquid Engine Thrust Chambers",
+          "condition": "Intact beneath lander frame"
+        }
+      ],
+      "terrestrial_repositories": [
+        {
+          "artifact_name": "Surveyor 3 Television Camera System",
+          "repository_facility": "Smithsonian National Air and Space Museum",
+          "city_and_country": "Washington, D.C., United States",
+          "exhibition_status": "On permanent public exhibition in the Apollo galleries"
+        },
+        {
+          "artifact_name": "Soil Mechanics Surface Sampler Scoop",
+          "repository_facility": "NASA Jet Propulsion Laboratory (JPL) Visitor Center",
+          "city_and_country": "Pasadena, California, United States",
+          "exhibition_status": "On public exhibition at the JPL Visitor Center"
+        },
+        {
+          "artifact_name": "Polished Aluminum Tubing and Cable Samples",
+          "repository_facility": "Apollo Lunar Curatorial Facility, NASA Johnson Space Center (JSC)",
+          "city_and_country": "Houston, Texas, United States",
+          "exhibition_status": "Preserved in nitrogen-purged scientific research vaults"
+        }
+      ],
+      "source_refs": [
+        "src_surveyor3_science_nasa",
+        "src_surveyor3_nasa_sp284"
+      ]
+    },
+    "its_legacy": {
+      "topic_number": 7,
+      "title": "Its Legacy",
+      "historical_significance": "Surveyor 3 was the crucial engineering link that validated the mechanical safety of the lunar regolith for human spaceflight, pioneering off-world robotic manipulation and establishing the only human-to-robot extraterrestrial rendezvous in history.",
+      "key_contributions": [
+        "Provided the critical empirical proof of soil bearing capacity (0.7 kg/cm²) that gave NASA leadership the final confidence to proceed with the Apollo crewed landings.",
+        "Demonstrated the first active robotic digging, trenching, and soil manipulation on another celestial body.",
+        "Enabled the first and only multi-mission retrieval of equipment after prolonged exposure on an extraterrestrial surface.",
+        "Provided baseline quantitative space weathering data for aerospace materials exposed to continuous vacuum, cosmic radiation, and micrometeoroids."
+      ],
+      "influence_on_future_missions": [
+        {
+          "mission_or_technology": "Apollo Program Crewed Landings",
+          "influence_description": "Directly influenced the sizing, footpad landing radius, and shock-absorbing honeycomb struts of the Apollo Lunar Module descent stage."
+        },
+        {
+          "mission_or_technology": "Planetary Robotic Surface Manipulators",
+          "influence_description": "Served as the direct engineering ancestor to the robotic surface sampler arms flown on Viking 1 & 2, Phoenix, Curiosity, and Perseverance on Mars."
+        },
+        {
+          "mission_or_technology": "Planetary Protection and Contamination Controls",
+          "influence_description": "The Streptococcus mitis controversy directly motivated modern clean-room sterilization protocols, bio-burden monitoring, and Mars sample return quarantine architectures."
+        }
+      ],
+      "cultural_or_philosophical_impact": "Iconic photographs of Apollo 12 astronaut Pete Conrad examining Surveyor 3 on the desolate lunar plain symbolize the profound intersection of human and robotic exploration.",
+      "source_refs": [
+        "src_surveyor3_siddiqi_beyond_earth",
+        "src_surveyor3_science_nasa"
+      ]
+    }
+  },
+  "images": [],
+  "model_3d": null,
+  "sources": [
+    {
+      "source_id": "src_surveyor3_science_nasa",
+      "title": "NASA Science Mission: Surveyor 3",
+      "url": "https://science.nasa.gov/mission/surveyor-3/",
+      "publishing_organization": "NASA Science Mission Directorate",
+      "source_type": "NASA Official Mission Page",
+      "publication_date": "2023-07-15",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_surveyor3_nssdca_master",
+      "title": "Surveyor 3 Spacecraft Details (1967-035A)",
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A",
+      "publishing_organization": "NASA Space Science Data Coordinated Archive (NSSDCA)",
+      "source_type": "NASA NSSDCA Master Record",
+      "publication_date": "2024-01-10",
+      "topics_supported": [
+        "meet_the_explorer",
+        "mission_and_purpose",
+        "meet_the_technology"
+      ]
+    },
+    {
+      "source_id": "src_surveyor3_ntrs_final_report",
+      "title": "Surveyor Project Final Report (NASA-CR-105658 / JPL-TR-32-1265)",
+      "url": "https://ntrs.nasa.gov/citations/19690027050",
+      "publishing_organization": "NASA Jet Propulsion Laboratory / NASA Technical Reports Server",
+      "source_type": "NASA Technical Report (NTRS)",
+      "publication_date": "1969-07-01",
+      "topics_supported": [
+        "meet_the_technology",
+        "the_journey",
+        "scientific_discoveries"
+      ]
+    },
+    {
+      "source_id": "src_surveyor3_nasa_sp284",
+      "title": "Analysis of Surveyor 3 Material and Photographs Returned by Apollo 12 (NASA SP-284)",
+      "url": "http://nssdcftp.gsfc.nasa.gov/miscellaneous/documents/b16023.pdf",
+      "publishing_organization": "NASA Manned Spacecraft Center",
+      "source_type": "Official Historical Monograph",
+      "publication_date": "1972-01-01",
+      "topics_supported": [
+        "scientific_discoveries",
+        "where_is_it_now",
+        "its_legacy"
+      ]
+    },
+    {
+      "source_id": "src_surveyor3_siddiqi_beyond_earth",
+      "title": "Beyond Earth: A Chronicle of Deep Space Exploration, 1958-2016",
+      "url": "https://solarsystem.nasa.gov/resources/1060/beyond-earth-a-chronicle-of-deep-space-exploration/",
+      "publishing_organization": "NASA History Program Office",
+      "source_type": "Official Historical Monograph",
+      "publication_date": "2018-09-01",
+      "topics_supported": [
+        "the_journey",
+        "its_legacy"
+      ]
+    }
+  ],
+  "verification_status": {
+    "overall_status": "VERIFIED_WITH_ANNOTATIONS",
+    "step_verified": "Step 3.2",
+    "verified_date": "2026-11-14",
+    "unresolved_conflicts_count": 1,
+    "preservation_notes": "Preserves the scientific controversy regarding the Streptococcus mitis bacterial culture claim from retrieved camera foam, annotated with modern astrobiological contamination consensus."
+  },
+  "metadata": {
+    "created_at": "2026-11-14T15:20:00Z",
+    "updated_at": "2026-11-14T15:20:00Z",
+    "schema_version": "1.0.0"
+  }
+}
